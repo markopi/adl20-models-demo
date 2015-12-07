@@ -127,12 +127,6 @@ definition
     OBSERVATION[id1.1]     -- Body temperature
 
 terminology
-    term_bindings = <
-        ["LNC205"] = <
-            ["/data[id3]/events[id4]/data[id2]/items[id5]"] = <http://LNC205.org/id/8310-5>
-        
-        >
-    >
     term_definitions = <
         ["en"] = <
             ["id1.1"] = <
@@ -142,8 +136,8 @@ terminology
         >
         ["de"] = <
             ["id1.1"] = <
-                text = <"KĂ¶rpertemperatur">
-                description = <"Eine Messung der KĂ¶rpertemperatur an einer bestimmten Stelle als Surrogat fĂĽr den gesamten KĂ¶rper der Person.">
+                text = <"KÄ‚Â¶rpertemperatur">
+                description = <"Eine Messung der KÄ‚Â¶rpertemperatur an einer bestimmten Stelle als Surrogat fÄ‚Ä˝r den gesamten KÄ‚Â¶rper der Person.">
             >
         >
         ["sl"] = <
