@@ -44,7 +44,7 @@ definition
     COMPOSITION[id1.1] matches {    -- Encounter
         content matches {
             use_archetype OBSERVATION[id0.2, openEHR-EHR-OBSERVATION.ovl-test01-blood_pressure-001.v1.0.0]
-            use_archetype OBSERVATION[id0.3, openEHR-EHR-OBSERVATION.ovl-test01-body_temperature-001.v1.0.0]
+            use_archetype ACTION[id0.4, openEHR-EHR-ACTION.ovl-test01-imaging_exam-001.v1.0.0]
         }
     }
 
@@ -118,32 +118,26 @@ terminology
 
 ---------------------------------------------------------------------------------
 template_overlay
-    openEHR-EHR-OBSERVATION.ovl-test01-body_temperature-001.v1.0.0
+    openEHR-EHR-ACTION.ovl-test01-imaging_exam-001.v1.0.0
 
 specialize
-    openEHR-EHR-OBSERVATION.body_temperature.v1.0.0
+    openEHR-EHR-ACTION.imaging_exam.v1.0.0
 
 definition
-    OBSERVATION[id1.1]     -- Body temperature
+    ACTION[id1.1]     -- Imaging examination
 
 terminology
     term_definitions = <
         ["en"] = <
             ["id1.1"] = <
-                text = <"Body temperature">
-                description = <"A measurement of the body temperature, which is a surrogate for the whole body temperature of the person.">
-            >
-        >
-        ["de"] = <
-            ["id1.1"] = <
-                text = <"KÄ‚Â¶rpertemperatur">
-                description = <"Eine Messung der KÄ‚Â¶rpertemperatur an einer bestimmten Stelle als Surrogat fÄ‚Ä˝r den gesamten KÄ‚Â¶rper der Person.">
+                text = <"Imaging examination">
+                description = <"Clinical activity about performing an imaging examination.">
             >
         >
         ["sl"] = <
             ["id1.1"] = <
-                text = <"Telesna temperatura">
-                description = <"*A measurement of the body temperature, which is a surrogate for the whole body temperature of the person.(en)">
+                text = <"*Imaging examination(en)">
+                description = <"*Clinical activity about performing an imaging examination.(en)">
             >
         >
     >
