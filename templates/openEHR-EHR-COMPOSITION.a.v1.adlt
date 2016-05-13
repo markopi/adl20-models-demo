@@ -41,7 +41,11 @@ description
     >
 
 definition
-    COMPOSITION[id1.1]     -- Encounter
+    COMPOSITION[id1.1] matches {    -- Encounter
+        content matches {
+            use_archetype INSTRUCTION[id0.2, openEHR-EHR-INSTRUCTION.ovl-a-medication-001.v1.0.0]
+        }
+    }
 
 terminology
     term_definitions = <
@@ -55,6 +59,49 @@ terminology
             ["id1.1"] = <
                 text = <"Encounter">
                 description = <"Generic encounter or progress note composition">
+            >
+        >
+    >
+
+
+---------------------------------------------------------------------------------
+template_overlay
+    openEHR-EHR-INSTRUCTION.ovl-a-medication-001.v1.0.0
+
+specialize
+    openEHR-EHR-INSTRUCTION.medication.v1.0.0
+
+definition
+    INSTRUCTION[id1.1] matches {    -- Medication instruction
+        /activities[id2]/description[id3]/items matches {
+            ELEMENT[id4.1] matches {    -- Medicine x
+                value matches {
+                    DV_TEXT[id57.1] 
+                }
+            }
+        }
+    }
+
+terminology
+    term_definitions = <
+        ["en"] = <
+            ["id1.1"] = <
+                text = <"Medication instruction">
+                description = <"Details of a medicine, vaccine or other therapeutic good with instructions for use.">
+            >
+            ["id4.1"] = <
+                text = <"Medicine x">
+                description = <"The medicine, vaccine or other therapeutic good being ordered, administered to or used by the subject of care. This item should be coded if possible.">
+            >
+        >
+        ["sl"] = <
+            ["id1.1"] = <
+                text = <"*Medication instruction(en)">
+                description = <"*Details of a medicine, vaccine or other therapeutic good with instructions for use.(en)">
+            >
+            ["id4.1"] = <
+                text = <"*Medicine(en)">
+                description = <"*The medicine, vaccine or other therapeutic good being ordered, administered to or used by the subject of care. This item should be coded if possible.(en)">
             >
         >
     >
