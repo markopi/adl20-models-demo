@@ -41,11 +41,7 @@ description
     >
 
 definition
-    COMPOSITION[id1.1] matches {    -- Encounter
-        content matches {
-            use_archetype ACTION[id0.2, openEHR-EHR-ACTION.ovl-a-imaging_exam-001.v1.0.0]
-        }
-    }
+    COMPOSITION[id1.1]     -- Encounter
 
 terminology
     term_definitions = <
@@ -59,33 +55,6 @@ terminology
             ["id1.1"] = <
                 text = <"Encounter">
                 description = <"Generic encounter or progress note composition">
-            >
-        >
-    >
-
-
----------------------------------------------------------------------------------
-template_overlay
-    openEHR-EHR-ACTION.ovl-a-imaging_exam-001.v1.0.0
-
-specialize
-    openEHR-EHR-ACTION.imaging_exam.v1.0.0
-
-definition
-    ACTION[id1.1]     -- Imaging examination
-
-terminology
-    term_definitions = <
-        ["en"] = <
-            ["id1.1"] = <
-                text = <"Imaging examination">
-                description = <"Clinical activity about performing an imaging examination.">
-            >
-        >
-        ["sl"] = <
-            ["id1.1"] = <
-                text = <"*Imaging examination(en)">
-                description = <"*Clinical activity about performing an imaging examination.(en)">
             >
         >
     >
