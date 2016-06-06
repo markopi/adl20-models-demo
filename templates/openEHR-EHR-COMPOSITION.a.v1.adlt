@@ -80,7 +80,13 @@ definition
                 }
             }
         }
-        protocol existence matches {0}
+        /protocol[id32]/items existence matches {0} matches {
+            ELEMENT[id39.1] occurrences matches {0} matches {    -- Indication for authorised use
+                value matches {
+                    DV_TEXT[id82.1] 
+                }
+            }
+        }
     }
 
 terminology
@@ -94,6 +100,10 @@ terminology
                 text = <"Medicine x">
                 description = <"The medicine, vaccine or other therapeutic good being ordered, administered to or used by the subject of care. This item should be coded if possible.">
             >
+            ["id39.1"] = <
+                text = <"Indication for authorised use">
+                description = <"The specific indication for use that is required by an authorising agency to achieve subsidy for or access to the medicine, vaccine or other therapeutic good. This could be a national medication scheme, insurance company or other funding agency.">
+            >
         >
         ["sl"] = <
             ["id1.1"] = <
@@ -103,6 +113,10 @@ terminology
             ["id4.1"] = <
                 text = <"*Medicine(en)">
                 description = <"*The medicine, vaccine or other therapeutic good being ordered, administered to or used by the subject of care. This item should be coded if possible.(en)">
+            >
+            ["id39.1"] = <
+                text = <"*Indication for authorised use(en)">
+                description = <"*The specific indication for use that is required by an authorising agency to achieve subsidy for or access to the medicine, vaccine or other therapeutic good. This could be a national medication scheme, insurance company or other funding agency.(en)">
             >
         >
     >
