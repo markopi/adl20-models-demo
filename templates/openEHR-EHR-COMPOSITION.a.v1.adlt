@@ -80,8 +80,8 @@ definition
                 }
             }
         }
-        /protocol[id32]/items existence matches {0} matches {
-            ELEMENT[id39.1] occurrences matches {0} matches {    -- Indication for authorised use
+        /protocol[id32]/items matches {
+            ELEMENT[id39.1] matches {    -- Indication for authorised use
                 value matches {
                     DV_TEXT[id82.1] 
                 }
