@@ -216,5 +216,8 @@
     "path" : "archetypes/openEHR-EHR-SECTION.medication.v1.adls",
     "sha" : "d379bcf36aa1293b122d305a3daa87b3647ada0f",
     "languages" : [ "en" ]
+  }, {
+    "path" : "archetypes/openEHR-EHR-COMPOSITION.slots.v1.adls",
+    "sha" : "455bd932d90e88a5bf9a359504bd3392d0af5d82"
   } ]
 }
