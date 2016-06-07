@@ -23,7 +23,7 @@ description
 definition
 	COMPOSITION[at0000.1] matches {	-- With filled slot
 		content matches {
-			use_archetype EVALUATION[at0001, openEHR-EHR-EVALUATION.clinical_report.v1] 
+			use_archetype EVALUATION[at0001, openEHR-EHR-EVALUATION.adverse_reaction-allergy.v1] 
 			allow_archetype EVALUATION[at0001] closed 
 		}
 	}
