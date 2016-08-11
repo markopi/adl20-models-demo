@@ -1,123 +1,167 @@
-template (adl_version=2.0.5; rm_release=1.0.2; generated)
+template (adl_version=2.0.5; rm_release=1.0.2)
     openEHR-EHR-COMPOSITION.a.v1.0.0
 
-specialize
-    openEHR-EHR-COMPOSITION.encounter.v1.0.0
-
 language
-    original_language = <[ISO_639-1::en]>
-    translations = <
-        ["sl"] = <
-            author = <
-                ["name"] = <"?">
-            >
-            language = <[ISO_639-1::sl]>
-        >
-    >
-    
+    original_language = <[ISO_639-1(null)::en]>
+
 description
+    lifecycle_state = <"unmanaged">
+    original_author = <
+        ["date"] = <"2005-10-10">
+        ["name"] = <"Thomas Beale">
+        ["organisation"] = <"Ocean Informatics">
+    >
     copyright = <"copyright (c) 2010 openEHR Foundation">
     details = <
         ["en"] = <
-            keywords = <"progress", "note", "encounter">
-            language = <[ISO_639-1::en]>
-            misuse = <"">
+            language = <[ISO_639-1(null)::en]>
             purpose = <"Record of encounter as a progress note.">
             use = <"">
+            misuse = <"">
+            keywords = <"progress", "note", "encounter">
         >
         ["sl"] = <
-            keywords = <"progress", "note", "encounter">
-            language = <[ISO_639-1::sl]>
-            misuse = <"">
+            language = <[ISO_639-1(null)::sl]>
             purpose = <"Record of encounter as a progress note.">
             use = <"">
+            misuse = <"">
+            keywords = <"progress", "note", "encounter">
         >
-    >
-    lifecycle_state = <"unmanaged">
-    original_author = <
-        ["organisation"] = <"Ocean Informatics">
-        ["name"] = <"Thomas Beale">
-        ["date"] = <"2005-10-10">
     >
 
 definition
     COMPOSITION[id1.1] matches {    -- Encounter
+        category matches {
+            DV_CODED_TEXT[id4] matches {
+                defining_code matches {[at1]}
+            }
+        }
+        context matches {
+            EVENT_CONTEXT[id5] matches {
+                other_context matches {
+                    ITEM_TREE[id2] matches {
+                        items matches {
+                            allow_archetype CLUSTER[id3] matches {     -- Context detail
+                                include
+                                    archetype_id/value matches {/.*/}
+                            }
+                        }
+                    }
+                }
+            }
+        }
         content matches {
-            use_archetype INSTRUCTION[id0.2, openEHR-EHR-INSTRUCTION.ovl-a-medication-001.v1.0.0]
+            INSTRUCTION[id0.2] 
+            OBSERVATION[id0.4] 
         }
     }
-
 terminology
     term_definitions = <
         ["en"] = <
+            ["id1"] = <
+                text = <"Encounter">
+                description = <"Generic encounter or progress note composition">
+            >
+            ["id3"] = <
+                text = <"Context detail">
+                description = <"Local context detail.">
+            >
+            ["at1"] = <
+                text = <"event">
+                description = <"event">
+            >
             ["id1.1"] = <
                 text = <"Encounter">
                 description = <"Generic encounter or progress note composition">
             >
         >
         ["sl"] = <
+            ["id1"] = <
+                text = <"Encounter">
+                description = <"Generic encounter or progress note composition">
+            >
+            ["id3"] = <
+                text = <"Context detail">
+                description = <"Local context detail">
+            >
+            ["at1"] = <
+                text = <"*event (en)">
+                description = <"*event (en)">
+            >
             ["id1.1"] = <
                 text = <"Encounter">
                 description = <"Generic encounter or progress note composition">
             >
         >
     >
+    term_bindings = <
+        ["openehr"] = <
+            ["at1"] = <http://openehr.org/id/433>
+        >
+    >
 
-
----------------------------------------------------------------------------------
+------------------------------------------------------------------------
 template_overlay
-    openEHR-EHR-INSTRUCTION.ovl-a-medication-001.v1.0.0
+    openEHR-EHR-OBSERVATION.ovl-a-height-001.v1.0.0
 
 specialize
-    openEHR-EHR-INSTRUCTION.medication.v1.0.0
+    openEHR-EHR-OBSERVATION.height.v1.0.0
 
 definition
-    INSTRUCTION[id1.1] matches {    -- Medication instruction
-        /activities[id2]/description[id3]/items matches {
-            ELEMENT[id4.1] matches {    -- Medicine x
+    OBSERVATION[id1.1] matches {
+        /data[id2]/events[id3]/data[id4]/items matches {
+            ELEMENT[id5.1] matches {
                 value matches {
-                    DV_TEXT[id57.1] 
-                }
-            }
-        }
-        /protocol[id32]/items matches {
-            ELEMENT[id39.1] matches {    -- Indication for authorised use
-                value matches {
-                    DV_TEXT[id82.1] 
+                    DV_QUANTITY[id21.1] matches {
+                        [units, magnitude, precision] matches {
+                            [{"cm"}, {|0.0..1002.0|;7.0}, {|>=0|}],
+                            [{"in"}, {|0.0..250.0|}, {|>=0|}]
+                        }
+                    }
                 }
             }
         }
     }
-
 terminology
     term_definitions = <
-        ["en"] = <
+        ["de"] = <
             ["id1.1"] = <
-                text = <"Medication instruction">
-                description = <"Details of a medicine, vaccine or other therapeutic good with instructions for use.">
+                text = <"*Height/Length(en)">
+                description = <"*Height, or body length, is measured from crown of head to sole of foot.  Height is measured with the individual in a standing position and body length in a recumbent position. (en)">
             >
-            ["id4.1"] = <
-                text = <"Medicine x">
-                description = <"The medicine, vaccine or other therapeutic good being ordered, administered to or used by the subject of care. This item should be coded if possible.">
-            >
-            ["id39.1"] = <
-                text = <"Indication for authorised use">
-                description = <"The specific indication for use that is required by an authorising agency to achieve subsidy for or access to the medicine, vaccine or other therapeutic good. This could be a national medication scheme, insurance company or other funding agency.">
+            ["id5.1"] = <
+                text = <"*Height/Length(en)">
+                description = <"*The length of the body from crown of head to sole of foot.(en)">
             >
         >
         ["sl"] = <
             ["id1.1"] = <
-                text = <"*Medication instruction(en)">
-                description = <"*Details of a medicine, vaccine or other therapeutic good with instructions for use.(en)">
+                text = <"Višina/dolžina">
+                description = <"Višina/dolžina pacienta, izmerjena od vrha glave do podplatov na nogah">
             >
-            ["id4.1"] = <
-                text = <"*Medicine(en)">
-                description = <"*The medicine, vaccine or other therapeutic good being ordered, administered to or used by the subject of care. This item should be coded if possible.(en)">
+            ["id5.1"] = <
+                text = <"Višina/dolžina ">
+                description = <"Višina/dolžina pacienta, izmerjena od vrha glave do podplatov na nogah">
             >
-            ["id39.1"] = <
-                text = <"*Indication for authorised use(en)">
-                description = <"*The specific indication for use that is required by an authorising agency to achieve subsidy for or access to the medicine, vaccine or other therapeutic good. This could be a national medication scheme, insurance company or other funding agency.(en)">
+        >
+        ["en"] = <
+            ["id1.1"] = <
+                text = <"Height/Length">
+                description = <"Height, or body length, is measured from crown of head to sole of foot.  Height is measured with the individual in a standing position and body length in a recumbent position. ">
+            >
+            ["id5.1"] = <
+                text = <"Height/Length">
+                description = <"The length of the body from crown of head to sole of foot.">
+            >
+        >
+        ["nl"] = <
+            ["id1.1"] = <
+                text = <"Lengte">
+                description = <"De lichaamslengte wordt gemeten vanaf de kruin van het hoofd tot en met de voetzool. In het engelse taaldomein wordt er verschil gemaakt tussen hoogte (height) en lengte (length), waarbij hoogte staande gemeten wordt en lengte liggend.">
+            >
+            ["id5.1"] = <
+                text = <"Lengte">
+                description = <"De lichaamslengte vanaf de kruin van het hoofd tot en met de voetzool. ">
             >
         >
     >
-
