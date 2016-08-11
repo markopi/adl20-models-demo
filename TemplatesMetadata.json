@@ -28,6 +28,6 @@
     "rmType" : "COMPOSITION",
     "name" : "Encounter",
     "path" : "templates/openEHR-EHR-COMPOSITION.b.v1.adlt",
-    "sha" : "662af301b4038c454c7309fa9fc718130da8478d"
+    "sha" : "2ff1478233aea0ab03df642f3ce99acafed3a17f"
   } ]
 }
