@@ -50,7 +50,9 @@ definition
                 }
             }
         }
-        content
+        content matches {
+            use_archetype OBSERVATION[id0.2, openEHR-EHR-OBSERVATION.ovl-a-height-001.v1.0.0]
+        }
     }
 terminology
     term_definitions = <
@@ -94,5 +96,42 @@ terminology
     term_bindings = <
         ["openehr"] = <
             ["at1"] = <http://openehr.org/id/433>
+        >
+    >
+
+------------------------------------------------------------------------
+template_overlay
+    openEHR-EHR-OBSERVATION.ovl-a-height-001.v1.0.0
+
+specialize
+    openEHR-EHR-OBSERVATION.height.v1.0.0
+
+definition
+    OBSERVATION[id1.1] 
+terminology
+    term_definitions = <
+        ["de"] = <
+            ["id1.1"] = <
+                text = <"*Height/Length(en)">
+                description = <"*Height, or body length, is measured from crown of head to sole of foot.  Height is measured with the individual in a standing position and body length in a recumbent position. (en)">
+            >
+        >
+        ["sl"] = <
+            ["id1.1"] = <
+                text = <"Višina/dolžina">
+                description = <"Višina/dolžina pacienta, izmerjena od vrha glave do podplatov na nogah">
+            >
+        >
+        ["en"] = <
+            ["id1.1"] = <
+                text = <"Height/Length">
+                description = <"Height, or body length, is measured from crown of head to sole of foot.  Height is measured with the individual in a standing position and body length in a recumbent position. ">
+            >
+        >
+        ["nl"] = <
+            ["id1.1"] = <
+                text = <"Lengte">
+                description = <"De lichaamslengte wordt gemeten vanaf de kruin van het hoofd tot en met de voetzool. In het engelse taaldomein wordt er verschil gemaakt tussen hoogte (height) en lengte (length), waarbij hoogte staande gemeten wordt en lengte liggend.">
+            >
         >
     >
