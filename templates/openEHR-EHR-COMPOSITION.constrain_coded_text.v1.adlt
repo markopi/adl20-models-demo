@@ -1,4 +1,4 @@
-template (adl_version=2.0.5; rm_release=1.0.2; generated)
+template (adl_version=2.0.5; rm_release=1.0.2)
     openEHR-EHR-COMPOSITION.constrain_coded_text.v1.0.0
 
 specialize
@@ -6,38 +6,30 @@ specialize
 
 language
     original_language = <[ISO_639-1::en]>
-    translations = <
-        ["sl"] = <
-            author = <
-                ["name"] = <"?">
-            >
-            language = <[ISO_639-1::sl]>
-        >
-    >
-    
+
 description
+    lifecycle_state = <"unmanaged">
+    original_author = <
+        ["date"] = <"2005-10-10">
+        ["name"] = <"Thomas Beale">
+        ["organisation"] = <"Ocean Informatics">
+    >
     copyright = <"copyright (c) 2010 openEHR Foundation">
     details = <
         ["en"] = <
-            keywords = <"progress", "note", "encounter">
             language = <[ISO_639-1::en]>
-            misuse = <"">
             purpose = <"Record of encounter as a progress note.">
             use = <"">
+            misuse = <"">
+            keywords = <"progress", "note", "encounter">
         >
         ["sl"] = <
-            keywords = <"progress", "note", "encounter">
             language = <[ISO_639-1::sl]>
-            misuse = <"">
             purpose = <"Record of encounter as a progress note.">
             use = <"">
+            misuse = <"">
+            keywords = <"progress", "note", "encounter">
         >
-    >
-    lifecycle_state = <"unmanaged">
-    original_author = <
-        ["organisation"] = <"Ocean Informatics">
-        ["name"] = <"Thomas Beale">
-        ["date"] = <"2005-10-10">
     >
 
 definition
@@ -46,7 +38,6 @@ definition
             use_archetype OBSERVATION[id0.2, openEHR-EHR-OBSERVATION.ovl-constrain_coded_text-blood_pressure-001.v1.0.0]
         }
     }
-
 terminology
     term_definitions = <
         ["en"] = <
@@ -63,8 +54,7 @@ terminology
         >
     >
 
-
----------------------------------------------------------------------------------
+------------------------------------------------------------------------
 template_overlay
     openEHR-EHR-OBSERVATION.ovl-constrain_coded_text-blood_pressure-001.v1.0.0
 
@@ -72,40 +62,19 @@ specialize
     openEHR-EHR-OBSERVATION.blood_pressure.v1.0.0
 
 definition
-    OBSERVATION[id1.1] matches {    -- *Blood Pressure(en)
+    OBSERVATION[id1.1] matches {    -- Blood Pressure
         /data[id2]/events[id7]/state[id8]/items matches {
-            ELEMENT[id9.1] occurrences matches {0..1} matches {    -- PoloĹľaj
+            ELEMENT[id9.1] matches {    -- Position
                 value matches {
                     DV_CODED_TEXT[id1059.1] matches {
-                        defining_code matches {[ac1; at1004]}
+                        defining_code matches {[ac1]}
                     }
                 }
             }
         }
     }
-
 terminology
     term_definitions = <
-        ["sl"] = <
-            ["id1.1"] = <
-                text = <"*Blood Pressure(en)">
-                description = <"*The local measurement of arterial blood pressure which is a surrogate for arterial. pressure in the systemic circulation.  Most commonly, use of the term 'blood pressure' refers to measurement of brachial artery pressure in the upper arm.(en)">
-            >
-            ["id9.1"] = <
-                text = <"PoloĹľaj">
-                description = <"*The position of the subject at the time of measurement.(en)">
-            >
-        >
-        ["zh-cn"] = <
-            ["id1.1"] = <
-                text = <"*Blood Pressure(en)">
-                description = <"*The local measurement of arterial blood pressure which is a surrogate for arterial. pressure in the systemic circulation.  Most commonly, use of the term 'blood pressure' refers to measurement of brachial artery pressure in the upper arm.(en)">
-            >
-            ["id9.1"] = <
-                text = <"*Position(en)">
-                description = <"*The position of the subject at the time of measurement(en)">
-            >
-        >
         ["de"] = <
             ["id1.1"] = <
                 text = <"*Blood Pressure(en)">
@@ -114,6 +83,26 @@ terminology
             ["id9.1"] = <
                 text = <"*Position(en)">
                 description = <"*The position of the subject at the time of measurement(en)">
+            >
+        >
+        ["ja"] = <
+            ["id1.1"] = <
+                text = <"*Blood Pressure(en)">
+                description = <"*The local measurement of arterial blood pressure which is a surrogate for arterial. pressure in the systemic circulation.  Most commonly, use of the term 'blood pressure' refers to measurement of brachial artery pressure in the upper arm.(en)">
+            >
+            ["id9.1"] = <
+                text = <"*Position(en)">
+                description = <"*The position of the subject at the time of measurement(en)">
+            >
+        >
+        ["sl"] = <
+            ["id1.1"] = <
+                text = <"*Blood Pressure(en)">
+                description = <"*The local measurement of arterial blood pressure which is a surrogate for arterial. pressure in the systemic circulation.  Most commonly, use of the term 'blood pressure' refers to measurement of brachial artery pressure in the upper arm.(en)">
+            >
+            ["id9.1"] = <
+                text = <"PoloĹľaj">
+                description = <"*The position of the subject at the time of measurement.(en)">
             >
         >
         ["en"] = <
@@ -126,7 +115,7 @@ terminology
                 description = <"The position of the subject at the time of measurement.">
             >
         >
-        ["ja"] = <
+        ["zh-cn"] = <
             ["id1.1"] = <
                 text = <"*Blood Pressure(en)">
                 description = <"*The local measurement of arterial blood pressure which is a surrogate for arterial. pressure in the systemic circulation.  Most commonly, use of the term 'blood pressure' refers to measurement of brachial artery pressure in the upper arm.(en)">
@@ -147,4 +136,3 @@ terminology
             >
         >
     >
-
