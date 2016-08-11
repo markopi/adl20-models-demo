@@ -38,6 +38,7 @@ definition
             use_archetype ACTION[id0.2, openEHR-EHR-ACTION.ovl-b-medication-001.v1.0.0]
         }
     }
+
 terminology
     term_definitions = <
         ["en"] = <
@@ -62,7 +63,8 @@ specialize
     openEHR-EHR-ACTION.medication.v1.0.0
 
 definition
-    ACTION[id1.1] 
+    ACTION[id1.1]     -- Medication action
+
 terminology
     term_definitions = <
         ["ru"] = <
