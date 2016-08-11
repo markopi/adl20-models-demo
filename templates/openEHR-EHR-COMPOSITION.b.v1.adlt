@@ -1,0 +1,53 @@
+template (adl_version=2.0.5; rm_release=1.0.2)
+    openEHR-EHR-COMPOSITION.b.v1.0.0
+
+specialize
+    openEHR-EHR-COMPOSITION.encounter.v1.0.0
+
+language
+    original_language = <[ISO_639-1::en]>
+
+description
+    lifecycle_state = <"unmanaged">
+    original_author = <
+        ["date"] = <"2005-10-10">
+        ["name"] = <"Thomas Beale">
+        ["organisation"] = <"Ocean Informatics">
+    >
+    copyright = <"copyright (c) 2010 openEHR Foundation">
+    details = <
+        ["en"] = <
+            language = <[ISO_639-1::en]>
+            purpose = <"Record of encounter as a progress note.">
+            use = <"">
+            misuse = <"">
+            keywords = <"progress", "note", "encounter">
+        >
+        ["sl"] = <
+            language = <[ISO_639-1::sl]>
+            purpose = <"Record of encounter as a progress note.">
+            use = <"">
+            misuse = <"">
+            keywords = <"progress", "note", "encounter">
+        >
+    >
+
+definition
+    COMPOSITION[id1.1] matches {    -- Encounter
+        content
+    }
+terminology
+    term_definitions = <
+        ["en"] = <
+            ["id1.1"] = <
+                text = <"Encounter">
+                description = <"Generic encounter or progress note composition">
+            >
+        >
+        ["sl"] = <
+            ["id1.1"] = <
+                text = <"Encounter">
+                description = <"Generic encounter or progress note composition">
+            >
+        >
+    >
