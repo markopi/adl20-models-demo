@@ -34,7 +34,9 @@ description
 
 definition
     COMPOSITION[id1.1] matches {    -- Encounter
-        content
+        content matches {
+            use_archetype ACTION[id0.2, openEHR-EHR-ACTION.ovl-b-medication-001.v1.0.0]
+        }
     }
 terminology
     term_definitions = <
@@ -48,6 +50,49 @@ terminology
             ["id1.1"] = <
                 text = <"Encounter">
                 description = <"Generic encounter or progress note composition">
+            >
+        >
+    >
+
+------------------------------------------------------------------------
+template_overlay
+    openEHR-EHR-ACTION.ovl-b-medication-001.v1.0.0
+
+specialize
+    openEHR-EHR-ACTION.medication.v1.0.0
+
+definition
+    ACTION[id1.1] 
+terminology
+    term_definitions = <
+        ["ru"] = <
+            ["id1.1"] = <
+                text = <"Применение  препарата">
+                description = <"Действие, проистекающее из предписания врача, указавшего, как, когда, как долго и тд.">
+            >
+        >
+        ["es-ar"] = <
+            ["id1.1"] = <
+                text = <"Accion de prescripcion">
+                description = <"una acción derivada de una orden de medicamentos creado por un médico que especifique qué medicamentos tomar, cuándo, por cuánto tiempo, etc">
+            >
+        >
+        ["ar-sy"] = <
+            ["id1.1"] = <
+                text = <"فعل دوائي">
+                description = <"فعل نابع من الأمر الدوائي, يتم كتابته بواسطة الطبيب السريري الذي يقوم بتحديد أي الأدوية يقوم بتناولها, متى و لأي مدة,, إلى آخره.">
+            >
+        >
+        ["sl"] = <
+            ["id1.1"] = <
+                text = <"*Medication action(en)">
+                description = <"*Details of use, administration, dispensing or other care step relating to a medicine, vaccine or other therapeutic good which may arise from an instruction from a clinician.(en)">
+            >
+        >
+        ["en"] = <
+            ["id1.1"] = <
+                text = <"Medication action">
+                description = <"Details of use, administration, dispensing or other care step relating to a medicine, vaccine or other therapeutic good which may arise from an instruction from a clinician.">
             >
         >
     >
