@@ -165,8 +165,8 @@
     "rmType" : "OBSERVATION",
     "name" : "Blood Pressure",
     "path" : "archetypes/openEHR-EHR-OBSERVATION.blood_pressure.v1.adls",
-    "sha" : "2c68d5d36137c17c27e4e59fdab015072053edd8",
-    "languages" : [ "en", "sl", "nl", "ja", "de", "zh-cn" ]
+    "sha" : "d5856016ef5a62b6833779bd1ee05b4a4b6aaa4e",
+    "languages" : [ "en", "de", "ru", "es-ar", "pt-br", "ja", "ar-sy", "fa", "zh-cn", "nl" ]
   }, {
     "id" : "openEHR-EHR-OBSERVATION.body_mass_index.v1.0.0",
     "rmType" : "OBSERVATION",
