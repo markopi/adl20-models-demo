@@ -237,5 +237,12 @@
     "path" : "archetypes/openEHR-EHR-OBSERVATION.blood_match.v1.adls",
     "sha" : "e4593b467f7864e00b4535e12ba6192cd267d93b",
     "languages" : [ "en", "de", "ru", "ar-sy" ]
+  }, {
+    "id" : "openEHR-EHR-OBSERVATION.barthel.v1.0.0",
+    "rmType" : "OBSERVATION",
+    "name" : "Barthel Index",
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.barthel.v1.adls",
+    "sha" : "d021ff57500cb7def2e91cededa120d038b4c69e",
+    "languages" : [ "en", "nl", "ar-sy", "ru" ]
   } ]
 }
