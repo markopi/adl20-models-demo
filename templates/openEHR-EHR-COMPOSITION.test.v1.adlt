@@ -1,4 +1,4 @@
-template (adl_version=2.0.5; rm_release=1.0.2; generated)
+template (adl_version=2.0.5; rm_release=1.0.2)
     openEHR-EHR-COMPOSITION.test.v1.0.0
 
 specialize
@@ -11,33 +11,32 @@ language
             author = <
                 ["name"] = <"?">
             >
-            language = <[ISO_639-1::sl]>
         >
     >
-    
+
 description
+    lifecycle_state = <"unmanaged">
+    original_author = <
+        ["date"] = <"2005-10-10">
+        ["name"] = <"Thomas Beale">
+        ["organisation"] = <"Ocean Informatics">
+    >
     copyright = <"copyright (c) 2010 openEHR Foundation">
     details = <
         ["en"] = <
-            keywords = <"progress", "note", "encounter">
             language = <[ISO_639-1::en]>
-            misuse = <"">
             purpose = <"Record of encounter as a progress note.">
             use = <"">
+            misuse = <"">
+            keywords = <"progress", "note", "encounter">
         >
         ["sl"] = <
-            keywords = <"progress", "note", "encounter">
             language = <[ISO_639-1::sl]>
-            misuse = <"">
             purpose = <"Record of encounter as a progress note.">
             use = <"">
+            misuse = <"">
+            keywords = <"progress", "note", "encounter">
         >
-    >
-    lifecycle_state = <"unmanaged">
-    original_author = <
-        ["organisation"] = <"Ocean Informatics">
-        ["name"] = <"Thomas Beale">
-        ["date"] = <"2005-10-10">
     >
 
 definition
@@ -63,8 +62,7 @@ terminology
         >
     >
 
-
----------------------------------------------------------------------------------
+------------------------------------------------------------------------
 template_overlay
     openEHR-EHR-OBSERVATION.ovl-test-blood_pressure-001.v1.0.0
 
@@ -72,23 +70,20 @@ specialize
     openEHR-EHR-OBSERVATION.blood_pressure.v1.0.0
 
 definition
-    OBSERVATION[id1.1]     -- *Blood Pressure(en)
+    OBSERVATION[id1.1]     -- Blood Pressure
 
 terminology
     term_definitions = <
-        ["sl"] = <
-            ["id1.1"] = <
-                text = <"*Blood Pressure(en)">
-                description = <"*The local measurement of arterial blood pressure which is a surrogate for arterial. pressure in the systemic circulation.  Most commonly, use of the term 'blood pressure' refers to measurement of brachial artery pressure in the upper arm.(en)">
-            >
-        >
-        ["zh-cn"] = <
-            ["id1.1"] = <
-                text = <"*Blood Pressure(en)">
-                description = <"*The local measurement of arterial blood pressure which is a surrogate for arterial. pressure in the systemic circulation.  Most commonly, use of the term 'blood pressure' refers to measurement of brachial artery pressure in the upper arm.(en)">
-            >
-        >
         ["de"] = <
+            ["id1.1"] = <
+                text = <"*Blood Pressure(en)">
+                description = <"*The local measurement of arterial blood pressure which is a surrogate for arterial. pressure in the systemic circulation.  Most commonly, use of the term 'blood pressure' refers to measurement of brachial artery pressure in the upper arm.(en)">
+            >
+        >
+        ["ru"] = <>
+        ["es-ar"] = <>
+        ["pt-br"] = <>
+        ["ja"] = <
             ["id1.1"] = <
                 text = <"*Blood Pressure(en)">
                 description = <"*The local measurement of arterial blood pressure which is a surrogate for arterial. pressure in the systemic circulation.  Most commonly, use of the term 'blood pressure' refers to measurement of brachial artery pressure in the upper arm.(en)">
@@ -100,7 +95,15 @@ terminology
                 description = <"The local measurement of arterial blood pressure which is a surrogate for arterial. pressure in the systemic circulation.  Most commonly, use of the term 'blood pressure' refers to measurement of brachial artery pressure in the upper arm.">
             >
         >
-        ["ja"] = <
+        ["ar-sy"] = <>
+        ["sl"] = <
+            ["id1.1"] = <
+                text = <"*Blood Pressure(en)">
+                description = <"*The local measurement of arterial blood pressure which is a surrogate for arterial. pressure in the systemic circulation.  Most commonly, use of the term 'blood pressure' refers to measurement of brachial artery pressure in the upper arm.(en)">
+            >
+        >
+        ["fa"] = <>
+        ["zh-cn"] = <
             ["id1.1"] = <
                 text = <"*Blood Pressure(en)">
                 description = <"*The local measurement of arterial blood pressure which is a surrogate for arterial. pressure in the systemic circulation.  Most commonly, use of the term 'blood pressure' refers to measurement of brachial artery pressure in the upper arm.(en)">
@@ -113,4 +116,3 @@ terminology
             >
         >
     >
-
