@@ -165,7 +165,7 @@
     "rmType" : "OBSERVATION",
     "name" : "Blood Pressure",
     "path" : "archetypes/openEHR-EHR-OBSERVATION.blood_pressure.v1.adls",
-    "sha" : "d5856016ef5a62b6833779bd1ee05b4a4b6aaa4e",
+    "sha" : "1e074f242666a5339d65163a6545b2bcf8877580",
     "languages" : [ "en", "de", "ru", "es-ar", "pt-br", "ja", "ar-sy", "fa", "zh-cn", "nl" ]
   }, {
     "id" : "openEHR-EHR-OBSERVATION.body_mass_index.v1.0.0",
@@ -230,5 +230,12 @@
     "path" : "archetypes/openEHR-EHR-SECTION.medication.v1.adls",
     "sha" : "d379bcf36aa1293b122d305a3daa87b3647ada0f",
     "languages" : [ "en" ]
+  }, {
+    "id" : "openEHR-EHR-OBSERVATION.blood_match.v1.0.0",
+    "rmType" : "OBSERVATION",
+    "name" : "Blood matching",
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.blood_match.v1.adls",
+    "sha" : "e4593b467f7864e00b4535e12ba6192cd267d93b",
+    "languages" : [ "en", "de", "ru", "ar-sy" ]
   } ]
 }
