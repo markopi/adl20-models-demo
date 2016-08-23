@@ -244,5 +244,12 @@
     "path" : "archetypes/openEHR-EHR-OBSERVATION.barthel.v1.adls",
     "sha" : "d021ff57500cb7def2e91cededa120d038b4c69e",
     "languages" : [ "en", "nl", "ar-sy", "ru" ]
+  }, {
+    "id" : "openEHR-EHR-OBSERVATION.apgar.v1.0.0",
+    "rmType" : "OBSERVATION",
+    "name" : "Apgar score",
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.apgar.v1.adls",
+    "sha" : "06f10b9ad982690d6741ae49f69e8d9cbd471b70",
+    "languages" : [ "en", "de", "ru", "pt-br", "ar-sy", "fa", "es-cl", "nl" ]
   } ]
 }
