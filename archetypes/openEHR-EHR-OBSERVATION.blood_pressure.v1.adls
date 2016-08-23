@@ -22,15 +22,15 @@ language
             language = <[ISO_639-1::es-ar]>
             author = <
                 ["name"] = <"Domingo Liotta">
-                ["organisation"] = <"Universidad de MorÃ³n">
+                ["organisation"] = <"Universidad de Morón">
                 ["email"] = <"domingo_liotta@hotmail.com">
             >
-            accreditation = <"Universidad de MorÃ³n">
+            accreditation = <"Universidad de Morón">
         >
         ["pt-br"] = <
             language = <[ISO_639-1::pt-br]>
             author = <
-                ["name"] = <"Jussara RÃ¶zsch">
+                ["name"] = <"Jussara Rözsch">
                 ["organisation"] = <"OpenEHR  Foundation">
                 ["email"] = <"jussara.macedo@gmail.com">
             >
@@ -82,8 +82,8 @@ description
         ["organisation"] = <"Ocean Informatics">
         ["email"] = <"sam.heard@oceaninformatics.com">
     >
-    copyright = <"Â© openEHR Foundation">
-    other_contributors = <"Koray Atalag, University of Auckland, New Zealand", "Knut Bernstein, MEDIQ, Denmark", "Marja Buur, Medisch Centrum Alkmaar, Netherlands", "Rong Chen, Cambio Healthcare Systems, Sweden", "Beatriz de Faria LeÃ£o, Zilics, Brazil", "Paul Donaldson, Nursing Informatics Australia, Australia", "Jose Florez Arango, Universidad de Antioquia, Colombia", "Gerard Freriks, ERC, Netherlands", "Sebastian Garde, Ocean Informatics, Germany", "Anneke Goossen, Results 4 Care, Netherlands", "Sam Heard, Ocean Informatics, Australia", "Karsten Heusser, Hannover Medical School, Germany", "Omer Hotomaroglu, Turkey", "Evelyn Hovenga, EJSH Consulting, Australia", "Derek Hoy, United Kingdom", "Pieter Hummel, Medisch Centrum Alkmaar, Netherlands", "Eugene Igras, IRIS Systems, Inc., Canada", "Sundaresan Jagannathan, Scottish NHS, United Kingdom", "Andrew James, University of Toronto, Canada", "Heather Leslie, Ocean Informatics, Australia (Editor)", "Rikard Lovstrom, Swedish Medical Association, Sweden", "Rohan Martin, Ambulance Victoria, Australia", "Ian McNicoll, Ocean Informatics, United Kingdom", "Jeroen Meintjens, Medisch Centrum Alkmaar, Netherlands", "Udo MÃ¼ller-Oest, CompuGROUP Software, Germany", "Melvin Reynolds, United Kingdom", "Tony Shannon, NHS, United Kingdom", "Hwei-Yee Tai, Tan Tock Seng Hospital, Singapore", "Stef Verlinden, Vivici, Netherlands", "Soon Ghee Yap, Singapore Health Services Pte Ltd, Singapore">
+    copyright = <"© openEHR Foundation">
+    other_contributors = <"Koray Atalag, University of Auckland, New Zealand", "Knut Bernstein, MEDIQ, Denmark", "Marja Buur, Medisch Centrum Alkmaar, Netherlands", "Rong Chen, Cambio Healthcare Systems, Sweden", "Beatriz de Faria Leão, Zilics, Brazil", "Paul Donaldson, Nursing Informatics Australia, Australia", "Jose Florez Arango, Universidad de Antioquia, Colombia", "Gerard Freriks, ERC, Netherlands", "Sebastian Garde, Ocean Informatics, Germany", "Anneke Goossen, Results 4 Care, Netherlands", "Sam Heard, Ocean Informatics, Australia", "Karsten Heusser, Hannover Medical School, Germany", "Omer Hotomaroglu, Turkey", "Evelyn Hovenga, EJSH Consulting, Australia", "Derek Hoy, United Kingdom", "Pieter Hummel, Medisch Centrum Alkmaar, Netherlands", "Eugene Igras, IRIS Systems, Inc., Canada", "Sundaresan Jagannathan, Scottish NHS, United Kingdom", "Andrew James, University of Toronto, Canada", "Heather Leslie, Ocean Informatics, Australia (Editor)", "Rikard Lovstrom, Swedish Medical Association, Sweden", "Rohan Martin, Ambulance Victoria, Australia", "Ian McNicoll, Ocean Informatics, United Kingdom", "Jeroen Meintjens, Medisch Centrum Alkmaar, Netherlands", "Udo Müller-Oest, CompuGROUP Software, Germany", "Melvin Reynolds, United Kingdom", "Tony Shannon, NHS, United Kingdom", "Hwei-Yee Tai, Tan Tock Seng Hospital, Singapore", "Stef Verlinden, Vivici, Netherlands", "Soon Ghee Yap, Singapore Health Services Pte Ltd, Singapore">
     details = <
         ["en"] = <
             language = <[ISO_639-1::en]>
@@ -95,27 +95,27 @@ Named events have been limited to average over a 24 hour period, however templat
 Not to be used for the measurement of arterial blood pressure which is NOT a surrogate for arterial pressure in the systemic circulation eg specific measurement of right Pulmonary artery pressure.  
 Use OBSERVATION.intravascular_pressure and related specialisations in both of these situations.">
             keywords = <"observations", "measurement", "bp", "vital signs", "mean arterial pressure", "pulse pressure", "systolic", "diastolic", "RR", "NIBP">
-            copyright = <"Â© openEHR Foundation">
+            copyright = <"© openEHR Foundation">
         >
         ["ja"] = <
             language = <[ISO_639-1::ja]>
-            purpose = <"ããã®å¨èº«è¡å§ãè¨é²ããããã®ãã®ãå¨èº«ã®è¡å§ãæ¸¬å®ããä»£ç¨ã¨ãã¦é©åãªæ¹æ³ã«ããæ¸¬å®ãããç¸®æå§ã¨æ¡å¼µæã«ã¤ãã¦ã®è¨é²">
-            use = <"ãã®ã¢ã¼ã­ã¿ã¤ããä½¿ã£ã¦æ¸¬å®ããããã¹ã¦ã®è¡å§ãè¨é²ããããéåè² è·å¿é»å³ããã£ã«ãå°ã§ã®æ¸¬å®ã«ãå©ç¨ã§ããè±ããªã¹ãã¼ãã¢ãã«ãããã">
-            misuse = <"è¡ç®¡åå§ã®ããã«ã¯ä½¿ç¨ãããªã">
-            keywords = <"è¦³å¯", "è¡å§", "æ¸¬å®">
-            copyright = <"Â© openEHR Foundation">
+            purpose = <"ヒトの全身血圧を記録するためのもの。全身の血圧を測定する代用として適切な方法により測定された縮期圧と拡張期についての記録">
+            use = <"このアーキタイプを使って測定されるすべての血圧が記録される。運動負荷心電図やティルト台での測定にも利用できる豊かなステートモデルがある。">
+            misuse = <"血管内圧のためには使用されない">
+            keywords = <"観察", "血圧", "測定">
+            copyright = <"© openEHR Foundation">
         >
         ["de"] = <
             language = <[ISO_639-1::de]>
             purpose = <"Dient der Dokumentation des systemischen arteriellen Blutdrucks einer Person.">
-            use = <"Alle Blutdruckmessungen werden unter Zuhilfenahme dieses Archetypen dokumentiert, unabhÃ¤ngig davon, welche Methode oder KÃ¶rperstelle zur Messung benutzt wurden. Der Archetyp dient der Dokumentation des Blutdrucks in alle klinischen Szenarien - z.B. durch eine Blutdruckmaschine zuhause; eine Notfallmessung durch Palpation und ein Sphygmomanometer; Messungen beim Hausarzt oder im Rahmen von Belastungstests; sowie einer Serie von Messungen durch eine Maschine auf der Intensivstation.
-Der Archetyp beinhaltet ein umfassendes Status-Modell, das die Interpretation der Messung unterstÃ¼tzt, indem Position, Anstrengung, Einflussfaktoren, Neigungswinkel angegeben werden kÃ¶nnen.
-Benannte Ereignisse wurden auf den 24-stÃ¼ndigen Durchschnitt beschrÃ¤nkt, jedoch kÃ¶nnen Templates jederzeit das standardmÃ¤Ãig vorhandene Ereignis ('any event') weiter einschrÃ¤nken, um spezifischen Anforderungen gerecht zu werden, wie z.B. der Messung zu bestimmten Zeitpunkten, oder Ã¼ber eine Anzahl von Intervallen (+/- mathematische Funktionen).">
-            misuse = <"Nicht benutzen zur Dokumentation des intravenÃ¶sen Drucks.
-Nicht benutzen zur Dokumentation des arteriellen Blutdrucks, welcher KEIN Surrogat fÃ¼r den arteriellen Druck in der systemischen Zirkluation ist, z.B. die spezifische Messung des rechten pulmonaren Arteriendrucks.
+            use = <"Alle Blutdruckmessungen werden unter Zuhilfenahme dieses Archetypen dokumentiert, unabhängig davon, welche Methode oder Körperstelle zur Messung benutzt wurden. Der Archetyp dient der Dokumentation des Blutdrucks in alle klinischen Szenarien - z.B. durch eine Blutdruckmaschine zuhause; eine Notfallmessung durch Palpation und ein Sphygmomanometer; Messungen beim Hausarzt oder im Rahmen von Belastungstests; sowie einer Serie von Messungen durch eine Maschine auf der Intensivstation.
+Der Archetyp beinhaltet ein umfassendes Status-Modell, das die Interpretation der Messung unterstützt, indem Position, Anstrengung, Einflussfaktoren, Neigungswinkel angegeben werden können.
+Benannte Ereignisse wurden auf den 24-stündigen Durchschnitt beschränkt, jedoch können Templates jederzeit das standardmäßig vorhandene Ereignis ('any event') weiter einschränken, um spezifischen Anforderungen gerecht zu werden, wie z.B. der Messung zu bestimmten Zeitpunkten, oder über eine Anzahl von Intervallen (+/- mathematische Funktionen).">
+            misuse = <"Nicht benutzen zur Dokumentation des intravenösen Drucks.
+Nicht benutzen zur Dokumentation des arteriellen Blutdrucks, welcher KEIN Surrogat für den arteriellen Druck in der systemischen Zirkluation ist, z.B. die spezifische Messung des rechten pulmonaren Arteriendrucks.
 In diesem Fall sollte der OBSERVATION.intravascular_pressure Archetyp bzw. dessen Spezialisierungen verwendet werden.">
             keywords = <"Beobachtungen", "Messungen", "Vitalparameter", "Mittlerer arterieller Druck", "Pulsdruck", "systolisch", "diastolisch", "RR", "Riva-Rocci", "NIBP">
-            copyright = <"Â© openEHR Foundation">
+            copyright = <"© openEHR Foundation">
         >
         ["zh-cn"] = <
             language = <[ISO_639-1::zh-cn]>
@@ -123,92 +123,92 @@ In diesem Fall sollte der OBSERVATION.intravascular_pressure Archetyp bzw. desse
             use = <"*All blood pressure measurements are recorded using this archetype. There is a rich state model for use with exercise ECGs and Tilt Table measurements.(en)">
             misuse = <"*Not to be used for intravascular pressure.(en)">
             keywords = <"*observations(en)", "*blood pressure(en)", "*measurement(en)">
-            copyright = <"Â© openEHR Foundation">
+            copyright = <"© openEHR Foundation">
         >
         ["nl"] = <
             language = <[ISO_639-1::nl]>
             purpose = <"Het registreren van de systemische arteriele bloeddruk van een individu.">
             use = <"Wordt gebruikt om alle weergaven van de systemische bloeddruk te registreren, ongeacht welke methode of welke lichaamslocatie is gebruikt om de meting te doen. Het archetype is bedoeld om bloeddruk metingen in alle klinische scenario's vast te leggen - bijvoorbeeld, zelf-meting met een thuis bloeddrukmeter; een nood beoordeling van de systolische bloeddruk met behulp van palpatie en een drukmanchet; metingen tijdens consulten, overleg of tijdens inspannings stress testen, en een reeks van metingen die door een apparaat zijn gedaan in de intensieve zorg.
-Er is een uitgebreid status model dat interpretatie van metingen ondersteunt, door patiÃ«nt positie, inspanning, beÃ¯nvloedende factoren en de hoek/het aantal graden waarin de onderzoekstafel staat, te specificeren.
+Er is een uitgebreid status model dat interpretatie van metingen ondersteunt, door patiënt positie, inspanning, beïnvloedende factoren en de hoek/het aantal graden waarin de onderzoekstafel staat, te specificeren.
 Genoemde gebeurtenissen zijn gelimiteerd tot een gemiddelde over een periode van 24 uur, maar templates kunnen de standaard 'iedere gebeurtenis' verder vernauwen om specifieke eisen voor de bloeddrukmeting, zoals registreren van de bloeddruk op een specifiek tijdsmoment, of over een reeks van intervallen (+/- statistisch gebruik) te faciliteren.
 ">
             misuse = <"Niet te gebruiken voor intraveneuze druk.
 Niet te gebruiken voor de meting van de arteriele bloeddruk welke geen surrogaat is voor de arteriele druk in de systemische circulatie, bv de specifieke meting van de rechter arterie pulmonalis druk.
 Gebruik OBSERVATION.intravascular_pressure en gerelateerde specialisaties in beide situaties.">
             keywords = <"observaties", "meting", "blddr", "vitale functies", "gemiddelde arteriele druk", "polsdruk", "systolisch", "diastolisch", "RR", "NIBP", "tensie">
-            copyright = <"Â© openEHR Foundation">
+            copyright = <"© openEHR Foundation">
         >
         ["ru"] = <
             language = <[ISO_639-1::ru]>
-            purpose = <"ÐÐ»Ñ Ð·Ð°Ð¿Ð¸ÑÐ¸ ÑÐ¸ÑÑÐµÐ¼Ð½Ð¾Ð³Ð¾ Ð°ÑÑÐµÑÐ¸Ð°Ð»ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ ÐºÑÐ¾Ð²Ð¸ ÑÐµÐ»Ð¾Ð²ÐµÐºÐ°.">
-            use = <"ÐÑÐ¿Ð¾Ð»ÑÐ·ÑÐµÑÑÑ Ð´Ð»Ñ Ð·Ð°Ð¿Ð¸ÑÐ¸ Ð²ÑÐµÑ Ð¿ÑÐµÐ´ÑÑÐ°Ð²Ð»ÐµÐ½Ð¸Ð¹ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÑÐ¸ÑÑÐµÐ¼Ð½Ð¾Ð³Ð¾ Ð°ÑÑÐµÑÐ¸Ð°Ð»ÑÐ½Ð¾Ð³Ð¾  ÐºÑÐ¾Ð²ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ, Ð½ÐµÐ·Ð°Ð²Ð¸ÑÐ¸Ð¼Ð¾ Ð¾Ñ Ð¸ÑÐ¿Ð¾Ð»ÑÐ·ÑÐµÐ¼Ð¾Ð³Ð¾ Ð¼ÐµÑÐ¾Ð´Ð° Ð¸Ð»Ð¸ ÑÐ°ÑÐ¿Ð¾Ð»Ð¾Ð¶ÐµÐ½Ð¸Ñ ÑÐµÐ»Ð° Ð¿Ð°ÑÐ¸ÐµÐ½ÑÐ°. ÐÑÑÐµÑÐ¸Ð¿ Ð¿ÑÐµÐ´Ð½Ð°Ð·Ð½Ð°ÑÐµÐ½ Ð´Ð»Ñ Ð·Ð°Ð¿Ð¸ÑÐ¸ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ð¹ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ Ð²Ð¾ Ð²ÑÐµÑ ÐºÐ»Ð¸Ð½Ð¸ÑÐµÑÐºÐ¸Ñ ÑÑÐµÐ½Ð°ÑÐ¸ÑÑ - Ð½Ð°Ð¿ÑÐ¸Ð¼ÐµÑ, ÑÐ°Ð¼Ð¾ÑÑÐ¾ÑÑÐµÐ»ÑÐ½Ð¾Ðµ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ðµ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ ÐºÑÐ¾Ð²Ð¸ Ð´Ð¾Ð¼Ð°ÑÐ½Ð¸Ð¼ Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸ÑÐµÑÐºÐ¸Ð¼ Ð¼Ð°Ð½Ð¾Ð¼ÐµÑÑÐ¾Ð¼, Ð² ÑÑÐµÐ·Ð²ÑÑÐ°Ð¹Ð½Ð¾Ð¹  ÑÐ¸ÑÑÐ°ÑÐ¸Ð¸ Ð¸ÑÐ¿Ð¾Ð»ÑÐ·Ð¾Ð²Ð°Ð½Ð¸Ðµ  Ð¿Ð°Ð»ÑÐ¿Ð°ÑÐ¸Ð¸ Ð¿ÑÐ»ÑÑÐ¾Ð²Ð¾Ð¹ Ð²Ð¾Ð»Ð½Ñ Ð¸ ÑÑÐ¸Ð³Ð¼Ð¾Ð¼Ð°Ð½Ð¾Ð¼ÐµÑÑ; Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ð¹ Ð² ÑÐ¾Ð´Ðµ ÐºÐ»Ð¸Ð½Ð¸ÑÐµÑÐºÐ¸Ñ ÐºÐ¾Ð½ÑÑÐ»ÑÑÐ°ÑÐ¸Ð¹ Ð¸Ð»Ð¸ Ð² ÑÐ¾Ð´Ðµ Ð¾ÑÑÑÐµÑÑÐ²Ð»ÐµÐ½Ð¸Ñ ÑÑÑÐµÑÑ-ÑÐµÑÑÐ¸ÑÐ¾Ð²Ð°Ð½Ð¸Ñ, Ð° ÑÐ°ÐºÐ¶Ðµ ÑÐµÑÐ¸Ð¸ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ð¹, Ð²ÑÐ¿Ð¾Ð»Ð½ÐµÐ½Ð½ÑÑ Ð°Ð¿Ð¿Ð°ÑÐ°ÑÐ¾Ð¼ Ð² ÑÐµÐ°Ð½Ð¸Ð¼Ð°ÑÐ¸Ð¸.
-ÐÐ¾Ð´Ð´ÐµÑÐ¶Ð¸Ð²Ð°ÐµÑ Ð¸Ð½ÑÐµÑÐ¿ÑÐµÑÐ°ÑÐ¸Ñ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ð¹ Ð¿ÑÑÐµÐ¼ Ð¾Ð¿ÑÐµÐ´ÐµÐ»ÐµÐ½Ð¸Ñ Ð¿Ð¾Ð·Ð¸ÑÐ¸Ð¸ Ð¿Ð°ÑÐ¸ÐµÐ½ÑÐ°, ÑÐ¸Ð·Ð¸ÑÐµÑÐºÐ¸Ðµ ÑÐ¿ÑÐ°Ð¶Ð½ÐµÐ½Ð¸Ñ, Ð¾ÑÐ»Ð¾Ð¶Ð½ÑÑÑÐ¸Ñ ÑÐ°ÐºÑÐ¾ÑÐ¾Ð² Ð¸ ÑÐ³Ð»Ð° Ð½Ð°ÐºÐ»Ð¾Ð½Ð° ÑÑÐ¾Ð»Ð° Ð² Ð½Ð°ÑÑÐ½ÑÑ Ð¸ÑÑÐ»ÐµÐ´Ð¾Ð²Ð°Ð½Ð¸ÑÑ.
-ÐÑÐµÐ´Ð¿Ð¾Ð»Ð°Ð°Ð³ÐµÑÑÑ Ð¸Ð½ÑÐµÑÐ²Ð°Ð» Ð¼ÐµÐ¶Ð´Ñ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸ÑÐ¼Ð¸ 24 ÑÐ°ÑÐ°, Ð¾Ð´Ð½Ð°ÐºÐ¾ Ð¼Ð¾Ð¶ÐµÑ Ð±ÑÑÑ Ð´Ð¾Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¾ ÑÐ¾Ð±ÑÑÐ¸ÑÐ¼Ð¸ (Ð¿Ð¾ ÑÐ¼Ð¾Ð»ÑÐ°Ð½Ð¸Ñ \"Ð»ÑÐ±Ð¾Ðµ ÑÐ¾Ð±ÑÑÐ¸Ðµ\") Ð´Ð»Ñ ÑÐ´Ð¾Ð²Ð»ÐµÑÐ²Ð¾ÑÐµÐ½Ð¸Ñ ÑÐ¿ÐµÑÐ¸ÑÐ¸ÑÐµÑÐºÐ¸Ñ ÑÑÐµÐ±Ð¾Ð²Ð°Ð½Ð¸Ð¹ Ð´Ð»Ñ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÐºÑÐ¾Ð²ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ, ÑÐ°ÐºÐ¸Ðµ ÐºÐ°Ðº Ð·Ð°Ð¿Ð¸ÑÐ¸ Ð² Ð¾ÑÐ½Ð¾ÑÐµÐ½Ð¸Ð¸ ÐºÑÐ¾Ð²ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ ÐºÐ¾Ð½ÐºÑÐµÑÐ½ÑÐµ Ð¼Ð¾Ð¼ÐµÐ½ÑÑ Ð²ÑÐµÐ¼ÐµÐ½Ð¸, Ð¸Ð»Ð¸ Ð² Ð´Ð¸Ð°Ð¿Ð°Ð·Ð¾Ð½Ðµ Ð¸Ð½ÑÐµÑÐ²Ð°Ð»Ð¾Ð².">
-            misuse = <"ÐÐµ ÑÐ»ÐµÐ´ÑÐµÑ Ð¸ÑÐ¿Ð¾Ð»ÑÐ·Ð¾Ð²Ð°ÑÑ Ð´Ð»Ñ Ð²Ð½ÑÑÑÐ¸Ð²ÐµÐ½Ð½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ.
-ÐÐµ ÑÐ»ÐµÐ´ÑÐµÑ Ð¸ÑÐ¿Ð¾Ð»ÑÐ·Ð¾Ð²Ð°ÑÑ Ð´Ð»Ñ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ Ð°ÑÑÐµÑÐ¸Ð°Ð»ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ, ÐºÐ¾ÑÐ¾ÑÐ¾Ðµ Ð½Ðµ ÑÐ²Ð»ÑÐµÑÑÑ ÑÑÑÑÐ¾Ð³Ð°ÑÐ¾Ð¼ Ð°ÑÑÐµÑÐ¸Ð°Ð»ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ Ð² ÑÐ¸ÑÑÐµÐ¼Ð½Ð¾Ð¼ ÐºÑÐ¾Ð²Ð¾ÑÐ¾ÐºÐµ, Ð½Ð°Ð¿ÑÐ¸Ð¼ÐµÑ, ÐºÐ¾Ð½ÐºÑÐµÑÐ½ÑÐµ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ Ð² Ð»ÐµÐ³Ð¾ÑÐ½Ð¾Ð¹ Ð°ÑÑÐµÑÐ¸Ð¸.
-ÐÑÐ¿Ð¾Ð»ÑÐ·Ð¾Ð²Ð°ÑÑ OBSERVATION.intravascular_pressure Ð¸ ÑÐ¼ÐµÐ¶Ð½ÑÑ ÑÐ¿ÐµÑÐ¸Ð°Ð»ÑÐ½Ð¾ÑÑÐµÐ¹ Ð² Ð¾Ð±Ð¾Ð¸Ñ ÑÑÐ¸Ñ ÑÐ¸ÑÑÐ°ÑÐ¸ÑÑ.
+            purpose = <"Для записи системного артериального давления крови человека.">
+            use = <"Используется для записи всех представлений измерения системного артериального  кровяного давления, независимо от используемого метода или расположения тела пациента. Архетип предназначен для записи измерений давления во всех клинических сценариях - например, самостоятельное измерение давления крови домашним автоматическим манометром, в чрезвычайной  ситуации использование  пальпации пульсовой волны и сфигмоманометр; измерений в ходе клинических консультаций или в ходе осуществления стресс-тестирования, а также серии измерений, выполненных аппаратом в реанимации.
+Поддерживает интерпретацию измерений путем определения позиции пациента, физические упражнения, осложняющих факторов и угла наклона стола в научных исследованиях.
+Предполаагется интервал между измерениями 24 часа, однако может быть дополнено событиями (по умолчанию \"любое событие\") для удовлетворения специфических требований для измерения кровяного давления, такие как записи в отношении кровяного давления конкретные моменты времени, или в диапазоне интервалов.">
+            misuse = <"Не следует использовать для внутривенного давления.
+Не следует использовать для измерения артериального давления, которое не является суррогатом артериального давления в системном кровотоке, например, конкретные измерения давления в легочной артерии.
+Использовать OBSERVATION.intravascular_pressure и смежных специальностей в обоих этих ситуациях.
 ">
-            keywords = <"Ð¾Ð±ÑÐ»ÐµÐ´Ð¾Ð²Ð°Ð½Ð¸Ðµ", "Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ðµ", "Ð°ÑÑÐµÑÐ¸Ð°Ð»ÑÐ½Ð¾Ðµ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ", "Ð´Ð¸Ð°ÑÑÐ¾Ð»Ð¸ÑÐµÑÐºÐ¾Ðµ", "ÑÐ¸ÑÑÐ¾Ð»Ð¸ÑÐµÑÐºÐ¾Ðµ">
-            copyright = <"Â© openEHR Foundation">
+            keywords = <"обследование", "измерение", "артериальное давление", "диастолическое", "систолическое">
+            copyright = <"© openEHR Foundation">
         >
         ["fa"] = <
             language = <[ISO_639-1::fa]>
-            purpose = <"Ø«Ø¨Øª ÙÙÙØ¯Ù ÙØ´Ø§Ø± Ø®ÙÙ ÙØ±ÛØ¯Û Ú©Ù ÛÚ© ÙØ±Ø¯">
-            use = <"Ø¨Ø±Ø§Û Ø«Ø¨Øª ÙØ± ÚÛØ² ÙØ´Ø§ÙØ¯ÙÙØ¯Ù Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ÙØ´Ø§Ø±Ù Ø®ÙÙ ÙØ±ÛØ¯Û Ú©ÙØ Ø¬Ø¯Ø§ Ø§Ø² Ø§Ø¨ÙÚ©Ù Ø¨Ø±Ø§Û Ø«Ø¨Øª Ø¢Ù Ø§Ø² ÚÙ Ø´ÛÙÙ Ø§Û ÛØ§ Ú©Ø¯Ø§Ù Ø¨Ø®Ø´ Ø§Ø² Ø¨Ø¯Ù Ø§Ø³ØªÙØ§Ø¯Ù Ø´Ø¯Ù Ø¨Ø§Ø´Ø¯Ø Ø¨Ú©Ø§Ø± ÙÛ Ø±ÙØ¯. Ø§ÛÙ Ø§ÙÚ¯ÙØ³Ø§Ø² Ø¨Ø±Ø§Û Ú¯Ø±Ø¯Ø¢ÙØ±Û Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ÙØ´Ø§Ø± Ø®ÙÙ Ø¯Ø± ÙÙÙ Ø³ÙØ§Ø±ÛÙÙØ§Û Ø¨Ø§ÙÛÙÛ Ø·Ø±Ø§Ø­Û Ø´Ø¯Ù Ø§Ø³ØªØ ÙØ§ÙÙØ¯ Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ØªÙØ³Ø· Ø®ÙØ¯ ÙØ±Ø¯ Ø¨ÙØ³ÛÙÙ Ø¯Ø³ØªÚ¯Ø§Ù ÙØ´Ø§Ø± Ø®ÙÙ Ø®Ø§ÙÚ¯ÛØ Ø§Ø±Ø²ÛØ§Ø¨Û Ø§ÙØ±ÚØ§ÙØ³Û Ø³ÛØ³ØªÙÙÛÚ© Ø¨Ø§ ÙÙØ³ ÙØ¨Ø¶ Ù ÛÚ© \"ÙØ´Ø§Ø±Ø³ÙØ¬ Ø®ÙÙ\"Ø Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±ÛÙØ§Û Ø§ÙØ¬Ø§Ù Ú¯Ø±ÙØªÙ Ø¯Ø± ÙØ´Ø§ÙØ±Ù Ø¨Ø§ÙÛÙÛ ÛØ§ Ø­ÛÙ ØªØ³Øª ÙØ±Ø²Ø´ÛØ Ù ÛØ§ ÛÚ© Ø±Ø´ØªÙ Ø§Ø² Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±ÛÙØ§Û Ø¯Ø³ØªÚ¯Ø§Ù ÙØ±Ø§ÙØ¨Øª ÙØ§Û ÙÛÚÙ.
-ÙØ¯Ù Ø­Ø§ÙØª ØªÙØ§ÙÙÙØ¯Û ÙØ¬ÙØ¯ Ø¯Ø§Ø±Ø¯ Ú©Ù ØªÙØ³ÛØ± Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ÙØ§ Ø±Ø§ Ø§Ø² Ø·Ø±ÛÙ Ø´ÙØ§Ø³Ø§ÛÛ ÙÙÙØ¹ÛØª Ø¨ÛÙØ§Ø±Ø ÙØ±Ø²Ø´Ø ÙØ§Ú©ØªÙØ±ÙØ§Û ÙØ¨ÙÙ Ù ØªØ³Øª ØªØ®Øª Ø´ÛØ¨Ø¯Ø§Ø±Ø Ù¾Ø´ØªÛØ¨Ø§ÙÛ ÙÛ Ú©ÙØ¯.
-Ø±ÙÛØ¯Ø§Ø¯ÙØ§Û ÙØ§Ù Ú¯Ø°Ø§Ø±Û Ø´Ø¯Ù Ø¨Ú¯ÙÙÙ Ø§Û ÙØ­Ø¯ÙØ¯ Ø´Ø¯Ù Ø§ÙØ¯ Ú©Ù Ø±ÙÛ ÛÚ© Ø¯ÙØ±Ù 24 Ø³Ø§Ø¹ØªÙ ÙÛØ§ÙÚ¯ÛÙ Ú¯ÛØ±Û Ú©ÙÙØ¯ ÙØ± ÚÙØ¯ Ú©Ù Ø§ÙÚ¯Ù ÙØ§ ÙÛ ØªÙØ§ÙÙØ¯ Ù¾ÛØ´ ÙØ±Ø¶ -ÙØ± Ú¯ÙÙÙ  Ø±ÙÛØ¯Ø§Ø¯- Ø±Ø§ Ø¨Ø±Ø§Û ÙØ±Ø§ÙÙ Ú©Ø±Ø¯Ù Ø®ÙØ§Ø³ØªÙ ÙØ§Û Ø®Ø§Øµ Ø§Ø² Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ÙØ´Ø§Ø± Ø®ÙÙØ Ø¨Ø§ ÙØ­Ø¯ÙØ¯ÛØªÙØ§ÛÛ ÙØ¸ÛØ± Ø«Ø¨Øª ÙØ´Ø§Ø± Ø®ÙÙ Ø³Ø± ÙÙØª ÛØ§ Ø±ÙÛ Ø±ÙØ¬Û Ø§Ø² ÙØ§ØµÙÙ ÙØ§Û Ø²ÙØ§ÙÛ (Ø¨Ø§ Ø¹ÙÙ Ø¬ÙØ¹ ÛØ§ ÙÙÙØ§)Ø Ø¨ÛØ´ØªØ± ÙØ­Ø¯ÙØ¯ Ú©ÙÙØ¯ 
+            purpose = <"ثبت نمودن فشار خون وریدی کل یک فرد">
+            use = <"برای ثبت هر چیز نشاندهنده اندازه گیری فشاره خون وریدی کل، جدا از ابنکه برای ثبت آن از چه شیوه ای یا کدام بخش از بدن استفاده شده باشد، بکار می رود. این الگوساز برای گردآوری اندازه گیری فشار خون در همه سناریوهای بالینی طراحی شده است، مانند اندازه گیری توسط خود فرد بوسیله دستگاه فشار خون خانگی، ارزیابی اورژانسی سیستولیک با لمس نبض و یک \"فشارسنج خون\"، اندازه گیریهای انجام گرفته در مشاوره بالینی یا حین تست ورزشی، و یا یک رشته از اندازه گیریهای دستگاه مراقبت های ویژه.
+مدل حالت توانمندی وجود دارد که تفسیر اندازه گیری ها را از طریق شناسایی موقعیت بیمار، ورزش، فاکتورهای مبهم و تست تخت شیبدار، پشتیبانی می کند.
+رویدادهای نام گذاری شده بگونه ای محدود شده اند که روی یک دوره 24 ساعته میانگین گیری کنند هر چند که الگو ها می توانند پیش فرض -هر گونه  رویداد- را برای فراهم کردن خواسته های خاص از اندازه گیری فشار خون، با محدودیتهایی نظیر ثبت فشار خون سر وقت یا روی رنجی از فاصله های زمانی (با عمل جمع یا منها)، بیشتر محدود کنند 
 ">
-            misuse = <"Ø¨Ø±Ø§Û ÙØ´Ø§Ø± Ø¯Ø§Ø®Ù ÙØ±ÛØ¯Û Ø§Ø³ØªÙØ§Ø¯Ù ÙØ´ÙØ¯.
-Ø¨Ø±Ø§Û Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ÙØ´Ø§Ø± Ø®ÙÙ ÙØ±ÛØ¯Û ÙØ¨Ø§ÛØ¯ Ø§Ø³ØªÙØ§Ø¯Ù Ø´ÙØ¯ Ú©Ù Ø¬Ø§ÛÚ¯Ø²ÛÙÛ Ø¨Ø±Ø§Û ÙØ´Ø§Ø± ÙØ±ÛØ¯Û Ø¯Ø± Ú¯Ø±Ø¯Ø´ Ø®ÙÙ Ú©ÙÛ ÙÛØ³ØªØ Ø¨Ø¹ÙÙØ§Ù ÙØ«Ø§Ù Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û Ø®Ø§Øµ ÙØ´Ø§Ø± ÙØ±ÛØ¯Û Ø±ÛÙ Ø±Ø§Ø³Øª.
+            misuse = <"برای فشار داخل وریدی استفاده نشود.
+برای اندازه گیری فشار خون وریدی نباید استفاده شود که جایگزینی برای فشار وریدی در گردش خون کلی نیست، بعنوان مثال اندازه گیری خاص فشار وریدی ریه راست.
 
- Ù ØªØ®ØµØµ ÙØ§Û ÙØ±Ø¨ÙØ·Ù Ø¨Ø±Ø§Û ÙÙØ§Ø±Ø¯ Ø¨Ø§ÙØ§ Ø¨Ú©Ø§Ø± Ø±ÙØ¯\"OBSERVATION.intravascular_pressure\"
+ و تخصص های مربوطه برای موارد بالا بکار رود\"OBSERVATION.intravascular_pressure\"
  
 ">
-            keywords = <"ÙØ´Ø§ÙØ¯Ø§Øª", "Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û", "ÙØ´Ø§Ø± Ø®ÙÙ", "Ø¹ÙØ§ÛÙ Ø­ÛØ§ØªÛ", "ÙÛØ§ÙÚ¯ÛÙ ÙØ´Ø§Ø± ÙØ±ÛØ¯Û", "ÙØ´Ø§Ø± ÙØ¨Ø¶", "Ø³ÛØ³ØªÙÙÛÚ©", "Ø¯ÛØ§Ø³ØªÙÙÛÚ©", "ØªÙÙØ³ÙØ§Û Ø³Ø±ÛØ¹", "ÙØ´Ø§Ø± Ø®ÙÙ ØºÛØ± ØªÙØ§Ø¬ÙÛ">
-            copyright = <"Â© openEHR Foundation">
+            keywords = <"مشاهدات", "اندازه گیری", "فشار خون", "علایم حیاتی", "میانگین فشار وریدی", "فشار نبض", "سیستولیک", "دیاستولیک", "تنفسهای سریع", "فشار خون غیر تهاجمی">
+            copyright = <"© openEHR Foundation">
         >
         ["ar-sy"] = <
             language = <[ISO_639-1::ar-sy]>
-            purpose = <"ÙØªØ³Ø¬ÙÙ Ø¶ØºØ· Ø§ÙØ¯Ù Ø§ÙØ´Ø±ÙØ§ÙÙ Ø§ÙÙØ¸Ø§ÙÙ ÙÙØ´Ø®Øµ">
-            use = <"ÙØ³ØªØ®Ø¯Ù ÙØªØ³Ø¬ÙÙ Ø¬ÙÙØ¹ Ø·Ø±Ù Ø¹Ø±Ø¶ Ø¶ØºØ· Ø§ÙØ¯Ù Ø§ÙØ´Ø±Ø§ÙÙÙ Ø§ÙÙØ¸Ø§ÙÙ, Ø¨ØºØ¶ Ø§ÙÙØ¸Ø± Ø¹Ù Ø§ÙØ·Ø±ÙÙØ© Ø£Ù Ø§ÙÙÙØ¶Ø¹ ÙÙ Ø§ÙØ¬Ø³Ù Ø§ÙÙØ³ØªØ®Ø¯Ù ÙÙ Ø§ÙØªØ³Ø¬ÙÙ.
+            purpose = <"لتسجيل ضغط الدم الشرياني النظامي للشخص">
+            use = <"يستخدم لتسجيل جميع طرق عرض ضغط الدم الشرايني النظامي, بغض النظر عن الطريقة أو الموضع من الجسم المستخدم في التسجيل.
 
-ÙØ³ØªØ®Ø¯Ù ÙØ°Ø§ Ø§ÙÙÙÙØ°Ø¬ ÙØ§ÙØªÙØ§Ø· ÙÙØ§Ø³Ø§Øª Ø¶ØºØ· Ø§ÙØ¯Ù ÙÙ Ø¬ÙÙØ¹ Ø§ÙØ³ÙÙØ§Ø±ÙÙÙØ§Øª Ø§ÙØ³Ø±ÙØ±ÙØ© - ÙØ«ÙØ§, ÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù Ø¨ÙØ§Ø³Ø·Ø© Ø§ÙØ´Ø®Øµ ÙÙÙØ³Ù Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù Ø¢ÙØ© Ø§ÙÙÙØ§Ø³ Ø§ÙÙÙØ²ÙÙØ©, ØªÙÙÙÙ Ø§ÙØ¶ØºØ· Ø§ÙØ§ÙÙØ¨Ø§Ø¶Ù ÙÙ Ø­Ø§ÙØ© Ø§ÙØ·ÙØ§Ø±Ø¦ Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù Ø§ÙÙØ¬Ø³ Ù ÙÙÙØ§Ø³ Ø§ÙØ¶ØºØ· Ø§ÙØ²Ø¦Ø¨ÙÙ, Ø§ÙÙÙØ§Ø³Ø§Øª Ø§ÙØªÙ ØªÙ Ø£Ø®Ø°ÙØ§ ÙÙ Ø§ÙØ§Ø³ØªØ´Ø§Ø±Ø§Øª Ø§ÙØ³Ø±ÙØ±ÙØ© Ø£Ù ÙÙ Ø£Ø«ÙØ§Ø¡ Ø§Ø®ØªØ¨Ø§Ø± Ø§ÙØ¶ØºØ· Ø§ÙØ¨Ø¯ÙÙ, Ù Ø³ÙØ³ÙØ© ÙÙ Ø§ÙÙÙØ§Ø³Ø§Øª Ø§ÙØªÙ ØªØªÙ Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù Ø¢ÙØ§Øª Ø§ÙØ¹ÙØ§ÙØ© Ø§ÙÙØ±ÙØ²Ø©.
+يستخدم هذا النموذج لالتقاط قياسات ضغط الدم في جميع السيناريوهات السريرية - مثلا, قياس ضغط الدم بواسطة الشخص لنفسه باستخدام آلة القياس المنزلية, تقييم الضغط الانقباضي في حالة الطوارئ باستخدام المجس و مقياس الضغط الزئبقي, القياسات التي تم أخذها في الاستشارات السريرية أو في أثناء اختبار الضغط البدني, و سلسلة من القياسات التي تتم باستخدام آلات العناية المركزة.
 
-ÙØ³ØªØ®Ø¯Ù ÙØ°Ø§ Ø§ÙÙÙÙØ°Ø¬ Ø§ÙØºÙÙ ÙÙ ØªØ³Ø¬ÙÙ Ø­Ø§ÙØ§Øª Ø§ÙÙÙØ§Ø³ ÙÙ Ø®ÙØ§Ù ØªÙØ³ÙØ±Ù ÙÙ Ø¶ÙØ¡ ÙØ¶Ø¹ Ø§ÙÙØ±ÙØ¶ Ø¹ÙØ¯ Ø§ÙÙÙØ§Ø³, Ø§ÙÙØ¬ÙÙØ¯ Ø§ÙØ¨Ø¯ÙÙ, Ø§ÙØ¹ÙØ§ÙÙ Ø§ÙÙØ±Ø¨ÙØ©, Ù Ø²Ø§ÙÙØ© Ø§ÙØ­ÙØ§Ø¡ Ø§ÙØ·Ø§ÙÙØ© Ø§ÙÙØ³ØªØ®Ø¯ÙØ© Ø¹ÙØ¯ Ø§ÙÙÙØ§Ø³.
+يستخدم هذا النموذج الغني في تسجيل حالات القياس من خلال تفسيره في ضوء وضع المريض عند القياس, المجهود البدني, العوامل المربكة, و زاوية انحناء الطاولة المستخدمة عند القياس.
 
-ØªÙ ØªØ­Ø¯ÙØ¯ Ø¨Ø¹Ø¶ Ø§ÙÙÙØ§Ø¦Ø¹ Ø¥ÙÙ Ø§ÙÙØªÙØ³Ø· Ø®ÙØ§Ù 24 Ø³Ø§Ø¹Ø©, Ø¥ÙØ§ Ø£Ù Ø§ÙÙÙØ§ÙØ¨ ØªØ³ØªØ·ÙØ¹ ØªÙÙÙØ¯ Ø§ÙØ§Ø®ØªÙØ§Ø± Ø§ÙØªÙÙØ§Ø¦Ù (Ø¥Ø­Ø¯Ù Ø§ÙÙÙØ§Ø¦Ø¹) ÙÙØªØ·ÙØ¨Ø§Øª ÙØ¹ÙÙØ© Ø­ÙÙ ÙÙØ§Ø³Ø§Øª Ø¶ØºØ· Ø§ÙØ¯Ù ÙØ«Ù ØªØ³Ø¬ÙÙ Ø¶ØºØ· Ø§ÙØ¯Ù ÙÙ ÙÙØ§Ø· Ø²ÙÙÙØ© ÙØ¹ÙÙØ© Ø£Ù Ø®ÙØ§Ù ÙØ¯Ù ÙÙ Ø§ÙÙÙØ§ØµÙ Ø§ÙØ²ÙÙÙØ© - Ø²Ø§Ø¦Ø¯ Ø£Ù ÙØ§ÙØµ Ø¯ÙØ§Ù Ø­Ø³Ø§Ø¨ÙØ©">
-            misuse = <"ÙØ§ ÙØ³ØªØ®Ø¯Ù ÙØªØ³Ø¬ÙÙ Ø§ÙØ¶ØºØ· Ø¯Ø§Ø®Ù Ø§ÙÙØ±ÙØ¯.
-ÙØ§ ÙØ³ØªØ®Ø¯Ù ÙÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù Ø§ÙØ´Ø±ÙØ§ÙÙ Ø§ÙØ°Ù ÙØ§ ÙØ­Ù Ø¨Ø¯ÙÙØ§ Ø¹Ù Ø¶ØºØ· Ø§ÙØ¯Ù Ø§ÙØ´Ø±ÙØ§ÙÙ ÙÙ Ø§ÙØ¯ÙØ±Ø© Ø§ÙØ¬ÙØ§Ø²ÙØ© ÙØ«Ù ÙÙØ§Ø³Ø§Øª ÙØ¹ÙÙØ© ÙØ¶ØºØ· Ø§ÙØ´Ø±ÙØ§Ù Ø§ÙØ±Ø¦ÙÙ Ø§ÙØ£ÙÙÙ.
-Ø§Ø³ØªØ®Ø¯Ù ÙÙÙØ°Ø¬ ÙÙØ§Ø­Ø¸Ø©. Ø§ÙØ¶ØºØ· Ø¯Ø§Ø®Ù Ø§ÙØ£ÙØ¹ÙØ© Ø§ÙØ¯ÙÙÙØ© , Ù Ø§ÙØªØ®ØµÙØµØ§Øª Ø§ÙÙØªØ¹ÙÙØ© ÙÙ ÙÙ ÙÙ ÙØ°ÙÙ Ø§ÙÙÙÙÙÙÙ.">
-            keywords = <"Ø§ÙÙÙØ§Ø­Ø¸Ø§Øª", "Ø§ÙÙÙØ§Ø³", "Ø¶ØºØ· Ø§ÙØ¯Ù", "Ø§ÙØ¹ÙØ§ÙØ§Øª Ø§ÙØ­ÙØ§ØªÙØ©", "ÙØªÙØ³Ø· Ø§ÙØ¶ØºØ· Ø§ÙØ´Ø±ÙØ§ÙÙ", "Ø§ÙØ¶ØºØ· Ø¹ÙØ¯ Ø§ÙÙØ¨Ø¶", "Ø§ÙØ§ÙÙØ¨Ø§Ø¶Ù", "Ø§ÙØ§ÙØ¨Ø³Ø§Ø·Ù", "ÙØ¹Ø¯Ù Ø§ÙØªÙÙØ³", "ÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù ØºÙØ± Ø§ÙØ¨Ø§Ø¶Ø¹">
-            copyright = <"Â© openEHR Foundation">
+تم تحديد بعض الوقائع إلى المتوسط خلال 24 ساعة, إلا أن القوالب تستطيع تقييد الاختيار التلقائي (إحدى الوقائع) لمتطلبات معينة حول قياسات ضغط الدم مثل تسجيل ضغط الدم في نقاط زمنية معينة أو خلال مدى من الفواصل الزمنية - زائد أو ناقص دوال حسابية">
+            misuse = <"لا يستخدم لتسجيل الضغط داخل الوريد.
+لا يستخدم لقياس ضغط الدم الشرياني الذي لا يحل بديلا عن ضغط الدم الشرياني في الدورة الجهازية مثل قياسات معينة لضغط الشريان الرئوي الأيمن.
+استخدم نموذج ملاحظة. الضغط داخل الأوعية الدموية , و التخصيصات المتعلقة في كل من هذين الموقفين.">
+            keywords = <"الملاحظات", "القياس", "ضغط الدم", "العلامات الحياتية", "متوسط الضغط الشرياني", "الضغط عند النبض", "الانقباضي", "الانبساطي", "معدل التنفس", "قياس ضغط الدم غير الباضع">
+            copyright = <"© openEHR Foundation">
         >
         ["es-ar"] = <
             language = <[ISO_639-1::es-ar]>
-            purpose = <"Registrar la presiÃ³n arterial sistÃ©mica de un individuo">
-            use = <"Usar para registrar todas las representaciones de la presiÃ³n arterial sistÃ©mica, sin importar que mÃ©todo o localizaciÃ³n del cuerpo se use para el registro. El arquetipo se usa para capturar la medida de la presiÃ³n arterial en todos los escenarios clÃ­nicos - por ejemplo: automediciÃ³n con un tensiÃ³metro de uso domiciliario; la evaluaciÃ³n en situaciÃ³n de emergencia, de la sistÃ³lica usando palpaciÃ³n y un esfingomanÃ³metro; medidas tomadas durante la consulta clÃ­nica o durante la prueba de esfuerzo (ergometrÃ­a); y la serie de medidas automÃ¡ticas hechas en la Unidad de Cuidados Intensivos.
-Existe un variado modelo de situaciones que soporta la interpretaciÃ³n de mediciones a travÃ©s de la interpretaciÃ³n de la posiciÃ³n del paciente, ejercicio, factores confluentes y el Ã¡ngulo de inclinaciÃ³n de la camilla en situaciones de investigaciÃ³n.
-Los eventos se han limitado a promediarse sobre un intervalo de 24 horas, sin embargo plantillas pueden acotar la medida por defecto 'cualquier evento' para ajustarse a requerimientos especÃ­ficos de medida de la presiÃ³n arterial como el Registro de la TensiÃ³n Arterial durante momentos especÃ­ficos de tiempo, o sobre un rango de intervalos (+/- funciones matemÃ¡ticas)
+            purpose = <"Registrar la presión arterial sistémica de un individuo">
+            use = <"Usar para registrar todas las representaciones de la presión arterial sistémica, sin importar que método o localización del cuerpo se use para el registro. El arquetipo se usa para capturar la medida de la presión arterial en todos los escenarios clínicos - por ejemplo: automedición con un tensiómetro de uso domiciliario; la evaluación en situación de emergencia, de la sistólica usando palpación y un esfingomanómetro; medidas tomadas durante la consulta clínica o durante la prueba de esfuerzo (ergometría); y la serie de medidas automáticas hechas en la Unidad de Cuidados Intensivos.
+Existe un variado modelo de situaciones que soporta la interpretación de mediciones a través de la interpretación de la posición del paciente, ejercicio, factores confluentes y el ángulo de inclinación de la camilla en situaciones de investigación.
+Los eventos se han limitado a promediarse sobre un intervalo de 24 horas, sin embargo plantillas pueden acotar la medida por defecto 'cualquier evento' para ajustarse a requerimientos específicos de medida de la presión arterial como el Registro de la Tensión Arterial durante momentos específicos de tiempo, o sobre un rango de intervalos (+/- funciones matemáticas)
 
  ">
-            misuse = <"No debe usarse para la presiÃ³n intravenosa
-No debe usarse para la medida de la presiÃ³n arterial que NO deriva de la presiÃ³n arterial de la circulaciÃ³n sistÃ©mica ej: la medida especÃ­fica de la presiÃ³n de la arteria Pulmonar (presiÃ³n capilar)
-Usen ObservaciÃ³n.presiÃ³n_intravascular y especializaciones relacionadas para estas dos situaciones en particular.
+            misuse = <"No debe usarse para la presión intravenosa
+No debe usarse para la medida de la presión arterial que NO deriva de la presión arterial de la circulación sistémica ej: la medida específica de la presión de la arteria Pulmonar (presión capilar)
+Usen Observación.presión_intravascular y especializaciones relacionadas para estas dos situaciones en particular.
 ">
-            keywords = <"observaciones(sp)", "mediciones(sp)", "presiÃ³n arterial(sp)", "signos vitales(sp)", "presiÃ³n arterial media(sp)", "presiÃ³n pulso(sp)", "sistÃ³lica(sp)", "diastÃ³lica(sp)", "RR(en)", "PresiÃ³n Arterial No Invasiva(sp)", "PANI(sp)">
-            copyright = <"Â© openEHR Foundation">
+            keywords = <"observaciones(sp)", "mediciones(sp)", "presión arterial(sp)", "signos vitales(sp)", "presión arterial media(sp)", "presión pulso(sp)", "sistólica(sp)", "diastólica(sp)", "RR(en)", "Presión Arterial No Invasiva(sp)", "PANI(sp)">
+            copyright = <"© openEHR Foundation">
         >
         ["pt-br"] = <
             language = <[ISO_639-1::pt-br]>
-            purpose = <"Para registrar a pressÃ£o arterial sistÃªmica de um indivÃ­duo.">
-            use = <"Usado para registrar todas as representaÃ§Ãµes da medida da  pressÃ£o areterial sistÃªmica, nÃ£o importando qual mÃ©todo ou localizaÃ§Ã£o corporal usada para registrÃ¡-la. O objetivo do arquÃ©tipo Ã© capturar a pressÃ£o sanguÃ­nea em todos os cenÃ¡rios clÃ­nicos - por exemplo, auto-medida com um aparelho de pressÃ£o caseiro; um avaliaÃ§Ã£o de emergÃªncia da pressÃ£o sistÃ³lica usando palpaÃ§Ã£o e esfigmomanÃ´metro; medidas realizadas em consultas clÃ­nicas ou durante testes de esforÃ§o; e uma sÃ©rie de medidas feitas por uma mÃ¡quina em uma Unidade de Terapia Intensiva.
-Existe um modelo rico que apoia a interpretaÃ§Ã£o de medidas atravÃ©s da identificaÃ§Ã£o da posiÃ§Ã£o do paciente, nÃ­vel exercÃ­cio, gatores confundidores e Ã¢ngulo de uma mesa de inclinaÃ§Ã£o em uma pesquisa.
-Eventos nomeados tÃªm sido limitados em mÃ©dica a um perÃ­odo de 24 horas, entretanto templates podem, posteriormente, restringir o padrÃ£o predeterminado 'qualquer evento'  para atender a requisitos especÃ­ficos registro de medida de pressÃ£o sanguÃ­nea em pontos no tempo especÃ­ficos, ou em faixas de intervalos (+/-funÃ§Ãµes matemÃ¡ticas).">
-            misuse = <"NÃ£o deve ser usada para registrar pressÃ£o intravenosa.
-NÃ£o deve ser usada para medida da pressÃ£o arterial que NÃO Ã© um substituto da pressÃ£o arterial na circulaÃ§Ã£o sistÃªmica, por exemplo, medida especÃ­fica da pressÃ£o da artÃ©ria Pulmonar direita.
-Em ambas situaÃ§Ãµes use OBSERVATION.intravascular_pressure e especializaÃ§Ãµes relacionadas.">
-            keywords = <"observaÃ§Ãµes", "medidas", "PA", "pressÃ£o sanguÃ­nea", "sinais vitais", "PressÃ£o arterial mÃ©dia", "PressÃ£o de Pulso", "sistÃ³lica", "diÃ¡stÃ³lica">
-            copyright = <"Â© openEHR Foundation">
+            purpose = <"Para registrar a pressão arterial sistêmica de um indivíduo.">
+            use = <"Usado para registrar todas as representações da medida da  pressão areterial sistêmica, não importando qual método ou localização corporal usada para registrá-la. O objetivo do arquétipo é capturar a pressão sanguínea em todos os cenários clínicos - por exemplo, auto-medida com um aparelho de pressão caseiro; um avaliação de emergência da pressão sistólica usando palpação e esfigmomanômetro; medidas realizadas em consultas clínicas ou durante testes de esforço; e uma série de medidas feitas por uma máquina em uma Unidade de Terapia Intensiva.
+Existe um modelo rico que apoia a interpretação de medidas através da identificação da posição do paciente, nível exercício, gatores confundidores e ângulo de uma mesa de inclinação em uma pesquisa.
+Eventos nomeados têm sido limitados em médica a um período de 24 horas, entretanto templates podem, posteriormente, restringir o padrão predeterminado 'qualquer evento'  para atender a requisitos específicos registro de medida de pressão sanguínea em pontos no tempo específicos, ou em faixas de intervalos (+/-funções matemáticas).">
+            misuse = <"Não deve ser usada para registrar pressão intravenosa.
+Não deve ser usada para medida da pressão arterial que NÃO é um substituto da pressão arterial na circulação sistêmica, por exemplo, medida específica da pressão da artéria Pulmonar direita.
+Em ambas situações use OBSERVATION.intravascular_pressure e especializações relacionadas.">
+            keywords = <"observações", "medidas", "PA", "pressão sanguínea", "sinais vitais", "Pressão arterial média", "Pressão de Pulso", "sistólica", "diástólica">
+            copyright = <"© openEHR Foundation">
         >
     >
     conversion_details = <
@@ -310,7 +310,7 @@ definition
                                             DV_QUANTITY[id1066] occurrences matches {1} matches {
                                                 property matches {[at1067]}
                                                 [magnitude, units, precision] matches {
-                                                    [{|-90.0..90.0|}, {"Â°"}, {0}]
+                                                    [{|-90.0..90.0|}, {"°"}, {0}]
                                                 }
                                             }
                                         }
@@ -403,11 +403,11 @@ terminology
             >
             ["ac1062"] = <
                 text = <"Position (synthesised)">
-                description = <"Die Position der untersuchten Person wÃ¤hrend der Messung. (synthesised)">
+                description = <"Die Position der untersuchten Person während der Messung. (synthesised)">
             >
             ["ac1065"] = <
                 text = <"Schlafzustand (synthesised)">
-                description = <"Schlafzustand  - unterstÃ¼tzt die Auswertung von 24-stÃ¼ndigen ambulanten Aufzeichnungen des Blutdrucks. (synthesised)">
+                description = <"Schlafzustand  - unterstützt die Auswertung von 24-stündigen ambulanten Aufzeichnungen des Blutdrucks. (synthesised)">
             >
             ["at1067"] = <
                 text = <"*Angle, plane(en)">
@@ -418,12 +418,12 @@ terminology
                 description = <"*mean(en)">
             >
             ["ac1074"] = <
-                text = <"ManschettengrÃ¶Ãe (synthesised)">
-                description = <"Die GrÃ¶Ãe der Manschette, die zur Blutdruckmessung benutzt wurde. (synthesised)">
+                text = <"Manschettengröße (synthesised)">
+                description = <"Die Größe der Manschette, die zur Blutdruckmessung benutzt wurde. (synthesised)">
             >
             ["ac1076"] = <
-                text = <"KÃ¶rperstelle der Messung (synthesised)">
-                description = <"GewÃ¶hnliche KÃ¶rperstellen, an denen der Blutdruck gemessen wird. (synthesised)">
+                text = <"Körperstelle der Messung (synthesised)">
+                description = <"Gewöhnliche Körperstellen, an denen der Blutdruck gemessen wird. (synthesised)">
             >
             ["ac1079"] = <
                 text = <"Methode (synthesised)">
@@ -431,11 +431,11 @@ terminology
             >
             ["ac1082"] = <
                 text = <"Diastolischer Endpunkt (synthesised)">
-                description = <"Dient der Dokumentation des Korotkoff-GerÃ¤usches, das verwendet wird, um bei auskultarischer Messung den diastolischen Blutdruck zu bestimmen. (synthesised)">
+                description = <"Dient der Dokumentation des Korotkoff-Geräusches, das verwendet wird, um bei auskultarischer Messung den diastolischen Blutdruck zu bestimmen. (synthesised)">
             >
             ["id1"] = <
                 text = <"Blutdruck">
-                description = <"Die lokale Messung des arteriellen Blutdrucks als Surrogat fÃ¼r den arteriellen Druck in der systemischen Zirkulation. HÃ¤ufig wird der Ausdruck 'Blutdruck' zur Bezeichung der Messung des brachialen Ateriendrucks im Oberarm verwendet.">
+                description = <"Die lokale Messung des arteriellen Blutdrucks als Surrogat für den arteriellen Druck in der systemischen Zirkulation. Häufig wird der Ausdruck 'Blutdruck' zur Bezeichung der Messung des brachialen Ateriendrucks im Oberarm verwendet.">
             >
             ["id2"] = <
                 text = <"Historie">
@@ -447,7 +447,7 @@ terminology
             >
             ["id5"] = <
                 text = <"Systolisch">
-                description = <"Der hÃ¶chste arterielle Blutdruck eines Zyklus - gemessen in der systolischen oder Kontraktionsphase des Herzens.">
+                description = <"Der höchste arterielle Blutdruck eines Zyklus - gemessen in der systolischen oder Kontraktionsphase des Herzens.">
             >
             ["id6"] = <
                 text = <"Diastolisch">
@@ -463,32 +463,32 @@ terminology
             >
             ["id9"] = <
                 text = <"Position">
-                description = <"Die Position der untersuchten Person wÃ¤hrend der Messung.">
+                description = <"Die Position der untersuchten Person während der Messung.">
             >
             ["id12"] = <
                 text = <"Listenstruktur">
                 description = <"Listenstruktur">
             >
             ["id14"] = <
-                text = <"ManschettengrÃ¶Ãe">
-                description = <"Die GrÃ¶Ãe der Manschette, die zur Blutdruckmessung benutzt wurde.">
+                text = <"Manschettengröße">
+                description = <"Die Größe der Manschette, die zur Blutdruckmessung benutzt wurde.">
                 comment = <"Perloff D, Grim C, Flack J, Frohlich ED, Hill M, McDonald M, Morgenstern BZ. Human blood pressure determination by sphygmomanometry. Circulation 1993;88;2460-2470.">
             >
             ["id15"] = <
-                text = <"KÃ¶rperstelle der Messung">
-                description = <"GewÃ¶hnliche KÃ¶rperstellen, an denen der Blutdruck gemessen wird.">
+                text = <"Körperstelle der Messung">
+                description = <"Gewöhnliche Körperstellen, an denen der Blutdruck gemessen wird.">
             >
             ["at16"] = <
                 text = <"Oberschenkel eines Erwachsenen">
-                description = <"Eine Manschette fÃ¼r den Oberschenkel eines Erwachsenen - ca. 20cm x 42cm.">
+                description = <"Eine Manschette für den Oberschenkel eines Erwachsenen - ca. 20cm x 42cm.">
             >
             ["at17"] = <
-                text = <"GroÃer Erwachsener">
-                description = <"Eine Manschette fÃ¼r Erwachsene mit grÃ¶Ãeren Armen - ca. 16cm x 38cm.">
+                text = <"Großer Erwachsener">
+                description = <"Eine Manschette für Erwachsene mit größeren Armen - ca. 16cm x 38cm.">
             >
             ["at18"] = <
                 text = <"Erwachsener">
-                description = <"Eine Standard-Manschette fÃ¼r einen Erwachsenen - ca. 13cm x 30cm.">
+                description = <"Eine Standard-Manschette für einen Erwachsenen - ca. 13cm x 30cm.">
             >
             ["at26"] = <
                 text = <"Rechter Arm">
@@ -519,8 +519,8 @@ terminology
                 description = <"Sitzend zum Zeitpunkt der Blutdruckmessung (z.B. auf einem Bett oder Stuhl).">
             >
             ["at1003"] = <
-                text = <"ZurÃ¼ckgelehnt">
-                description = <"Patient zurÃ¼ckgelehnt zum Zeitpunkt der Blutdruckmessung.">
+                text = <"Zurückgelehnt">
+                description = <"Patient zurückgelehnt zum Zeitpunkt der Blutdruckmessung.">
             >
             ["at1004"] = <
                 text = <"Liegend">
@@ -528,11 +528,11 @@ terminology
             >
             ["id1006"] = <
                 text = <"Neigung">
-                description = <"Die cranio-kaudale Neigung der OberflÃ¤che auf der die Person zum Zeitpunkt der Messung liegt.">
+                description = <"Die cranio-kaudale Neigung der Oberfläche auf der die Person zum Zeitpunkt der Messung liegt.">
             >
             ["id1007"] = <
                 text = <"Mittlerer arterieller Druck">
-                description = <"Der mittlerer arterielle Druck Ã¼ber den gesamten Verlauf der Konktraktions- und Entspannungsphase des Herzens.">
+                description = <"Der mittlerer arterielle Druck über den gesamten Verlauf der Konktraktions- und Entspannungsphase des Herzens.">
             >
             ["id1008"] = <
                 text = <"Pulsdruck">
@@ -540,35 +540,35 @@ terminology
             >
             ["at1009"] = <
                 text = <"Kleiner Erwachsener">
-                description = <"Eine Manschette fÃ¼r einen kleinen Erwachsenen - ca. 10cm x 24cm.">
+                description = <"Eine Manschette für einen kleinen Erwachsenen - ca. 10cm x 24cm.">
             >
             ["at1010"] = <
-                text = <"PÃ¤diatrisch/Kind">
-                description = <"Eine Manschette fÃ¼r ein Kind oder auch einen Erwachsenen mit einem schmalen Arm - 8cm x 21cm.">
+                text = <"Pädiatrisch/Kind">
+                description = <"Eine Manschette für ein Kind oder auch einen Erwachsenen mit einem schmalen Arm - 8cm x 21cm.">
             >
             ["id1011"] = <
                 text = <"Diastolischer Endpunkt">
-                description = <"Dient der Dokumentation des Korotkoff-GerÃ¤usches, das verwendet wird, um bei auskultarischer Messung den diastolischen Blutdruck zu bestimmen.">
+                description = <"Dient der Dokumentation des Korotkoff-Geräusches, das verwendet wird, um bei auskultarischer Messung den diastolischen Blutdruck zu bestimmen.">
             >
             ["at1012"] = <
                 text = <"Phase IV">
-                description = <"Das 4. Korotkoff-GerÃ¤usch - Die GerÃ¤usche klingen plÃ¤tzlich gedÃ¤mpft.">
+                description = <"Das 4. Korotkoff-Geräusch - Die Geräusche klingen plätzlich gedämpft.">
             >
             ["at1013"] = <
                 text = <"Phase V">
-                description = <"Das 5. Korotkoff-GerÃ¤usch - die GerÃ¤usche verschwinden vÃ¶llig wÃ¤hrend der Manschettendruck unter den diastolischen Blutdruck fÃ¤llt.">
+                description = <"Das 5. Korotkoff-Geräusch - die Geräusche verschwinden völlig während der Manschettendruck unter den diastolischen Blutdruck fällt.">
             >
             ["at1015"] = <
                 text = <"Nach links geneigt liegend">
-                description = <"Flach liegend mit seitlicher Neigung, normalerweise zur linken Seite. HÃ¤ufig verwendet im letzten Drittel eine Schwangerschaft, um aorto-cavale Kompression zu vermeiden.">
+                description = <"Flach liegend mit seitlicher Neigung, normalerweise zur linken Seite. Häufig verwendet im letzten Drittel eine Schwangerschaft, um aorto-cavale Kompression zu vermeiden.">
             >
             ["at1019"] = <
                 text = <"Kleinkind">
-                description = <"Eine Manschette fÃ¼r Kleinkinder und SÃ¤uglinge - ca. 5cm x 15cm.">
+                description = <"Eine Manschette für Kleinkinder und Säuglinge - ca. 5cm x 15cm.">
             >
             ["at1020"] = <
                 text = <"Neonatal">
-                description = <"Eine Manschette fÃ¼r Neugeborene mit passender GrÃ¶Ãe fÃ¼r die Reife und das Geburtsgewicht des Neugeborenen.">
+                description = <"Eine Manschette für Neugeborene mit passender Größe für die Reife und das Geburtsgewicht des Neugeborenen.">
             >
             ["at1021"] = <
                 text = <"Rechtes Handgelenk">
@@ -579,32 +579,32 @@ terminology
                 description = <"Das linke Handgelenk der Person.">
             >
             ["id1026"] = <
-                text = <"GerÃ¤t">
-                description = <"Details Ã¼ber das Sphygmomanometer oder ein anderes GerÃ¤t, dass zur Blutdruckmessung verwendet wird.">
+                text = <"Gerät">
+                description = <"Details über das Sphygmomanometer oder ein anderes Gerät, dass zur Blutdruckmessung verwendet wird.">
             >
             ["at1027"] = <
-                text = <"Rechtes FuÃgelenk">
-                description = <"Das rechte FuÃgelenk der Person.">
+                text = <"Rechtes Fußgelenk">
+                description = <"Das rechte Fußgelenk der Person.">
             >
             ["id1031"] = <
                 text = <"Anstrengung">
-                description = <"Details Ã¼ber physische AktivitÃ¤ten zur Zeit der Blutdruckmessung.">
+                description = <"Details über physische Aktivitäten zur Zeit der Blutdruckmessung.">
             >
             ["at1032"] = <
-                text = <"Linkes FuÃgelenk">
-                description = <"Das linke FuÃgelenk der Person">
+                text = <"Linkes Fußgelenk">
+                description = <"Das linke Fußgelenk der Person">
             >
             ["at1033"] = <
                 text = <"Finger">
-                description = <"Ein Finger der Person. Der Finger kann, falls benÃ¶tigt, als 'Spezifische Stelle' genauer identifiziert werden.">
+                description = <"Ein Finger der Person. Der Finger kann, falls benötigt, als 'Spezifische Stelle' genauer identifiziert werden.">
             >
             ["id1034"] = <
-                text = <"KÃ¶rperstelle">
-                description = <"KÃ¶rperstelle der Blutdruckmessung. 'KÃ¶rperstelle der Messung' kann fÃ¼r die gewÃ¶hnlichen Stellen verwendet werden. 'Spezifische Stelle' wird fÃ¼r die Aufzeichnung spezifischer Details einer KÃ¶rperstelle, die nicht in den gewÃ¶hnlichen Stellen enthalten ist, verwendet, Sie kann auch verwendet werden, um auf eine externe Teminologie zu verweisen.">
+                text = <"Körperstelle">
+                description = <"Körperstelle der Blutdruckmessung. 'Körperstelle der Messung' kann für die gewöhnlichen Stellen verwendet werden. 'Spezifische Stelle' wird für die Aufzeichnung spezifischer Details einer Körperstelle, die nicht in den gewöhnlichen Stellen enthalten ist, verwendet, Sie kann auch verwendet werden, um auf eine externe Teminologie zu verweisen.">
             >
             ["id1035"] = <
                 text = <"Spezifische Stelle">
-                description = <"Spezifische Details Ã¼ber die KÃ¶rperstelle, an der der Blutdruck gemessen wird.">
+                description = <"Spezifische Details über die Körperstelle, an der der Blutdruck gemessen wird.">
             >
             ["id1036"] = <
                 text = <"Methode">
@@ -612,14 +612,14 @@ terminology
             >
             ["at1037"] = <
                 text = <"Auskultation">
-                description = <"Auskulatorische Messung unter Benutzung eines Stethoskops und der Korotkoff-GerÃ¤usche.">
+                description = <"Auskulatorische Messung unter Benutzung eines Stethoskops und der Korotkoff-Geräusche.">
             >
             ["at1038"] = <
                 text = <"Palpation">
                 description = <"Palpatorische Messung, normalerweise an den brachialen oder radialen Arterien.">
             >
             ["id1039"] = <
-                text = <"Formel fÃ¼r mittleren arterieller Druck">
+                text = <"Formel für mittleren arterieller Druck">
                 description = <"Die Formel die ggf. verwendet wurde, um den mittleren arteriellen Druck zu berechnen.">
             >
             ["at1040"] = <
@@ -628,15 +628,15 @@ terminology
             >
             ["at1041"] = <
                 text = <"Invasiv">
-                description = <"Invasive Messung des Blutdrucks innerhalb eines GefÃ¤Ães.">
+                description = <"Invasive Messung des Blutdrucks innerhalb eines Gefäßes.">
             >
             ["id1043"] = <
                 text = <"24 Stunden Durchschnitt">
-                description = <"SchÃ¤tzung des durchschnittlichen Blutdrucks Ã¼ber eine 24-stÃ¼ndigen Zeitraum.">
+                description = <"Schätzung des durchschnittlichen Blutdrucks über eine 24-stündigen Zeitraum.">
             >
             ["id1044"] = <
                 text = <"Schlafzustand">
-                description = <"Schlafzustand  - unterstÃ¼tzt die Auswertung von 24-stÃ¼ndigen ambulanten Aufzeichnungen des Blutdrucks.">
+                description = <"Schlafzustand  - unterstützt die Auswertung von 24-stündigen ambulanten Aufzeichnungen des Blutdrucks.">
             >
             ["at1045"] = <
                 text = <"Aufmerksam und wach">
@@ -644,19 +644,19 @@ terminology
             >
             ["at1046"] = <
                 text = <"Schlafend">
-                description = <"Die untersuchte Person schlÃ¤ft.">
+                description = <"Die untersuchte Person schläft.">
             >
             ["at1052"] = <
                 text = <"Zeh">
-                description = <"Ein Zeh der Person. Der Zeh kann, falls benÃ¶tigt, als 'Spezifische Stelle' genauer identifiziert werden.">
+                description = <"Ein Zeh der Person. Der Zeh kann, falls benötigt, als 'Spezifische Stelle' genauer identifiziert werden.">
             >
             ["id1053"] = <
                 text = <"Einflussfaktoren">
-                description = <"Kommentar und Aufzeichung anderer Faktoren die ggf. zu dem Ergebnis der Blutdruckmessung beitragen kÃ¶nnen. Die kann z.B. bei belastenden Situationen der Fall sein (z.B. sog. WeiÃkittelhypertonie, Schmerzen, Fieber, Ãnderungen im atmosphÃ¤rischen Druck).">
+                description = <"Kommentar und Aufzeichung anderer Faktoren die ggf. zu dem Ergebnis der Blutdruckmessung beitragen können. Die kann z.B. bei belastenden Situationen der Fall sein (z.B. sog. Weißkittelhypertonie, Schmerzen, Fieber, Änderungen im atmosphärischen Druck).">
             >
             ["at1054"] = <
                 text = <"Intra-arteriell">
-                description = <"Invasive Messung Ã¼ber einen arteriellen Drucksensor. Die genaue Stelle des Drucksensors kann, falls benÃ¶tigt, als 'Spezifische Stelle' genauer identifiziert werden.">
+                description = <"Invasive Messung über einen arteriellen Drucksensor. Die genaue Stelle des Drucksensors kann, falls benötigt, als 'Spezifische Stelle' genauer identifiziert werden.">
             >
         >
         ["ru"] = <
@@ -665,12 +665,12 @@ terminology
                 description = <"*Pressure(en)">
             >
             ["ac1062"] = <
-                text = <"ÐÐ¾Ð·Ð° (synthesised)">
-                description = <"ÐÐ¾Ð·Ð° Ð¿Ð°ÑÐ¸ÐµÐ½ÑÐ° Ð²Ð¾ Ð²ÑÐµÐ¼Ñ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ. (synthesised)">
+                text = <"Поза (synthesised)">
+                description = <"Поза пациента во время измерения давления. (synthesised)">
             >
             ["ac1065"] = <
-                text = <"Ð¡ÑÐ°Ð´Ð¸Ñ ÑÐ½Ð°(ru) (synthesised)">
-                description = <"Ð¡ÑÐ°Ð´Ð¸Ñ ÑÐ½Ð° - Ð´Ð»Ñ Ð¸Ð½ÑÐµÑÐ¿ÑÐµÑÐ°ÑÐ¸Ð¸ Ð·Ð°Ð¿Ð¸ÑÐ¸ Ð°Ð¼Ð±ÑÐ»Ð°ÑÐ¾ÑÐ½Ð¾Ð³Ð¾ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÐÐ Ð² ÑÐµÑÐµÐ½Ð¸Ðµ 42 ÑÐ°ÑÐ¾Ð². (synthesised)">
+                text = <"Стадия сна(ru) (synthesised)">
+                description = <"Стадия сна - для интерпретации записи амбулаторного измерения АД в течение 42 часов. (synthesised)">
             >
             ["at1067"] = <
                 text = <"*Angle, plane(en)">
@@ -681,24 +681,24 @@ terminology
                 description = <"*mean(en)">
             >
             ["ac1074"] = <
-                text = <"Ð Ð°Ð·Ð¼ÐµÑ Ð¼Ð°Ð½Ð¶ÐµÑÑ(ru) (synthesised)">
-                description = <"Ð Ð°Ð·Ð¼ÐµÑ Ð¼Ð°Ð½Ð¶ÐµÑÑ Ð´Ð»Ñ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÐºÑÐ¾Ð²ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ. (synthesised)">
+                text = <"Размер манжеты(ru) (synthesised)">
+                description = <"Размер манжеты для измерения кровяного давления. (synthesised)">
             >
             ["ac1076"] = <
-                text = <"ÐÐµÑÑÐ¾ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ (synthesised)">
-                description = <"ÐÐ±Ð¾Ð±ÑÐµÐ½Ð½Ð¾Ðµ Ð¼ÐµÑÑÐ¾ ÑÐµÐ»Ð°, Ð² ÐºÐ¾ÑÐ¾ÑÐ¼ Ð¿ÑÐ¾Ð¸Ð·Ð²Ð¾Ð´Ð¸ÑÑÑ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ðµ Ð°ÑÑÐµÑÐ¸Ð°Ð»ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ. (synthesised)">
+                text = <"Место измерения (synthesised)">
+                description = <"Обобщенное место тела, в которм производится измерение артериального давления. (synthesised)">
             >
             ["ac1079"] = <
-                text = <"ÐÐµÑÐ¾Ð´ (synthesised)">
-                description = <"ÐÐµÑÐ¾Ð´ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÐºÑÐ¾Ð²ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ. (synthesised)">
+                text = <"Метод (synthesised)">
+                description = <"Метод измерения кровяного давления. (synthesised)">
             >
             ["ac1082"] = <
-                text = <"ÐÐ¸Ð°ÑÑÐ¾Ð»Ð¸ÑÐµÑÐºÐ°Ñ ÐºÐ¾Ð½ÐµÑÐ½Ð°Ñ ÑÐ¾ÑÐºÐ° (synthesised)">
-                description = <"ÐÐ°Ð¿Ð¸ÑÑ Ð·Ð²ÑÐºÐ° ÐÐ¾ÑÐ¾ÑÐºÐ¾Ð²Ð° ÐºÐ¾ÑÐ¾ÑÑÐ¹ Ð¸ÑÐ¿Ð¾Ð»ÑÐ·ÑÑÑ Ð´Ð»Ñ Ð¾Ð¿ÑÐµÐ´ÐµÐ»ÐµÐ½Ð¸Ñ Ð´Ð¸Ð°ÑÑÐ¾Ð»Ð¸ÑÐµÑÐºÐ¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ Ñ Ð¿Ð¾Ð¼Ð¾ÑÑÑ Ð¼ÐµÑÐ¾Ð´Ð° Ð°ÑÑÐºÑÐ»ÑÑÐ°ÑÐ¸Ð¸. (synthesised)">
+                text = <"Диастолическая конечная точка (synthesised)">
+                description = <"Запись звука Короткова который используют для определения диастолического давления с помощью метода аускультации. (synthesised)">
             >
             ["id1"] = <
-                text = <"ÐÐ">
-                description = <"ÐÐ¾ÐºÐ°Ð»ÑÐ½Ð¾Ðµ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ðµ Ð°ÑÑÐµÑÐ¸Ð°Ð»ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ, ÐºÐ¾ÑÐ¾ÑÐ¾Ðµ ÑÐ²Ð»ÑÐµÑÑÑ ÑÑÑÑÐ¾Ð³Ð°ÑÐ¾Ð¼ Ð°ÑÑÐµÑÐ¸Ð°Ð»ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ Ð² ÑÐ¸ÑÑÐµÐ¼Ð½Ð¾Ð¼ ÐºÑÐ¾Ð²Ð¾ÑÐ¾ÐºÐµ. ÐÐ°Ðº Ð¿ÑÐ°Ð²Ð¸Ð»Ð¾, ÑÐµÑÐ¼Ð¸Ð½ Ð¾ÑÐ½Ð¾ÑÐ¸ÑÑÑ Ðº Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ Ð¿Ð»ÐµÑÐµÐ²Ð¾Ð¹ Ð°ÑÑÐµÑÐ¸Ð¸ Ð½Ð° Ð¿ÑÐµÐ´Ð¿Ð»ÐµÑÑÐµ.
+                text = <"АД">
+                description = <"Локальное измерение артериального давления, которое является суррогатом артериального давления в системном кровотоке. Как правило, термин относится к давления плечевой артерии на предплечье.
 ">
             >
             ["id2"] = <
@@ -710,15 +710,15 @@ terminology
                 description = <"*@ internal @(en)">
             >
             ["id5"] = <
-                text = <"Ð¡Ð¸ÑÑÐ¾Ð»Ð¸ÑÐµÑÐºÐ¾Ðµ">
-                description = <"ÐÐ¸Ðº ÑÐ¸ÑÑÐµÐ¼Ð½Ð¾Ð³Ð¾ Ð°ÑÑÐµÑÐ¸Ð°Ð»ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ - Ð¸Ð·Ð¼ÐµÑÑÐµÑÑÑ Ð² ÑÐ¸ÑÑÐ¾Ð»Ð¸Ñ Ð¸Ð»Ð¸ Ð² ÑÐ°Ð·Ñ ÑÐ¾ÐºÑÐ°ÑÐµÐ½Ð¸Ñ ÑÐµÑÐ´ÑÐ°">
+                text = <"Систолическое">
+                description = <"Пик системного артериального давления - измеряется в систолиу или в фазу сокращения сердца">
             >
             ["id6"] = <
-                text = <"ÐÐ¸Ð°ÑÑÐ¾Ð»Ð¸ÑÐµÑÐºÐ¾Ðµ">
-                description = <"ÐÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑÐ½Ð¾Ðµ ÑÐ¸ÑÑÐµÐ¼Ð½Ð¾Ðµ Ð°ÑÑÐµÑÐ¸Ð°Ð»ÑÐ½Ð¾Ðµ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ - Ð¸Ð·Ð¼ÐµÑÑÐµÑÑÑ Ð² Ð´Ð¸Ð°ÑÑÐ¾Ð»Ñ Ð¸Ð»Ð¸ Ð² ÑÐ°Ð·Ñ ÑÐµÐ»Ð°ÐºÑÐ°ÑÐ¸Ð¸ ÑÐµÑÐ´ÑÐ°.">
+                text = <"Диастолическое">
+                description = <"Минимальное системное артериальное давление - измеряется в диастолу или в фазу релаксации сердца.">
             >
             ["id7"] = <
-                text = <"ÐÑÐ±Ð¾Ðµ ÑÐ¾Ð±ÑÑÐ¸Ðµ">
+                text = <"Любое событие">
                 description = <"*Default event(en)">
             >
             ["id8"] = <
@@ -726,200 +726,200 @@ terminology
                 description = <"*@ internal @(en)">
             >
             ["id9"] = <
-                text = <"ÐÐ¾Ð·Ð°">
-                description = <"ÐÐ¾Ð·Ð° Ð¿Ð°ÑÐ¸ÐµÐ½ÑÐ° Ð²Ð¾ Ð²ÑÐµÐ¼Ñ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ.">
+                text = <"Поза">
+                description = <"Поза пациента во время измерения давления.">
             >
             ["id12"] = <
                 text = <"*list structure(en)">
                 description = <"*list structure(en)">
             >
             ["id14"] = <
-                text = <"Ð Ð°Ð·Ð¼ÐµÑ Ð¼Ð°Ð½Ð¶ÐµÑÑ(ru)">
-                description = <"Ð Ð°Ð·Ð¼ÐµÑ Ð¼Ð°Ð½Ð¶ÐµÑÑ Ð´Ð»Ñ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÐºÑÐ¾Ð²ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ.">
+                text = <"Размер манжеты(ru)">
+                description = <"Размер манжеты для измерения кровяного давления.">
             >
             ["id15"] = <
-                text = <"ÐÐµÑÑÐ¾ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ">
-                description = <"ÐÐ±Ð¾Ð±ÑÐµÐ½Ð½Ð¾Ðµ Ð¼ÐµÑÑÐ¾ ÑÐµÐ»Ð°, Ð² ÐºÐ¾ÑÐ¾ÑÐ¼ Ð¿ÑÐ¾Ð¸Ð·Ð²Ð¾Ð´Ð¸ÑÑÑ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ðµ Ð°ÑÑÐµÑÐ¸Ð°Ð»ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ.">
+                text = <"Место измерения">
+                description = <"Обобщенное место тела, в которм производится измерение артериального давления.">
             >
             ["at16"] = <
-                text = <"ÐÐ·ÑÐ¾ÑÐ»Ð°Ñ Ð´Ð»Ñ Ð±ÐµÐ´ÑÐ°">
-                description = <"ÐÐ°Ð½Ð¶ÐµÑÑ Ð´Ð»Ñ Ð±ÐµÐ´ÑÐ°  Ð²Ð·ÑÐ¾ÑÐ»Ð¾Ð³Ð¾- Ð¿ÑÐ·ÑÑÑ Ð¿ÑÐ¸Ð±Ð»Ð¸Ð·Ð¸ÑÐµÐ»ÑÐ½Ð¾ 20ÑÐ¼ Ñ 42ÑÐ¼.">
+                text = <"Взрослая для бедра">
+                description = <"Манжеты для бедра  взрослого- пузырь приблизительно 20см х 42см.">
             >
             ["at17"] = <
-                text = <"ÐÐ·ÑÐ¾ÑÐ»Ð°Ñ Ð±Ð¾Ð»ÑÑÐ°Ñ">
-                description = <"ÐÐ°Ð½Ð¶ÐµÑÐ° Ð´Ð»Ñ ÑÑÐºÐ¸ Ð²Ð·ÑÐ¾ÑÐ»Ð¾Ð³Ð¾, ÑÐ²ÐµÐ»Ð¸ÑÐµÐ½Ð½Ð¾Ð³Ð¾ Ð¾Ð±ÑÑÐ¼Ð° -  Ð¿ÑÐ·ÑÑÑ Ð¿ÑÐ¸Ð±Ð»Ð¸Ð·Ð¸ÑÐµÐ»ÑÐ½Ð¾ 16cm x 38cm.">
+                text = <"Взрослая большая">
+                description = <"Манжета для руки взрослого, увеличенного объёма -  пузырь приблизительно 16cm x 38cm.">
             >
             ["at18"] = <
-                text = <"ÐÐ·ÑÐ¾ÑÐ»Ð°Ñ">
-                description = <"ÐÐ°Ð½Ð¶ÐµÑÐ° ÑÑÐ°Ð½Ð´Ð°ÑÑÐ½Ð°Ñ Ð´Ð»Ñ Ð²Ð·ÑÐ¾ÑÐ»Ð¾Ð³Ð¾ - Ð¿ÑÐ·ÑÑÑ Ð¿ÑÐ¸Ð±Ð»Ð¸Ð·Ð¸ÑÐµÐ»ÑÐ½Ð¾ 13 Ñ 30cm.">
+                text = <"Взрослая">
+                description = <"Манжета стандартная для взрослого - пузырь приблизительно 13 х 30cm.">
             >
             ["at26"] = <
-                text = <"ÐÑÐ°Ð²Ð°Ñ ÑÑÐºÐ°">
-                description = <"ÐÑÐ°Ð²Ð°Ñ ÑÑÐºÐ° Ð¿Ð°ÑÐ¸ÐµÐ½ÑÐ°.">
+                text = <"Правая рука">
+                description = <"Правая рука пациента.">
             >
             ["at27"] = <
-                text = <"ÐÐµÐ²Ð°Ñ ÑÑÐºÐ°">
-                description = <"ÐÐµÐ²Ð°Ñ ÑÑÐºÐ° Ð¿Ð°ÑÐ¸ÐµÐ½ÑÐ°.">
+                text = <"Левая рука">
+                description = <"Левая рука пациента.">
             >
             ["at28"] = <
-                text = <"ÐÑÐ°Ð²Ð¾Ðµ Ð±ÐµÐ´ÑÐ¾">
-                description = <"ÐÑÐ°Ð²Ð¾Ðµ Ð±ÐµÐ´ÑÐ¾ Ð¿Ð°ÑÐ¸ÐµÐ½ÑÐ°.">
+                text = <"Правое бедро">
+                description = <"Правое бедро пациента.">
             >
             ["at29"] = <
-                text = <"ÐÐµÐ²Ð¾Ðµ Ð±ÐµÐ´ÑÐ¾">
-                description = <"ÐÐµÐ²Ð¾Ðµ Ð±ÐµÐ´ÑÐ¾ Ð¿Ð°ÑÐ¸ÐµÐ½ÑÐ°.">
+                text = <"Левое бедро">
+                description = <"Левое бедро пациента.">
             >
             ["id34"] = <
-                text = <"ÐÐ¾Ð¼Ð¼ÐµÐ½ÑÐ°ÑÐ¸Ð¸">
-                description = <"ÐÐ¾Ð¼Ð¼ÐµÐ½ÑÐ°ÑÐ¸Ð¸ Ðº Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÐºÑÐ¾Ð²ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ.">
+                text = <"Комментарии">
+                description = <"Комментарии к измерению кровяного давления.">
             >
             ["at1001"] = <
-                text = <"Ð¡ÑÐ¾Ñ">
-                description = <"ÐÐ°ÑÐ¸ÐµÐ½Ñ ÑÑÐ¾Ð¸Ñ Ð²Ð¾ Ð²ÑÐµÐ¼Ñ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÐÐ.">
+                text = <"Стоя">
+                description = <"Пациент стоит во время измерения АД.">
             >
             ["at1002"] = <
-                text = <"Ð¡Ð¸Ð´Ñ">
-                description = <"ÐÐ°ÑÐ¸ÐµÐ½Ñ ÑÐ¸Ð´Ð¸Ñ Ð²Ð¾ Ð²ÑÐµÐ¼Ñ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÐÐ (Ð½Ð° ÑÑÑÐ»Ðµ, ÐºÑÐ¾Ð²Ð°ÑÐ¸ Ð¸Ð»Ð¸ ÐºÑÐµÑÐ»Ðµ).">
+                text = <"Сидя">
+                description = <"Пациент сидит во время измерения АД (на стуле, кровати или кресле).">
             >
             ["at1003"] = <
-                text = <"Ð ÐµÐºÐ»Ð¸Ð½Ð°ÑÐ¸Ñ">
-                description = <"ÐÐ°ÑÐ¸ÐµÐ½Ñ Ð»ÐµÐ¶Ð¸Ñ Ð² Ð²ÑÐ½ÑÐ¶Ð´ÐµÐ½Ð½Ð¾Ð¹ Ð½ÐµÐ¸Ð·Ð¼ÐµÐ½Ð½Ð¾Ð¹ Ð¿Ð¾Ð·Ðµ (Ð½Ð° ÑÐµÐºÐ»Ð¸Ð½Ð°ÑÐ¸Ð¸)Ð²Ð¾ Ð²ÑÐµÐ¼Ñ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÐÐ.">
+                text = <"Реклинация">
+                description = <"Пациент лежит в вынужденной неизменной позе (на реклинации)во время измерения АД.">
             >
             ["at1004"] = <
-                text = <"ÐÑÐ¶Ð°">
-                description = <"ÐÐ°ÑÐ¸ÐµÐ½Ñ Ð»ÐµÐ¶Ð¸Ñ Ð²Ð¾ Ð²ÑÐµÐ¼Ñ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÐÐ.">
+                text = <"Лёжа">
+                description = <"Пациент лежит во время измерения АД.">
             >
             ["id1006"] = <
-                text = <"ÐÐ°ÐºÐ»Ð¾Ð½Ð½Ð°Ñ Ð¿Ð¾Ð²ÐµÑÑÐ½Ð¾ÑÑÑ">
-                description = <"ÐºÑÐ°Ð½Ð¸Ð¾ÐºÐ°ÑÐ´Ð°Ð»ÑÐ½ÑÐ¹ Ð½Ð°ÐºÐ»Ð¾Ð½ Ð¿Ð¾Ð²ÐµÑÑÐ½Ð¾ÑÑÐ¸, Ð½Ð° ÐºÐ¾ÑÐ¾ÑÐ¾Ð¹ Ð»ÐµÐ¶Ð¸Ñ Ð¿Ð°ÑÐ¸ÐµÐ½Ñ Ð²Ð¾ Ð²ÑÐµÐ¼Ñ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÐÐ.">
+                text = <"Наклонная поверхность">
+                description = <"краниокаудальный наклон поверхности, на которой лежит пациент во время измерения АД.">
             >
             ["id1007"] = <
-                text = <"Ð¡ÑÐµÐ´Ð½ÐµÐ³Ð¾ Ð°ÑÑÐµÑÐ¸Ð°Ð»ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ ÐºÑÐ¾Ð²Ð¸">
-                description = <"Ð¡ÑÐµÐ´Ð½ÐµÐµ Ð°ÑÑÐµÑÐ¸Ð°Ð»ÑÐ½Ð¾Ðµ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ Ð½Ð° Ð²ÑÑÐ¼ Ð¿ÑÐ¾ÑÑÐ¶ÐµÐ½Ð¸Ð¸ ÑÐ¸ÐºÐ»Ð° ÑÐ¾ÐºÑÐ°ÑÐµÐ½Ð¸Ñ Ð¸ ÑÐµÐ»Ð°ÐºÑÐ°ÑÐ¸Ð¸ ÑÐµÑÐ´ÑÐ°.">
+                text = <"Среднего артериального давления крови">
+                description = <"Среднее артериальное давление на всём протяжении цикла сокращения и релаксации сердца.">
             >
             ["id1008"] = <
-                text = <"ÐÑÐ»ÑÑÐ¾Ð²Ð¾Ðµ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ">
-                description = <"Ð Ð°Ð·Ð½Ð¸ÑÐ° Ð¼ÐµÐ¶Ð´Ñ ÑÐ¸ÑÑÐ¾Ð»Ð¸ÑÐµÑÐºÐ¸Ð¼ Ð¸ Ð´Ð¸Ð°ÑÑÐ¾Ð»Ð¸ÑÐµÑÐºÐ¸Ð¼ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸ÐµÐ¼.">
+                text = <"Пульсовое давление">
+                description = <"Разница между систолическим и диастолическим давлением.">
             >
             ["at1009"] = <
-                text = <"ÐÐ·ÑÐ¾ÑÐ»Ð°Ñ Ð¼Ð°Ð»Ð°Ñ">
-                description = <"ÐÐ°Ð½Ð¶ÐµÑÐ° Ð²Ð·ÑÐ¾ÑÐ»Ð°Ñ Ð¼Ð°Ð»Ð°Ñ - Ð¿ÑÐ·ÑÑÑ Ð¿ÑÐ¸Ð±Ð»Ð¸Ð·Ð¸ÑÐµÐ»ÑÐ½Ð¾ 10 x 24cm.">
+                text = <"Взрослая малая">
+                description = <"Манжета взрослая малая - пузырь приблизительно 10 x 24cm.">
             >
             ["at1010"] = <
-                text = <"ÐÐµÐ´Ð¸Ð°ÑÑÐ¸ÑÐµÑÐºÐ°Ñ(Ð´ÐµÑÑÐºÐ°Ñ)">
-                description = <"ÐÐ°Ð½Ð¶ÐµÑÐ° Ð´Ð»Ñ Ð´ÐµÑÐµÐ¹ Ð¸Ð»Ð¸ Ð²Ð·ÑÐ¾ÑÐ»ÑÑ Ñ ÑÐ¾Ð½ÐºÐ¾Ð¹ ÑÑÐºÐ¾Ð¹ - Ð¿ÑÐ·ÑÑÑ Ð¿ÑÐ¸Ð¼ÐµÑÐ½Ð¾ 8ÑÐ¼ x 21cm.">
+                text = <"Педиатрическая(детская)">
+                description = <"Манжета для детей или взрослых с тонкой рукой - пузырь примерно 8см x 21cm.">
             >
             ["id1011"] = <
-                text = <"ÐÐ¸Ð°ÑÑÐ¾Ð»Ð¸ÑÐµÑÐºÐ°Ñ ÐºÐ¾Ð½ÐµÑÐ½Ð°Ñ ÑÐ¾ÑÐºÐ°">
-                description = <"ÐÐ°Ð¿Ð¸ÑÑ Ð·Ð²ÑÐºÐ° ÐÐ¾ÑÐ¾ÑÐºÐ¾Ð²Ð° ÐºÐ¾ÑÐ¾ÑÑÐ¹ Ð¸ÑÐ¿Ð¾Ð»ÑÐ·ÑÑÑ Ð´Ð»Ñ Ð¾Ð¿ÑÐµÐ´ÐµÐ»ÐµÐ½Ð¸Ñ Ð´Ð¸Ð°ÑÑÐ¾Ð»Ð¸ÑÐµÑÐºÐ¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ Ñ Ð¿Ð¾Ð¼Ð¾ÑÑÑ Ð¼ÐµÑÐ¾Ð´Ð° Ð°ÑÑÐºÑÐ»ÑÑÐ°ÑÐ¸Ð¸.">
+                text = <"Диастолическая конечная точка">
+                description = <"Запись звука Короткова который используют для определения диастолического давления с помощью метода аускультации.">
             >
             ["at1012"] = <
-                text = <"Ð¤Ð°Ð·Ð° 4">
-                description = <"Ð§ÐµÑÐ²ÑÑÑÑÐ¹ Ð·Ð²ÑÐº ÐÐ¾ÑÐ¾ÑÐºÐ¾Ð²Ð°, Ð¾Ð¿ÑÐµÐ´ÐµÐ»ÑÑÑÐ¸Ð¹ÑÑ ÐºÐ°Ðº ÑÐµÐ·ÐºÐ¾Ðµ Ð¿ÑÐ¸Ð³Ð»ÑÑÐµÐ½Ð¸Ðµ Ð·Ð²ÑÐºÐ¾Ð².">
+                text = <"Фаза 4">
+                description = <"Четвёртый звук Короткова, определяющийся как резкое приглушение звуков.">
             >
             ["at1013"] = <
-                text = <"Ð¤Ð°Ð·Ð° 5">
-                description = <"ÐÑÑÑÐ¹ Ð·Ð²ÑÐº ÐÐ¾ÑÐ¾ÑÐºÐ¾Ð²Ð° Ð¾Ð¿ÑÐµÐ´ÐµÐ»ÑÐµÑÑÑ Ð¾ÑÑÑÑÑÑÐ²Ð¸ÐµÐ¼ Ð·Ð²ÑÐºÐ¾Ð², ÑÐ°Ðº ÐºÐ°Ðº Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ Ð² Ð¼Ð°Ð½Ð¶ÐµÑÐµ Ð¿Ð°Ð´Ð°ÐµÑ Ð½Ð¸Ð¶Ðµ Ð´Ð¸Ð°ÑÑÐ¾Ð»Ð¸ÑÐµÑÐºÐ¾Ð³Ð¾ Ð°ÑÑÐµÑÐ¸Ð°Ð»ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ.">
+                text = <"Фаза 5">
+                description = <"Пятый звук Короткова определяется отсутствием звуков, так как давление в манжете падает ниже диастолического артериального давления.">
             >
             ["at1015"] = <
-                text = <"ÐÑÐ¶Ð° Ñ Ð½Ð°ÐºÐ»Ð¾Ð½Ð¾Ð¼ Ð²Ð»ÐµÐ²Ð¾">
-                description = <"ÐÑÐ¶Ð° Ð½Ð° Ð¿Ð»Ð¾ÑÐºÐ¾Ð¹ Ð¿Ð¾Ð²ÐµÑÑÐ½Ð¾ÑÑÐ¸ Ñ Ð±Ð¾ÐºÐ¾Ð²ÑÐ¼ Ð½Ð°ÐºÐ»Ð¾Ð½Ð¾Ð¼, ÐºÐ°Ðº Ð¿ÑÐ°Ð²Ð¸Ð»Ð¾, Ð¿Ð¾Ð´ ÑÐ³Ð»Ð¾Ð¼ Ð¿Ð¾ Ð½Ð°Ð¿ÑÐ°Ð²Ð»ÐµÐ½Ð¸Ñ Ñ Ð»ÐµÐ²Ð¾Ð¹ ÑÑÐ¾ÑÐ¾Ð½Ñ. ÐÐ±ÑÑÐ½Ð¾ ÑÑÐµÐ±ÑÐµÑÑÑ Ð² Ð¿Ð¾ÑÐ»ÐµÐ´Ð½ÐµÐ¼ ÑÑÐ¸Ð¼ÐµÑÑÑÐµ Ð±ÐµÑÐµÐ¼ÐµÐ½Ð½Ð¾ÑÑÐ¸, ÑÑÐ¾Ð±Ñ Ð¾Ð±Ð»ÐµÐ³ÑÐ¸ÑÑ ÑÐ´Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ Ð½Ð¸Ð¶Ð½ÐµÐ¹ Ð¿Ð¾Ð»Ð¾Ð¹ Ð²ÐµÐ½Ñ.">
+                text = <"Лёжа с наклоном влево">
+                description = <"Лёжа на плоской поверхности с боковым наклоном, как правило, под углом по направлению с левой стороны. Обычно требуется в последнем триместре беременности, чтобы облегчить сдавление нижней полой вены.">
             >
             ["at1019"] = <
-                text = <"ÐÐ»Ñ Ð¼Ð»Ð°Ð´ÐµÐ½ÑÐµÐ²">
-                description = <"ÐÐ°Ð½Ð¶ÐµÑÐ° Ð´Ð»Ñ Ð¼Ð»Ð°Ð´ÐµÐ½ÑÐµÐ² - Ð¿ÑÐ·ÑÑÑ Ð¿ÑÐ¸Ð±Ð»Ð¸Ð·Ð¸ÑÐµÐ»ÑÐ½Ð¾ 5ÑÐ¼ x 15cm.">
+                text = <"Для младенцев">
+                description = <"Манжета для младенцев - пузырь приблизительно 5см x 15cm.">
             >
             ["at1020"] = <
-                text = <"ÐÐ»Ñ Ð½Ð¾Ð²Ð¾ÑÐ¾Ð¶Ð´ÐµÐ½Ð½ÑÑ">
-                description = <"ÐÐ°Ð½Ð¶ÐµÑÐ° Ð´Ð»Ñ Ð½Ð¾Ð²Ð¾ÑÐ¾Ð¶Ð´ÐµÐ½Ð½ÑÑ, Ð¸ÑÐ¿Ð¾Ð»ÑÐ·ÑÐµÑÑÑ Ð² ÑÐ¾Ð¾ÑÐ²ÐµÑÑÑÐ²Ð¸Ð¸ Ñ Ð²ÐµÑÐ¾Ð¼ Ð½Ð¾Ð²Ð¾ÑÐ¾Ð¶Ð´ÐµÐ½Ð½Ð¾Ð³Ð¾.">
+                text = <"Для новорожденных">
+                description = <"Манжета для новорожденных, используется в соответствии с весом новорожденного.">
             >
             ["at1021"] = <
-                text = <"ÐÑÐ°Ð²Ð¾Ðµ Ð·Ð°Ð¿ÑÑÑÑÐµ">
-                description = <"ÐÑÐ°Ð²Ð¾Ðµ Ð·Ð°Ð¿ÑÑÑÑÐµ Ð¿Ð°ÑÐ¸ÐµÐ½ÑÐ°.">
+                text = <"Правое запястье">
+                description = <"Правое запястье пациента.">
             >
             ["at1022"] = <
-                text = <"ÐÐµÐ²Ð¾Ðµ Ð·Ð°Ð¿ÑÑÑÑÐµ">
-                description = <"ÐÐµÐ²Ð¾Ðµ Ð·Ð°Ð¿ÑÑÑÑÐµ Ð¿Ð°ÑÐ¸ÐµÐ½ÑÐ°.">
+                text = <"Левое запястье">
+                description = <"Левое запястье пациента.">
             >
             ["id1026"] = <
-                text = <"Ð£ÑÑÑÐ¾Ð¹ÑÑÐ²Ð¾">
-                description = <"ÐÐ½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ñ Ð¾ ÑÑÐ¸Ð³Ð¼Ð¾Ð¼Ð°Ð½Ð¾Ð¼ÐµÑÑÐµ Ð¸Ð»Ð¸ Ð´ÑÑÐ³Ð¾Ð¼ ÑÑÑÑÐ¾Ð¹ÑÑÐ²Ðµ, Ð¸ÑÐ¿Ð¾Ð»ÑÐ·ÑÐµÐ¼Ð¾Ð¼ Ð´Ð»Ñ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÐÐ.">
+                text = <"Устройство">
+                description = <"Информация о сфигмоманометре или другом устройстве, используемом для измерения АД.">
             >
             ["at1027"] = <
-                text = <"ÐÑÐ°Ð²Ð°Ñ Ð»Ð¾Ð´ÑÐ¶ÐºÐ°">
-                description = <"ÐÑÐ°Ð²Ð°Ñ Ð»Ð¾Ð´ÑÐ¶ÐºÐ° Ð¿Ð°ÑÐ¸ÐµÐ½ÑÐ°.">
+                text = <"Правая лодыжка">
+                description = <"Правая лодыжка пациента.">
             >
             ["id1031"] = <
-                text = <"ÐÐ°Ð³ÑÑÐ·ÐºÐ°">
-                description = <"ÐÐ¾Ð´ÑÐ¾Ð±Ð½Ð°Ñ Ð¸Ð½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ñ Ð¾ ÑÐ¸Ð·Ð¸ÑÐµÑÐºÐ¾Ð¹ Ð´ÐµÑÑÐµÐ»ÑÐ½Ð¾ÑÑÐ¸, Ð¾ÑÑÑÐµÑÑÐ²Ð»ÑÐµÐ¼Ð¾Ð¹ Ð²Ð¾ Ð²ÑÐµÐ¼Ñ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÐÐ.">
+                text = <"Нагрузка">
+                description = <"Подробная информация о физической деятельности, осуществляемой во время измерения АД.">
             >
             ["at1032"] = <
-                text = <"ÐÐµÐ²Ð°Ñ Ð»Ð¾Ð´ÑÐ¶ÐºÐ°">
-                description = <"ÐÐµÐ²Ð°Ñ Ð»Ð¾Ð´ÑÐ¶ÐºÐ° Ð¿Ð°ÑÐ¸ÐµÐ½ÑÐ°">
+                text = <"Левая лодыжка">
+                description = <"Левая лодыжка пациента">
             >
             ["at1033"] = <
-                text = <"ÐÐ°Ð»ÐµÑ ÑÑÐºÐ¸">
-                description = <"ÐÐ°Ð»ÐµÑ ÑÑÐºÐ¸ Ð¿Ð°ÑÐ¸ÐµÐ½ÑÐ°. Ð£ÑÐ¾ÑÐ½ÐµÐ½Ð¸Ðµ Ð¼Ð¾Ð¶ÐµÑ Ð±ÑÑÑ Ð·Ð°Ð¿Ð¸ÑÐ°Ð½Ð¾ Ð² ÑÐ»ÐµÐ¼ÐµÐ½Ñ Ð´Ð°Ð½Ð½ÑÑ \"Ð¢Ð¾ÑÐ½Ð¾Ðµ Ð¼ÐµÑÑÐ¾ÑÐ°ÑÐ¿Ð¾Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ\", Ð² ÑÐ»ÑÑÐ°Ðµ Ð½ÐµÐ¾Ð±ÑÐ¾Ð´Ð¸Ð¼Ð¾ÑÑÐ¸.">
+                text = <"Палец руки">
+                description = <"Палец руки пациента. Уточнение может быть записано в элемент данных \"Точное месторасположение\", в случае необходимости.">
             >
             ["id1034"] = <
                 text = <"*Location(en)">
-                description = <"ÐÐµÑÑÐ¾ ÑÐµÐ»Ð°, Ð³Ð´Ðµ Ð¸Ð·Ð¼ÐµÑÑÐµÑÑÑ ÐÐ. ÐÑÐ¿Ð¾Ð»ÑÐ·ÑÐ¹ÑÐµ \"ÐÐµÑÑÐ¾ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ\", ÑÑÐ¾Ð±Ñ Ð²ÑÐ±ÑÐ°ÑÑ Ð¸Ð· Ð¾Ð±Ð¾Ð±ÑÑÐ½Ð½ÑÑ Ð¼ÐµÑÑ. ÐÑÐ¿Ð¾Ð»ÑÐ·ÑÐ¹ÑÐµ \"Ð¢Ð¾ÑÐ½Ð¾Ðµ Ð¼ÐµÑÑÐ¾Ð³ÑÐ°ÑÐ¿Ð¾Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ\", ÑÑÐ¾Ð±Ñ Ð·Ð°Ð¿Ð¸ÑÐ°ÑÑ Ð±Ð¾Ð»ÐµÐµ ÐºÐ¾Ð½ÐºÑÐµÑÐ½ÑÑ Ð¸Ð½ÑÐ¾ÑÐ¼Ð°ÑÐ¸Ñ Ð¸Ð»Ð¸ Ð¼ÐµÑÑÐ¾, ÐºÐ¾ÑÐ¾ÑÐ¾Ðµ Ð½Ðµ Ð²ÑÐ¾Ð´Ð¸Ñ Ð² Ð¾Ð±Ð¾Ð±ÑÑÐ½Ð½ÑÐ¹ ÑÐ¿Ð¸ÑÐ¾Ðº Ð¸Ð»Ð¸ Ð¾Ð±ÑÐ°ÑÐ¸ÑÑÑÑ Ðº Ð²Ð½ÐµÑÐ½ÐµÐ¹ ÑÐµÑÐ¼Ð¸Ð½Ð¾Ð»Ð¾Ð³Ð¸Ð¸.">
+                description = <"Место тела, где измеряется АД. Используйте \"Место измерения\", чтобы выбрать из обобщённых мест. Используйте \"Точное местограсположение\", чтобы записать более конкретную информацию или место, которое не входит в обобщённый список или обратиться к внешней терминологии.">
             >
             ["id1035"] = <
-                text = <"Ð¢Ð¾ÑÐ½Ð¾Ðµ Ð¼ÐµÑÑÐ¾ÑÐ°ÑÐ¿Ð¾Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ">
-                description = <"ÐÐ¾Ð½ÐºÑÐµÑÐ½ÑÐµ ÑÐ²ÐµÐ´ÐµÐ½Ð¸Ñ Ð¾ Ð¼ÐµÑÑÐµ ÑÐµÐ»Ð°, Ð³Ð´Ðµ  ÑÐµÐ³Ð¸ÑÑÑÐ¸ÑÑÐµÑÑÑ ÐÐ.">
+                text = <"Точное месторасположение">
+                description = <"Конкретные сведения о месте тела, где  регистрируется АД.">
             >
             ["id1036"] = <
-                text = <"ÐÐµÑÐ¾Ð´">
-                description = <"ÐÐµÑÐ¾Ð´ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÐºÑÐ¾Ð²ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ.">
+                text = <"Метод">
+                description = <"Метод измерения кровяного давления.">
             >
             ["at1037"] = <
-                text = <"ÐÑÑÐºÑÐ»ÑÑÐ°ÑÐ¸Ñ">
-                description = <"ÐÐµÐ¸Ð½Ð²Ð°Ð·Ð¸Ð²Ð½ÑÐ¹ Ð¼ÐµÑÐ¾Ð´ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÐÐ Ñ Ð¸ÑÐ¿Ð¾Ð»ÑÐ·Ð¾Ð²Ð°Ð½Ð¸ÐµÐ¼ ÑÑÐµÑÐ¾ÑÐºÐ¾Ð¿Ð° Ð¸ Ð·Ð²ÑÐºÐ¾Ð² ÐÐ¾ÑÐ¾ÑÐºÐ¾Ð²Ð°.">
+                text = <"Аускультация">
+                description = <"Неинвазивный метод измерения АД с использованием стетоскопа и звуков Короткова.">
             >
             ["at1038"] = <
-                text = <"ÐÐ°Ð»ÑÐ¿Ð°ÑÐ¸Ñ">
-                description = <"ÐÐµÐ¸Ð½Ð²Ð°Ð·Ð¸Ð²Ð½ÑÐ¹ Ð¼ÐµÑÐ¾Ð´ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÐÐ Ñ Ð¸ÑÐ¿Ð¾Ð»ÑÐ·Ð¾Ð²Ð°Ð½Ð¸ÐµÐ¼ Ð¿Ð°Ð»ÑÐ¿Ð°ÑÐ¸Ð¸ (Ð¾Ð±ÑÑÐ½Ð¾ Ð¿Ð»ÐµÑÐµÐ²Ð¾Ð¹ Ð¸Ð»Ð¸ Ð»ÑÑÐµÐ²Ð¾Ð¹ Ð°ÑÑÐµÑÐ¸Ð¸).">
+                text = <"Пальпация">
+                description = <"Неинвазивный метод измерения АД с использованием пальпации (обычно плечевой или лучевой артерии).">
             >
             ["id1039"] = <
-                text = <"Ð¤Ð¾ÑÐ¼ÑÐ»Ð° ÑÑÐµÐ´Ð½ÐµÐ³Ð¾ Ð°ÑÑÐµÑÐ¸Ð°Ð»ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ">
-                description = <"Ð¤Ð¾ÑÐ¼ÑÐ»Ð°, Ð¸ÑÐ¿Ð¾Ð»ÑÐ·ÑÐµÐ¼Ð°Ñ Ð´Ð»Ñ Ð²ÑÑÐ¸ÑÐ»ÐµÐ½Ð¸Ñ Ð¡ÑÐÐ (ÐµÑÐ»Ð¸ ÑÑÐµÐ±ÑÐµÑÑÑ Ð·Ð°Ð¿Ð¸ÑÑÐ²Ð°ÑÑ).">
+                text = <"Формула среднего артериального давления">
+                description = <"Формула, используемая для вычисления СрАД (если требуется записывать).">
             >
             ["at1040"] = <
-                text = <"ÐÐ²ÑÐ¾Ð¼Ð°ÑÐ¸ÑÐµÑÐºÐ¸Ð¹ ÑÐ¾Ð½Ð¾Ð¼ÐµÑÑ">
-                description = <"ÐÐµÐ¸Ð½Ð²Ð°Ð·Ð¸Ð²Ð½ÑÐ¹ Ð¼ÐµÑÐ¾Ð´ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÐÐ Ñ Ð¿Ð¾Ð¼Ð¾ÑÑÑ Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸ÑÐµÑÐºÐ¾Ð³Ð¾ ÑÐ¾Ð½Ð¾Ð¼ÐµÑÑÐ°.">
+                text = <"Автоматический тонометр">
+                description = <"Неинвазивный метод измерения АД с помощью автоматического тонометра.">
             >
             ["at1041"] = <
-                text = <"ÐÐ½Ð²Ð°Ð·Ð¸Ð²Ð½ÑÐ¹">
-                description = <"ÐÐ½Ð²Ð°Ð·Ð¸Ð²Ð½ÑÐ¹ Ð¼ÐµÑÐ¾Ð´ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÐÐ, Ñ Ð¿Ð¾Ð¼ÐµÑÐµÐ½Ð¸ÐµÐ¼ Ð´Ð°ÑÑÐ¸ÐºÐ° Ð²Ð½ÑÑÑÐ¸ ÐºÑÐ¾Ð²ÐµÐ½Ð¾ÑÐ½Ð¾Ð³Ð¾ ÑÐ¾ÑÑÐ´Ð°.">
+                text = <"Инвазивный">
+                description = <"Инвазивный метод измерения АД, с помещением датчика внутри кровеносного сосуда.">
             >
             ["id1043"] = <
-                text = <"Ð¡ÑÐµÐ´Ð½ÐµÐµ Ð·Ð° 24 ÑÐ°ÑÐ°">
-                description = <"ÐÑÐµÐ½ÐºÐ° ÑÑÐµÐ´Ð½ÐµÐ³Ð¾ ÐÐ Ð·Ð° Ð¿ÐµÑÐ¸Ð¾Ð´ Ð² 24 ÑÐ°ÑÐ°.">
+                text = <"Среднее за 24 часа">
+                description = <"Оценка среднего АД за период в 24 часа.">
             >
             ["id1044"] = <
-                text = <"Ð¡ÑÐ°Ð´Ð¸Ñ ÑÐ½Ð°(ru)">
-                description = <"Ð¡ÑÐ°Ð´Ð¸Ñ ÑÐ½Ð° - Ð´Ð»Ñ Ð¸Ð½ÑÐµÑÐ¿ÑÐµÑÐ°ÑÐ¸Ð¸ Ð·Ð°Ð¿Ð¸ÑÐ¸ Ð°Ð¼Ð±ÑÐ»Ð°ÑÐ¾ÑÐ½Ð¾Ð³Ð¾ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ ÐÐ Ð² ÑÐµÑÐµÐ½Ð¸Ðµ 42 ÑÐ°ÑÐ¾Ð².">
+                text = <"Стадия сна(ru)">
+                description = <"Стадия сна - для интерпретации записи амбулаторного измерения АД в течение 42 часов.">
             >
             ["at1045"] = <
-                text = <"ÐÑÐ¾Ð±ÑÐ¶Ð´ÐµÐ½Ð¸Ðµ Ð¸ Ð¿Ð¾Ð´ÑÑÐ¼">
-                description = <"ÐÐ°ÑÐ¸ÐµÐ½Ñ Ð¿Ð¾Ð»Ð½Ð¾ÑÑÑÑ Ð² ÑÐ¾Ð·Ð½Ð°Ð½Ð¸Ð¸.">
+                text = <"Пробуждение и подъём">
+                description = <"Пациент полностью в сознании.">
             >
             ["at1046"] = <
-                text = <"Ð¡Ð¾Ð½">
-                description = <"ÐÐ°ÑÐ¸ÐµÐ½Ñ Ð½Ð°ÑÐ¾Ð´Ð¸ÑÑÑ Ð² ÑÐ¾ÑÑÐ¾ÑÐ½Ð¸Ð¸ ÐµÑÑÐµÑÑÐ²ÐµÐ½Ð½Ð¾Ð³Ð¾ Ð¿Ð¾ÐºÐ¾Ñ, ÑÐµÐ»Ð¾ ÑÐ°ÑÑÐ»Ð°Ð±Ð»ÐµÐ½Ð¾.">
+                text = <"Сон">
+                description = <"Пациент находится в состоянии естественного покоя, тело расслаблено.">
             >
             ["at1052"] = <
-                text = <"ÐÐ°Ð»ÐµÑ Ð½Ð¾Ð³Ð¸">
-                description = <"ÐÐ°Ð»ÐµÑ Ð½Ð¾Ð³Ð¸ Ð¿Ð°ÑÐ¸ÐµÐ½ÑÐ°. Ð£ÑÐ¾ÑÐ½ÐµÐ½Ð¸Ðµ Ð¼Ð¾Ð¶ÐµÑ Ð±ÑÑÑ Ð·Ð°Ð¿Ð¸ÑÐ°Ð½Ð¾ Ð² ÑÐ»ÐµÐ¼ÐµÐ½Ñ Ð´Ð°Ð½Ð½ÑÑ \"Ð¢Ð¾ÑÐ½Ð¾Ðµ Ð¼ÐµÑÑÐ¾ÑÐ°ÑÐ¿Ð¾Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ\", Ð² ÑÐ»ÑÑÐ°Ðµ Ð½ÐµÐ¾Ð±ÑÐ¾Ð´Ð¸Ð¼Ð¾ÑÑÐ¸.">
+                text = <"Палец ноги">
+                description = <"Палец ноги пациента. Уточнение может быть записано в элемент данных \"Точное месторасположение\", в случае необходимости.">
             >
             ["id1053"] = <
-                text = <"Ð¡ÑÐ¾ÑÐ°ÑÑÐ¸ÑÐµÑÐºÐ¸Ðµ ÑÐ°ÐºÑÐ¾ÑÑ(ru)">
-                description = <"ÐÐ¾Ð¼Ð¼ÐµÐ½ÑÐ°ÑÐ¸Ð¹ Ð¸ Ð·Ð°Ð¿Ð¸ÑÐ¸ Ð´ÑÑÐ³Ð¸Ñ ÑÐ»ÑÑÐ°Ð¹Ð½ÑÑ ÑÐ°ÐºÑÐ¾ÑÐ¾Ð², ÐºÐ¾ÑÐ¾ÑÑÐµ Ð¼Ð¾Ð³ÑÑ ÑÐ¿Ð¾ÑÐ¾Ð±ÑÑÐ²Ð¾Ð²Ð°ÑÑ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ñ Ð°ÑÑÐµÑÐ¸Ð°Ð»ÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ. ÐÐ°Ð¿ÑÐ¸Ð¼ÐµÑ,\"Ð±Ð¾ÑÐ·Ð½Ñ Ð±ÐµÐ»Ð¾Ð³Ð¾ ÑÐ°Ð»Ð°ÑÐ°\" Ð¸Ð»Ð¸ Ð±Ð¾Ð»Ñ Ð¸ Ð¶Ð°Ñ, Ð¸Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ñ Ð°ÑÐ¼Ð¾ÑÑÐµÑÐ½Ð¾Ð³Ð¾ Ð´Ð°Ð²Ð»ÐµÐ½Ð¸Ñ Ñ.Ð´.">
+                text = <"Стохастические факторы(ru)">
+                description = <"Комментарий и записи других случайных факторов, которые могут способствовать измерению артериального давления. Например,\"боязнь белого халата\" или боль и жар, изменения атмосферного давления т.д.">
             >
             ["at1054"] = <
-                text = <"ÐÐ½ÑÑÑÐ¸Ð°ÑÑÐµÑÐ¸Ð°Ð»ÑÐ½Ð¾Ðµ">
-                description = <"ÐÐ½Ð²Ð°Ð·Ð¸Ð²Ð½Ð¾Ðµ Ð¸Ð·Ð¼ÐµÑÐµÐ½Ð¸Ðµ Ñ Ð¿Ð¾Ð¼Ð¾ÑÑÑ Ð´Ð°ÑÑÐ¸ÐºÐ° Ð»Ð¸Ð½Ð¸Ð¸ Ð´Ð¾ÑÑÑÐ¿Ð° Ð² Ð°ÑÑÐµÑÐ¸Ñ. Ð Ð°ÑÐ¿Ð¾Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ Ð´Ð°ÑÑÐ¸ÐºÐ° Ð¼Ð¾Ð³ÑÑ Ð±ÑÑÑ Ð·Ð°Ð¿Ð¸ÑÐ°Ð½Ñ Ð² ÑÐ»ÐµÐ¼ÐµÐ½Ñ Ð´Ð°Ð½Ð½ÑÑ \"Ð¢Ð¾ÑÐ½Ð¾Ðµ Ð¼ÐµÑÑÐ¾ÑÐ°ÑÐ¿Ð¾Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ\", Ð² ÑÐ»ÑÑÐ°Ðµ Ð½ÐµÐ¾Ð±ÑÐ¾Ð´Ð¸Ð¼Ð¾ÑÑÐ¸.">
+                text = <"Внутриартериальное">
+                description = <"Инвазивное измерение с помощью датчика линии доступа в артерию. Расположение датчика могут быть записаны в элемент данных \"Точное месторасположение\", в случае необходимости.">
             >
         >
         ["es-ar"] = <
@@ -928,12 +928,12 @@ terminology
                 description = <"*Pressure(en)">
             >
             ["ac1062"] = <
-                text = <"PosiciÃ³n (synthesised)">
-                description = <"La posiciÃ³n del individuo en el momento del registro. (synthesised)">
+                text = <"Posición (synthesised)">
+                description = <"La posición del individuo en el momento del registro. (synthesised)">
             >
             ["ac1065"] = <
-                text = <"Estado del sueÃ±o (synthesised)">
-                description = <"Estado del sueÃ±o - soporta la interpretaciÃ³n de los registros de presiÃ³n arterial ambulatorios de 24 horas (synthesised)">
+                text = <"Estado del sueño (synthesised)">
+                description = <"Estado del sueño - soporta la interpretación de los registros de presión arterial ambulatorios de 24 horas (synthesised)">
             >
             ["at1067"] = <
                 text = <"*Angle, plane(en)">
@@ -944,24 +944,24 @@ terminology
                 description = <"*mean(en)">
             >
             ["ac1074"] = <
-                text = <"TamaÃ±o del manguito (synthesised)">
-                description = <"El tamaÃ±o del manguito usado para la toma de la presiÃ³n arterial (synthesised)">
+                text = <"Tamaño del manguito (synthesised)">
+                description = <"El tamaño del manguito usado para la toma de la presión arterial (synthesised)">
             >
             ["ac1076"] = <
-                text = <"LocalizaciÃ³n de la medida (synthesised)">
-                description = <"Sitios comunes del cuerpo donde se registra la presiÃ³n arterial (synthesised)">
+                text = <"Localización de la medida (synthesised)">
+                description = <"Sitios comunes del cuerpo donde se registra la presión arterial (synthesised)">
             >
             ["ac1079"] = <
-                text = <"MÃ©todo (synthesised)">
-                description = <"MÃ©todo de la mediciÃ³n de la presiÃ³n arterial (synthesised)">
+                text = <"Método (synthesised)">
+                description = <"Método de la medición de la presión arterial (synthesised)">
             >
             ["ac1082"] = <
-                text = <"Punto final diastÃ³lica (synthesised)">
-                description = <"Registro usando los sonidos de Korotkoff para determinar la presiÃ³n diastÃ³lica (synthesised)">
+                text = <"Punto final diastólica (synthesised)">
+                description = <"Registro usando los sonidos de Korotkoff para determinar la presión diastólica (synthesised)">
             >
             ["id1"] = <
-                text = <"PresiÃ³n Arterial">
-                description = <"La mediciÃ³n local de la tensiÃ³n arterial que deriva de la medida de la presiÃ³n arterial en la circulaciÃ³n sistÃ©mica. ComÃºnmente el uso de 'presiÃ³n arterial' se refiere a la medida de la presiÃ³n de la arteria braquial por encima del pliegue del codo.">
+                text = <"Presión Arterial">
+                description = <"La medición local de la tensión arterial que deriva de la medida de la presión arterial en la circulación sistémica. Comúnmente el uso de 'presión arterial' se refiere a la medida de la presión de la arteria braquial por encima del pliegue del codo.">
             >
             ["id2"] = <
                 text = <"historia">
@@ -972,12 +972,12 @@ terminology
                 description = <"*@ internal @(en)">
             >
             ["id5"] = <
-                text = <"SistÃ³lica">
-                description = <"PresiÃ³n arterial sistÃ³lica pico - medido en sÃ­stole o la fase de contracciÃ³n del ciclo cardÃ­aco">
+                text = <"Sistólica">
+                description = <"Presión arterial sistólica pico - medido en sístole o la fase de contracción del ciclo cardíaco">
             >
             ["id6"] = <
-                text = <"DiÃ¡stole">
-                description = <"PresiÃ³n arterial sistÃ©mica mÃ­nima - medido durante la diÃ¡stole o fase de relajaciÃ³n del ciclo cardÃ­aco.">
+                text = <"Diástole">
+                description = <"Presión arterial sistémica mínima - medido durante la diástole o fase de relajación del ciclo cardíaco.">
             >
             ["id7"] = <
                 text = <"cualquier evento">
@@ -988,33 +988,33 @@ terminology
                 description = <"*@ internal @(en)">
             >
             ["id9"] = <
-                text = <"PosiciÃ³n">
-                description = <"La posiciÃ³n del individuo en el momento del registro.">
+                text = <"Posición">
+                description = <"La posición del individuo en el momento del registro.">
             >
             ["id12"] = <
                 text = <"estructura de lista">
                 description = <"estructura tipo lista">
             >
             ["id14"] = <
-                text = <"TamaÃ±o del manguito">
-                description = <"El tamaÃ±o del manguito usado para la toma de la presiÃ³n arterial">
-                comment = <"Perloff D, Grim C, Flack J, Frohlich ED, Hill M, McDonald M, Morgenstern BZ. PresiÃ³n arterial humana determinado por esfingomanÃ³metro. Circulation 1993;88;2460-2470.">
+                text = <"Tamaño del manguito">
+                description = <"El tamaño del manguito usado para la toma de la presión arterial">
+                comment = <"Perloff D, Grim C, Flack J, Frohlich ED, Hill M, McDonald M, Morgenstern BZ. Presión arterial humana determinado por esfingomanómetro. Circulation 1993;88;2460-2470.">
             >
             ["id15"] = <
-                text = <"LocalizaciÃ³n de la medida">
-                description = <"Sitios comunes del cuerpo donde se registra la presiÃ³n arterial">
+                text = <"Localización de la medida">
+                description = <"Sitios comunes del cuerpo donde se registra la presión arterial">
             >
             ["at16"] = <
                 text = <"Muslo Adulto">
-                description = <"Un manguito usado para el muslo del adulto - cÃ¡mara de caucho aproximadamente de 20cm x 42 cm">
+                description = <"Un manguito usado para el muslo del adulto - cámara de caucho aproximadamente de 20cm x 42 cm">
             >
             ["at17"] = <
                 text = <"Adulto grande">
-                description = <"Un manguito para adultos con brazos mas grandes - cÃ¡mara de caucho aproximadamente de 16cm x 38cm.">
+                description = <"Un manguito para adultos con brazos mas grandes - cámara de caucho aproximadamente de 16cm x 38cm.">
             >
             ["at18"] = <
                 text = <"Adulto">
-                description = <"Un manguito estÃ¡ndar para adulto - cÃ¡mara de caucho approximadamente de 13cm x 30cm.">
+                description = <"Un manguito estándar para adulto - cámara de caucho approximadamente de 13cm x 30cm.">
             >
             ["at26"] = <
                 text = <"Brazo derecho">
@@ -1034,79 +1034,79 @@ terminology
             >
             ["id34"] = <
                 text = <"Comentario">
-                description = <"Comentario sobre la mediciÃ³n de la presiÃ³n sanguÃ­nea">
+                description = <"Comentario sobre la medición de la presión sanguínea">
             >
             ["at1001"] = <
                 text = <"De pie">
-                description = <"De pie al momento de la mediciÃ³n de la tensiÃ³n arterial.">
+                description = <"De pie al momento de la medición de la tensión arterial.">
             >
             ["at1002"] = <
                 text = <"Sentado">
-                description = <"Sentado (en la cama o en una silla) durante el registro de la presiÃ³n arterial ">
+                description = <"Sentado (en la cama o en una silla) durante el registro de la presión arterial ">
             >
             ["at1003"] = <
                 text = <"Reclinado">
-                description = <"Reclinado (semisentado) durante el registro de la presiÃ³n arterial">
+                description = <"Reclinado (semisentado) durante el registro de la presión arterial">
             >
             ["at1004"] = <
                 text = <"Acostado">
-                description = <"Acostado horizontal durante la mediciÃ³n de la presiÃ³n arterial">
+                description = <"Acostado horizontal durante la medición de la presión arterial">
             >
             ["id1006"] = <
-                text = <"InclinaciÃ³n">
-                description = <"La inclinaciÃ³n craneo-caudal de la superficie sobre la cual el sujeto esta acostado al momento de la mediciÃ³n">
+                text = <"Inclinación">
+                description = <"La inclinación craneo-caudal de la superficie sobre la cual el sujeto esta acostado al momento de la medición">
             >
             ["id1007"] = <
-                text = <"PresiÃ³n Arterial Media">
-                description = <"La presiÃ³n arterial promedio que ocurre durante el ciclo entero de la contracciÃ³n y relajaciÃ³n del corazon">
+                text = <"Presión Arterial Media">
+                description = <"La presión arterial promedio que ocurre durante el ciclo entero de la contracción y relajación del corazon">
             >
             ["id1008"] = <
-                text = <"PresiÃ³n de Pulso">
-                description = <"La diferencia entre la presiÃ³n sistÃ³lica y la presiÃ³n diastÃ³lica">
+                text = <"Presión de Pulso">
+                description = <"La diferencia entre la presión sistólica y la presión diastólica">
             >
             ["at1009"] = <
-                text = <"Adulto pequeÃ±o">
-                description = <"Un manguito usado para adulto pequeÃ±o - cÃ¡mara de caucho approximadamente de 10cm x 24cm.">
+                text = <"Adulto pequeño">
+                description = <"Un manguito usado para adulto pequeño - cámara de caucho approximadamente de 10cm x 24cm.">
             >
             ["at1010"] = <
-                text = <"PediÃ¡trico/NiÃ±o">
-                description = <"Un manguito que es apropiado para un niÃ±o o un adulto con brazos delgados - cÃ¡mara de caucho approximadamente 8cm x 21cm.">
+                text = <"Pediátrico/Niño">
+                description = <"Un manguito que es apropiado para un niño o un adulto con brazos delgados - cámara de caucho approximadamente 8cm x 21cm.">
             >
             ["id1011"] = <
-                text = <"Punto final diastÃ³lica">
-                description = <"Registro usando los sonidos de Korotkoff para determinar la presiÃ³n diastÃ³lica">
+                text = <"Punto final diastólica">
+                description = <"Registro usando los sonidos de Korotkoff para determinar la presión diastólica">
             >
             ["at1012"] = <
                 text = <"Fase IV">
-                description = <"El cuarto sonido de Korotkoff se identifica como una abrupta amortiguaciÃ³n de sonidos.">
+                description = <"El cuarto sonido de Korotkoff se identifica como una abrupta amortiguación de sonidos.">
             >
             ["at1013"] = <
                 text = <"Fase V">
-                description = <"El quinto sonido de Korotkoff se identifica como la ausencia de sonidos a medida que la presiÃ³n del manguito insuflado cae por debajo de la presiÃ³n arterial diastÃ³lica.">
+                description = <"El quinto sonido de Korotkoff se identifica como la ausencia de sonidos a medida que la presión del manguito insuflado cae por debajo de la presión arterial diastólica.">
             >
             ["at1015"] = <
                 text = <"Acostado e inclinado levemente sobre su costado izquierdo">
-                description = <"Acostado horizontal e inclinado levemente sobre su costado izquierdo. ComÃºnmente se requiere durante el Ãºltimo trimestre del embarazo para aliviar la compresiÃ³n aortocava.">
+                description = <"Acostado horizontal e inclinado levemente sobre su costado izquierdo. Comúnmente se requiere durante el último trimestre del embarazo para aliviar la compresión aortocava.">
             >
             ["at1019"] = <
                 text = <"Infantil">
-                description = <"Un manguito usado para infantes - cÃ¡mara de caucho approximadamente de 5cm x 15cm.">
+                description = <"Un manguito usado para infantes - cámara de caucho approximadamente de 5cm x 15cm.">
             >
             ["at1020"] = <
                 text = <"Neonatal">
-                description = <"Un manguito usado para neonatos, asumiendo que es del tamaÃ±o adecuado para la madurez y el peso corporal del neonato.">
+                description = <"Un manguito usado para neonatos, asumiendo que es del tamaño adecuado para la madurez y el peso corporal del neonato.">
             >
             ["at1021"] = <
-                text = <"MuÃ±eca derecha">
-                description = <"La muÃ±eca derecha del individuo.">
+                text = <"Muñeca derecha">
+                description = <"La muñeca derecha del individuo.">
             >
             ["at1022"] = <
-                text = <"MuÃ±eca izquierda">
-                description = <"La muÃ±eca inquierda del individuo.">
+                text = <"Muñeca izquierda">
+                description = <"La muñeca inquierda del individuo.">
             >
             ["id1026"] = <
                 text = <"Dispositivo">
-                description = <"Detalles del esfingomanÃ³metro u otro dispositivo usado para medir la presiÃ³n arterial.">
+                description = <"Detalles del esfingomanómetro u otro dispositivo usado para medir la presión arterial.">
             >
             ["at1027"] = <
                 text = <"Tobillo derecho ">
@@ -1114,7 +1114,7 @@ terminology
             >
             ["id1031"] = <
                 text = <"Ejercicio">
-                description = <"Detalles de la actividad fÃ­sica realizados durante la mediciÃ³n de la presiÃ³n arterial ">
+                description = <"Detalles de la actividad física realizados durante la medición de la presión arterial ">
             >
             ["at1032"] = <
                 text = <"Tobillo izquierdo">
@@ -1122,47 +1122,47 @@ terminology
             >
             ["at1033"] = <
                 text = <"Dedo">
-                description = <"Un dedo del individuo. La identificaciÃ³n del dedo puede ser registrado en el data elemento: 'LocalizaciÃ³n especÃ­fica' si se requiere. ">
+                description = <"Un dedo del individuo. La identificación del dedo puede ser registrado en el data elemento: 'Localización específica' si se requiere. ">
             >
             ["id1034"] = <
-                text = <"LocalizaciÃ³n">
-                description = <"LocalizaciÃ³n del cuerpo donde se mide la presiÃ³n arterial. Use 'LocalizaciÃ³n de la medida' para seleccionar los sitios mÃ¡s comunes. Use 'LocalizaciÃ³n especÃ­fica' para registrar detalles mas especÃ­ficos o un sitio que no pertenece al conjunto mas comÃºn o para referirse a una terminologÃ­a externa.">
+                text = <"Localización">
+                description = <"Localización del cuerpo donde se mide la presión arterial. Use 'Localización de la medida' para seleccionar los sitios más comunes. Use 'Localización específica' para registrar detalles mas específicos o un sitio que no pertenece al conjunto mas común o para referirse a una terminología externa.">
             >
             ["id1035"] = <
-                text = <"LocalizaciÃ³n especÃ­fica">
-                description = <"Detalles especÃ­ficos sobre el sitio corporal donde se registro la presiÃ³n arterial">
+                text = <"Localización específica">
+                description = <"Detalles específicos sobre el sitio corporal donde se registro la presión arterial">
             >
             ["id1036"] = <
-                text = <"MÃ©todo">
-                description = <"MÃ©todo de la mediciÃ³n de la presiÃ³n arterial">
+                text = <"Método">
+                description = <"Método de la medición de la presión arterial">
             >
             ["at1037"] = <
-                text = <"AuscultaciÃ³n">
-                description = <"MÃ©todo de la mediciÃ³n de la presiÃ³n arterial externa, usando un estetoscopio y los sonidos de Korotkoff">
+                text = <"Auscultación">
+                description = <"Método de la medición de la presión arterial externa, usando un estetoscopio y los sonidos de Korotkoff">
             >
             ["at1038"] = <
-                text = <"PalpaciÃ³n">
-                description = <"MÃ©todo de mediciÃ³n de la presiÃ³n arterial externa, usando palpaciÃ³n (normalmente de la arteria humeral o radial).">
+                text = <"Palpación">
+                description = <"Método de medición de la presión arterial externa, usando palpación (normalmente de la arteria humeral o radial).">
             >
             ["id1039"] = <
-                text = <"FÃ³rmula de la PresiÃ³n Arterial Media (PAM)">
-                description = <"FÃ³rmula usada para calcular la PAM (si se registra en el campo data)">
+                text = <"Fórmula de la Presión Arterial Media (PAM)">
+                description = <"Fórmula usada para calcular la PAM (si se registra en el campo data)">
             >
             ["at1040"] = <
-                text = <"MÃ¡quina">
-                description = <"MÃ©todo de mediciÃ³n de la presiÃ³n arterial externa, utilizando un monitor automÃ¡tico (mecÃ¡nico) de presiÃ³n arterial">
+                text = <"Máquina">
+                description = <"Método de medición de la presión arterial externa, utilizando un monitor automático (mecánico) de presión arterial">
             >
             ["at1041"] = <
                 text = <"Invasivo">
-                description = <"MÃ©todo de mediciÃ³n de la presiÃ³n arterial interna o sea invasiva: punciÃ³n de la piel y la introducciÃ³n de un cateter para medir dentro de un vaso sanguÃ­neo.">
+                description = <"Método de medición de la presión arterial interna o sea invasiva: punción de la piel y la introducción de un cateter para medir dentro de un vaso sanguíneo.">
             >
             ["id1043"] = <
                 text = <"Promedio de 24 horas">
-                description = <"Estimativo de la media de la presiÃ³n arterial sobre un perÃ­odo de 24 horas">
+                description = <"Estimativo de la media de la presión arterial sobre un período de 24 horas">
             >
             ["id1044"] = <
-                text = <"Estado del sueÃ±o">
-                description = <"Estado del sueÃ±o - soporta la interpretaciÃ³n de los registros de presiÃ³n arterial ambulatorios de 24 horas">
+                text = <"Estado del sueño">
+                description = <"Estado del sueño - soporta la interpretación de los registros de presión arterial ambulatorios de 24 horas">
             >
             ["at1045"] = <
                 text = <"Alerta y despierto">
@@ -1170,19 +1170,19 @@ terminology
             >
             ["at1046"] = <
                 text = <"Dormido">
-                description = <"El sujeto esta en un estado natural de sueÃ±o corporal">
+                description = <"El sujeto esta en un estado natural de sueño corporal">
             >
             ["at1052"] = <
                 text = <"Dedo del pie">
-                description = <"Un dedo del pie del individuo.  La identificaciÃ³n del dedo del pie puede ser registrado en el data elemento: 'LocalizaciÃ³n especÃ­fica' si se requiere. ">
+                description = <"Un dedo del pie del individuo.  La identificación del dedo del pie puede ser registrado en el data elemento: 'Localización específica' si se requiere. ">
             >
             ["id1053"] = <
                 text = <"Factores confluentes">
-                description = <"Comentario y registro sobre otros factores que pueden incidir sobre la mediciÃ³n de la presiÃ³n arterial. Por ejemplo: nivel de ansiedad o \"sÃ­ndrome del guardapolvo blanco\"; dolor o fiebre; cambios en la presiÃ³n atmosfÃ©rica etc.">
+                description = <"Comentario y registro sobre otros factores que pueden incidir sobre la medición de la presión arterial. Por ejemplo: nivel de ansiedad o \"síndrome del guardapolvo blanco\"; dolor o fiebre; cambios en la presión atmosférica etc.">
             >
             ["at1054"] = <
                 text = <"Intra-arterial">
-                description = <"MediciÃ³n invasiva mediante una vÃ­a de acceso transductor, dentro de la arteria.  La localizaciÃ³n del transductor puede ser registrado en el data elemento: 'LocalizaciÃ³n especÃ­fica' si se requiere. ">
+                description = <"Medición invasiva mediante una vía de acceso transductor, dentro de la arteria.  La localización del transductor puede ser registrado en el data elemento: 'Localización específica' si se requiere. ">
             >
         >
         ["pt-br"] = <
@@ -1191,12 +1191,12 @@ terminology
                 description = <"*Pressure(en)">
             >
             ["ac1062"] = <
-                text = <"PosiÃ§Ã£o (synthesised)">
-                description = <"A posiÃ§Ã£o do sujeito na hora da medida. (synthesised)">
+                text = <"Posição (synthesised)">
+                description = <"A posição do sujeito na hora da medida. (synthesised)">
             >
             ["ac1065"] = <
                 text = <"Status do sono (synthesised)">
-                description = <"Status do sono - apÃ³ia a interpretaÃ§Ã£o do registro do mapa de pressÃ£o arterial (ambulatorial de 24 horas). (synthesised)">
+                description = <"Status do sono - apóia a interpretação do registro do mapa de pressão arterial (ambulatorial de 24 horas). (synthesised)">
             >
             ["at1067"] = <
                 text = <"*Angle, plane(en)">
@@ -1207,85 +1207,85 @@ terminology
                 description = <"*mean(en)">
             >
             ["ac1074"] = <
-                text = <"Tamanho da braÃ§adeira (synthesised)">
-                description = <"Tamanho da braÃ§adeira  usada para medir a pressÃ£o arterial. (synthesised)">
+                text = <"Tamanho da braçadeira (synthesised)">
+                description = <"Tamanho da braçadeira  usada para medir a pressão arterial. (synthesised)">
             >
             ["ac1076"] = <
                 text = <"Local de Medida (synthesised)">
-                description = <"Locais do corpo mais comuns onde a pressÃ£o arterial Ã© medida. (synthesised)">
+                description = <"Locais do corpo mais comuns onde a pressão arterial é medida. (synthesised)">
             >
             ["ac1079"] = <
-                text = <"MÃ©todo (synthesised)">
-                description = <"MÃ©todo de medida da pressÃ£o arterial. (synthesised)">
+                text = <"Método (synthesised)">
+                description = <"Método de medida da pressão arterial. (synthesised)">
             >
             ["ac1082"] = <
-                text = <"Final da diÃ¡stole (synthesised)">
-                description = <"Registro  do som Korotkoff usado para determinar a pressÃ£o arterial diastÃ³lica, usando o mÃ©todo auscultativo. (synthesised)">
+                text = <"Final da diástole (synthesised)">
+                description = <"Registro  do som Korotkoff usado para determinar a pressão arterial diastólica, usando o método auscultativo. (synthesised)">
             >
             ["id1"] = <
-                text = <"PressÃ£o Arterial">
-                description = <"A medida local da pressÃ£o sanguÃ­nea arterial, a qual Ã© uma substituta da pressÃ£o arterial na circulaÃ§Ã£o arterial sistÃªmica. Mais comumente o uso do termo pressÃ£o arterial se refere Ã  medida da pressÃ£o da artÃ©ria braquial no antebraÃ§o.">
+                text = <"Pressão Arterial">
+                description = <"A medida local da pressão sanguínea arterial, a qual é uma substituta da pressão arterial na circulação arterial sistêmica. Mais comumente o uso do termo pressão arterial se refere à medida da pressão da artéria braquial no antebraço.">
             >
             ["id2"] = <
-                text = <"histÃ³ria">
-                description = <"nodo Estrutural histÃ³ria">
+                text = <"história">
+                description = <"nodo Estrutural história">
             >
             ["id4"] = <
                 text = <"*blood pressure(en)">
                 description = <"*@ internal @(en)">
             >
             ["id5"] = <
-                text = <"SistÃ³lica">
-                description = <"PressÃ£o arterial sistÃªmica mÃ¡xima - medida na fase sistÃ³lica ou de contraÃ§Ã£o do ciclo cardÃ­aco.">
+                text = <"Sistólica">
+                description = <"Pressão arterial sistêmica máxima - medida na fase sistólica ou de contração do ciclo cardíaco.">
             >
             ["id6"] = <
-                text = <"DiastÃ³lica">
-                description = <"PressÃ£o arterial sistÃªmica mÃ­nima - medida na fase diastÃ³lica ou de  dilataÃ§Ã£o do ciclo cardÃ­aco.">
+                text = <"Diastólica">
+                description = <"Pressão arterial sistêmica mínima - medida na fase diastólica ou de  dilatação do ciclo cardíaco.">
             >
             ["id7"] = <
                 text = <"qualquer evento">
-                description = <"evento Default, padrÃ£o predeterminado">
+                description = <"evento Default, padrão predeterminado">
             >
             ["id8"] = <
                 text = <"*state structure(en)">
                 description = <"*@ internal @(en)">
             >
             ["id9"] = <
-                text = <"PosiÃ§Ã£o">
-                description = <"A posiÃ§Ã£o do sujeito na hora da medida.">
+                text = <"Posição">
+                description = <"A posição do sujeito na hora da medida.">
             >
             ["id12"] = <
                 text = <"estrutura de lista">
                 description = <"estrutura de lista">
             >
             ["id14"] = <
-                text = <"Tamanho da braÃ§adeira">
-                description = <"Tamanho da braÃ§adeira  usada para medir a pressÃ£o arterial.">
-                comment = <"Sem  comentÃ¡rios">
+                text = <"Tamanho da braçadeira">
+                description = <"Tamanho da braçadeira  usada para medir a pressão arterial.">
+                comment = <"Sem  comentários">
             >
             ["id15"] = <
                 text = <"Local de Medida">
-                description = <"Locais do corpo mais comuns onde a pressÃ£o arterial Ã© medida.">
+                description = <"Locais do corpo mais comuns onde a pressão arterial é medida.">
             >
             ["at16"] = <
                 text = <"Coxa de adulto">
-                description = <"Uma braÃ§adeira  usada na coxa de um aduto - manguito de aproximadamente 20cm x 42cm.">
+                description = <"Uma braçadeira  usada na coxa de um aduto - manguito de aproximadamente 20cm x 42cm.">
             >
             ["at17"] = <
                 text = <"Adulto Grande">
-                description = <"Uma braÃ§adeira para adultos com braÃ§o largo - manguito de aproximadamente 16cm x 38cm.">
+                description = <"Uma braçadeira para adultos com braço largo - manguito de aproximadamente 16cm x 38cm.">
             >
             ["at18"] = <
                 text = <"Adulto">
-                description = <"Uma braÃ§adeira padrÃ£o para adultos - manguito de aproximadamente 13cm x 30cm.">
+                description = <"Uma braçadeira padrão para adultos - manguito de aproximadamente 13cm x 30cm.">
             >
             ["at26"] = <
-                text = <"BraÃ§o direito">
-                description = <"O braÃ§o direito da pessoa.">
+                text = <"Braço direito">
+                description = <"O braço direito da pessoa.">
             >
             ["at27"] = <
-                text = <"BraÃ§o esquerdo">
-                description = <"O braÃ§o esquerdo da pessoa.">
+                text = <"Braço esquerdo">
+                description = <"O braço esquerdo da pessoa.">
             >
             ["at28"] = <
                 text = <"Coxa direita">
@@ -1296,68 +1296,68 @@ terminology
                 description = <"A coxa esquerda da pessoa.">
             >
             ["id34"] = <
-                text = <"ComentÃ¡rios">
-                description = <"ComentÃ¡rios sobre a medida da pressÃ£o arterial.">
+                text = <"Comentários">
+                description = <"Comentários sobre a medida da pressão arterial.">
             >
             ["at1001"] = <
-                text = <"Em pÃ©">
-                description = <"Em pÃ© na hora da medida da pressÃ£o arterial.">
+                text = <"Em pé">
+                description = <"Em pé na hora da medida da pressão arterial.">
             >
             ["at1002"] = <
                 text = <"Sentado">
-                description = <"Sentado (por exemplo na cama ou em uma cadeira) na hora da medida da pressÃ£o arterial.">
+                description = <"Sentado (por exemplo na cama ou em uma cadeira) na hora da medida da pressão arterial.">
             >
             ["at1003"] = <
                 text = <"Reclinado">
-                description = <"Reclinado na hora da medida da pressÃ£o arterial.">
+                description = <"Reclinado na hora da medida da pressão arterial.">
             >
             ["at1004"] = <
                 text = <"Deitado">
-                description = <"Deitado sem reclinaÃ§Ã£o hora da medida da pressÃ£o arterial.">
+                description = <"Deitado sem reclinação hora da medida da pressão arterial.">
             >
             ["id1006"] = <
-                text = <"NÃ­vel de inclinaÃ§Ã£o">
-                description = <"O nÃ­vel de  inclinaÃ§Ã£o crÃ¢nio-caudal da superfÃ­cie sobre a qual a pessoa estÃ¡ deitada no momento da mediÃ§Ã£o.">
+                text = <"Nível de inclinação">
+                description = <"O nível de  inclinação crânio-caudal da superfície sobre a qual a pessoa está deitada no momento da medição.">
             >
             ["id1007"] = <
-                text = <"PressÃ£o arterial MÃ©dia">
-                description = <"A pressÃ£o arterial mÃ©dia que ocorrre ao longo de todo o  ciclo de contraÃ§Ã£o e dilataÃ§Ã£o do coraÃ§Ã£o.">
+                text = <"Pressão arterial Média">
+                description = <"A pressão arterial média que ocorrre ao longo de todo o  ciclo de contração e dilatação do coração.">
             >
             ["id1008"] = <
-                text = <"PressÃ£o de Pulso">
-                description = <"A diferenÃ§a entre a pressÃ£o sistÃ³lica e diastÃ³lica.">
+                text = <"Pressão de Pulso">
+                description = <"A diferença entre a pressão sistólica e diastólica.">
             >
             ["at1009"] = <
                 text = <"Adulto pequeno">
-                description = <"Uma braÃ§adeira usada para adultos pequenos -manguito de aproximadamente 10cm x 24cm.">
+                description = <"Uma braçadeira usada para adultos pequenos -manguito de aproximadamente 10cm x 24cm.">
             >
             ["at1010"] = <
-                text = <"CrianÃ§a/PediÃ¡trico">
-                description = <"Manguito apropriao para uma crianÃ§a ou um adulto com um braÃ§o fino - bolsa de aproximadamente 8cm x 21cm.">
+                text = <"Criança/Pediátrico">
+                description = <"Manguito apropriao para uma criança ou um adulto com um braço fino - bolsa de aproximadamente 8cm x 21cm.">
             >
             ["id1011"] = <
-                text = <"Final da diÃ¡stole">
-                description = <"Registro  do som Korotkoff usado para determinar a pressÃ£o arterial diastÃ³lica, usando o mÃ©todo auscultativo.">
+                text = <"Final da diástole">
+                description = <"Registro  do som Korotkoff usado para determinar a pressão arterial diastólica, usando o método auscultativo.">
             >
             ["at1012"] = <
                 text = <"Fhase IV.">
-                description = <"O quarto som de  Korotkoff Ã©  identificado como um sÃºbito abafamento dos sons.">
+                description = <"O quarto som de  Korotkoff é  identificado como um súbito abafamento dos sons.">
             >
             ["at1013"] = <
                 text = <"Phase V">
-                description = <"O quinto som de Korotkoff Ã© identificado pela ausÃªncia de sons,  pois a pressÃ£o da braÃ§adeira cai abaixo da pressÃ£o diastÃ³lica do sangue.">
+                description = <"O quinto som de Korotkoff é identificado pela ausência de sons,  pois a pressão da braçadeira cai abaixo da pressão diastólica do sangue.">
             >
             ["at1015"] = <
-                text = <"Deitado com inclinaÃ§Ã£o para esquerda">
-                description = <"Deitado sem reclinaÃ§Ã£o com alguma inclinaÃ§Ã£o lateral, usualmente com angulaÃ§Ã£o para o lado esquerdo. Comumente requerido no Ãºltimo trimestre da gravidez para aliviar a compressÃ£o aortocaval.">
+                text = <"Deitado com inclinação para esquerda">
+                description = <"Deitado sem reclinação com alguma inclinação lateral, usualmente com angulação para o lado esquerdo. Comumente requerido no último trimestre da gravidez para aliviar a compressão aortocaval.">
             >
             ["at1019"] = <
-                text = <"CrianÃ§a pequena ">
-                description = <"Uma braÃ§adeira utilizada em crianÃ§as  pequenas - manguito de aproximadamente 5cm x 15cm.">
+                text = <"Criança pequena ">
+                description = <"Uma braçadeira utilizada em crianças  pequenas - manguito de aproximadamente 5cm x 15cm.">
             >
             ["at1020"] = <
                 text = <"Neonatal">
-                description = <"Uma braÃ§adeira usada para um recÃ©m-nascido, supondo que o tamanho Ã© apropriado para a maturidade e o peso ao nascer do neonato.">
+                description = <"Uma braçadeira usada para um recém-nascido, supondo que o tamanho é apropriado para a maturidade e o peso ao nascer do neonato.">
             >
             ["at1021"] = <
                 text = <"Pulso direito">
@@ -1369,83 +1369,83 @@ terminology
             >
             ["id1026"] = <
                 text = <"Aparelho">
-                description = <"Detalhes sobre o esfigmomanÃ´metro ou outro aparelho utilizado para medir a pressÃ£o sanguÃ­nea.">
+                description = <"Detalhes sobre o esfigmomanômetro ou outro aparelho utilizado para medir a pressão sanguínea.">
             >
             ["at1027"] = <
                 text = <"Tornozelo direito">
                 description = <"O tornozelo direito da pessoa.">
             >
             ["id1031"] = <
-                text = <"EsforÃ§o fÃ­sico">
-                description = <"Detalhes sobre atividade fÃ­sica realizada na hora da medida da pressÃ£o arterial.">
+                text = <"Esforço físico">
+                description = <"Detalhes sobre atividade física realizada na hora da medida da pressão arterial.">
             >
             ["at1032"] = <
                 text = <"Tornozelo esquerdo">
                 description = <"O tornozelo esquerdo da pessoa.">
             >
             ["at1033"] = <
-                text = <"Dedo da mÃ£o">
-                description = <"O dedo da mÃ£o da pessoa. A identificaÃ§Ã£o do dedo pode ser registrada no elemento de dado 'Local EspecÃ­fico', se requerido.">
+                text = <"Dedo da mão">
+                description = <"O dedo da mão da pessoa. A identificação do dedo pode ser registrada no elemento de dado 'Local Específico', se requerido.">
             >
             ["id1034"] = <
                 text = <"Local">
-                description = <"Local do corpo onde  foi medida a pressÃ£o arterial.  Use  'Local da Medida' para selecionar entre os locais mais comuns.  Use 'Local EspecÃ­fico' para registrar detalhes mais especÃ­ficos ou um local que nÃ£o estÃ¡ representado no conjunto comum ou para se referenciar a uma terminologia externa.">
+                description = <"Local do corpo onde  foi medida a pressão arterial.  Use  'Local da Medida' para selecionar entre os locais mais comuns.  Use 'Local Específico' para registrar detalhes mais específicos ou um local que não está representado no conjunto comum ou para se referenciar a uma terminologia externa.">
             >
             ["id1035"] = <
-                text = <"Local EspecÃ­fico">
-                description = <"Detalhes especÃ­ficos sobre o local do corpo onde a pressÃ£o arterial Ã© registrada.">
+                text = <"Local Específico">
+                description = <"Detalhes específicos sobre o local do corpo onde a pressão arterial é registrada.">
             >
             ["id1036"] = <
-                text = <"MÃ©todo">
-                description = <"MÃ©todo de medida da pressÃ£o arterial.">
+                text = <"Método">
+                description = <"Método de medida da pressão arterial.">
             >
             ["at1037"] = <
                 text = <"Ausculta">
-                description = <"MÃ©todo de medir a pressÃ£o externamente, usando o estetoscÃ³piso e os sons Korotkoff.">
+                description = <"Método de medir a pressão externamente, usando o estetoscópiso e os sons Korotkoff.">
             >
             ["at1038"] = <
-                text = <"PalpaÃ§Ã£o">
-                description = <"MÃ©todo de medir a pressÃ£o arterial externamente, usando a palpaÃ§Ã£o (geralmente artÃ©rias braquiais ou radiais).">
+                text = <"Palpação">
+                description = <"Método de medir a pressão arterial externamente, usando a palpação (geralmente artérias braquiais ou radiais).">
             >
             ["id1039"] = <
-                text = <"FÃ³rmula de PressÃ£o Arterial MÃ©dia">
-                description = <"FÃ³rmula usada para calcular a pressÃ£o arterial mÃ©dia (PAM), se registrada em dados.">
+                text = <"Fórmula de Pressão Arterial Média">
+                description = <"Fórmula usada para calcular a pressão arterial média (PAM), se registrada em dados.">
             >
             ["at1040"] = <
-                text = <"Aparelho de pressÃ£o">
-                description = <"MÃ©todo de medir a pressÃ£o arterial externamente, usando o aparelho de pressÃ£o arterial.">
+                text = <"Aparelho de pressão">
+                description = <"Método de medir a pressão arterial externamente, usando o aparelho de pressão arterial.">
             >
             ["at1041"] = <
                 text = <"Invasivo">
-                description = <"MÃ©todo de medir a pressÃ£o arterial internamente, isto Ã©, envolvendo a penetraÃ§Ã£o da pele e a medida interior dos vasos sanguÃ­neos.">
+                description = <"Método de medir a pressão arterial internamente, isto é, envolvendo a penetração da pele e a medida interior dos vasos sanguíneos.">
             >
             ["id1043"] = <
                 text = <"Media de 24 horas">
-                description = <"Estimativa da pressÃ£o arterial mÃ©dia em um perÃ­odo de 24 horas.">
+                description = <"Estimativa da pressão arterial média em um período de 24 horas.">
             >
             ["id1044"] = <
                 text = <"Status do sono">
-                description = <"Status do sono - apÃ³ia a interpretaÃ§Ã£o do registro do mapa de pressÃ£o arterial (ambulatorial de 24 horas).">
+                description = <"Status do sono - apóia a interpretação do registro do mapa de pressão arterial (ambulatorial de 24 horas).">
             >
             ["at1045"] = <
                 text = <"Alerta e acordado">
-                description = <"Sujeito estÃ¡ totalmente consciente.">
+                description = <"Sujeito está totalmente consciente.">
             >
             ["at1046"] = <
                 text = <"Dormindo">
-                description = <"Sujeito estÃ¡ no estado natural de descanso corporal.">
+                description = <"Sujeito está no estado natural de descanso corporal.">
             >
             ["at1052"] = <
-                text = <"Dedo do pÃ©">
-                description = <"O dedo do pÃ© da pessoa. A identificaÃ§Ã£o do dedo do pÃ© pode ser registrada  no elemento de dado 'Local EspecÃ­fico', se requerido.">
+                text = <"Dedo do pé">
+                description = <"O dedo do pé da pessoa. A identificação do dedo do pé pode ser registrada  no elemento de dado 'Local Específico', se requerido.">
             >
             ["id1053"] = <
                 text = <"Fatores confundidores">
-                description = <"ComentÃ¡rios sobre e registros de outros fatores incidentais que possam estar contribuindo na medida da pressÃ£o sanguÃ­nea. Por exemplo, nÃ­vel de ansiedade ou \"sÃ­ndrome do jaleco branco\"; dor ou febre; mudanÃ§as na pressÃ£o atmosfÃ©rica, etc.">
+                description = <"Comentários sobre e registros de outros fatores incidentais que possam estar contribuindo na medida da pressão sanguínea. Por exemplo, nível de ansiedade ou \"síndrome do jaleco branco\"; dor ou febre; mudanças na pressão atmosférica, etc.">
             >
             ["at1054"] = <
                 text = <"Intra-arterial">
-                description = <"Medida invasiva da pressÃ£o em uma artÃ©ria acessada  por um cateter . Local do transductor pode ser registrado no elemento de dado  'Local EspecÃ­fico', se requerido.">
+                description = <"Medida invasiva da pressão em uma artéria acessada  por um cateter . Local do transductor pode ser registrado no elemento de dado  'Local Específico', se requerido.">
             >
         >
         ["ja"] = <
@@ -1454,12 +1454,12 @@ terminology
                 description = <"*Pressure(en)">
             >
             ["ac1062"] = <
-                text = <"ä½ä½ (synthesised)">
-                description = <"è¨æ¸¬ã®ã¨ãã®å¯¾è±¡èã®ä½ä½ (synthesised)">
+                text = <"体位 (synthesised)">
+                description = <"計測のときの対象者の体位 (synthesised)">
             >
             ["ac1065"] = <
-                text = <"ç¡ç ç¶æ³ (synthesised)">
-                description = <"ç¡ç ç¶æ³ 24æéå¤æ¥è¡å§è¨é²ã®è§£éãå©ãããã (synthesised)">
+                text = <"睡眠状況 (synthesised)">
+                description = <"睡眠状況 24時間外来血圧記録の解釈を助けるため (synthesised)">
             >
             ["at1067"] = <
                 text = <"*Angle, plane(en)">
@@ -1470,43 +1470,43 @@ terminology
                 description = <"*mean(en)">
             >
             ["ac1074"] = <
-                text = <"ã«ããµã¤ãº (synthesised)">
-                description = <"è¡å§æ¸¬å®ã®ããã«ä½¿ãããã«ãã®å¤§ãã. (synthesised)">
+                text = <"カフサイズ (synthesised)">
+                description = <"血圧測定のために使われるカフの大きさ. (synthesised)">
             >
             ["ac1076"] = <
-                text = <"è¨æ¸¬é¨ä½ (synthesised)">
-                description = <"è¡å§ãä¸è¬çã«æ¸¬å®ãããèº«ä½ã®é¨ä½ (synthesised)">
+                text = <"計測部位 (synthesised)">
+                description = <"血圧が一般的に測定される身体の部位 (synthesised)">
             >
             ["ac1079"] = <
-                text = <"æ¹æ³ (synthesised)">
+                text = <"方法 (synthesised)">
                 description = <"*Method of measurement of blood pressure.(en) (synthesised)">
             >
             ["ac1082"] = <
-                text = <"æ¡å¼µæçµæ« (synthesised)">
-                description = <"æ¡å¼µæå§ãæ±ºããããã«ã©ã®ã³ã­ãã³ãé³ãä½¿ç¨ããããã¨ãããè¨é². (synthesised)">
+                text = <"拡張期終末 (synthesised)">
+                description = <"拡張期圧を決めるためにどのコロトコフ音が使用されたかというを記録. (synthesised)">
             >
             ["id1"] = <
-                text = <"è¡å§">
-                description = <"å¨èº«ã®å¾ªç°ã§ã®åèå§ã®ä»£ç¨ã¨ãã¦ï¼å±æã§æ¸¬å®ãããè¡å§ãä¸è¬çã«ã¯ãè¡å§ãã¨ã¯ä¸èã§ä¸èåèãæ¸¬å®ãããã®ããããã¨ãå¤ãã">
+                text = <"血圧">
+                description = <"全身の循環での動脈圧の代用として，局所で測定される血圧。一般的には「血圧」とは上腕で上腕動脈を測定したものをさすことが多い。">
             >
             ["id2"] = <
                 text = <"*history(en)">
                 description = <"*history Structural node(en)">
             >
             ["id4"] = <
-                text = <"è¡å§">
+                text = <"血圧">
                 description = <"*@ internal @(en)">
             >
             ["id5"] = <
-                text = <"åç¸®æ">
-                description = <"1ã¤ä»¥ä¸ã®èã®éã§æé«å¤ãç¤ºãå¨èº«ã®åèå§ - å¿æ©å³ã®åç¸®æã§æ¸¬å®ããã">
+                text = <"収縮期">
+                description = <"1つ以上の脈の間で最高値を示す全身の動脈圧 - 心機図の収縮期で測定される">
             >
             ["id6"] = <
-                text = <"æ¡å¼µæ">
-                description = <"1ã¤ä»¥ä¸ã®èã®éã§æä½å¤ãç¤ºãå¨èº«ã®åèå§ - å¿æ©å³ã®æ¡å¼µæã§æ¸¬å®ããã">
+                text = <"拡張期">
+                description = <"1つ以上の脈の間で最低値を示す全身の動脈圧 - 心機図の拡張期で測定される">
             >
             ["id7"] = <
-                text = <"è¡å§">
+                text = <"血圧">
                 description = <"*Default event(en)">
             >
             ["id8"] = <
@@ -1514,201 +1514,201 @@ terminology
                 description = <"*@ internal @(en)">
             >
             ["id9"] = <
-                text = <"ä½ä½">
-                description = <"è¨æ¸¬ã®ã¨ãã®å¯¾è±¡èã®ä½ä½">
+                text = <"体位">
+                description = <"計測のときの対象者の体位">
             >
             ["id12"] = <
                 text = <"*list structure(en)">
                 description = <"*list structure(en)">
             >
             ["id14"] = <
-                text = <"ã«ããµã¤ãº">
-                description = <"è¡å§æ¸¬å®ã®ããã«ä½¿ãããã«ãã®å¤§ãã.">
+                text = <"カフサイズ">
+                description = <"血圧測定のために使われるカフの大きさ.">
                 comment = <"Perloff D, Grim C, Flack J, Frohlich ED, Hill M, McDonald M, Morgenstern BZ. Human blood pressure determination by sphygmomanometry. Circulation 1993;88;2460-2470.">
             >
             ["id15"] = <
-                text = <"è¨æ¸¬é¨ä½">
-                description = <"è¡å§ãä¸è¬çã«æ¸¬å®ãããèº«ä½ã®é¨ä½">
+                text = <"計測部位">
+                description = <"血圧が一般的に測定される身体の部位">
             >
             ["at16"] = <
-                text = <"æäººå¤§è¿">
-                description = <"æäººã®å¤§è¿ã§è¡å§ãæ¸¬å®ããããã®ã«ããè¢ã¯ããã 20cm x 42cm.">
+                text = <"成人大腿">
+                description = <"成人の大腿で血圧を測定するためのカフ。袋はおよそ 20cm x 42cm.">
             >
             ["at17"] = <
-                text = <"å¤§æãªæäºº">
-                description = <"å¤§æãªæäººã®ããã®ã«ã è¢ã¯ããã 16cm x 38cm.">
+                text = <"大柄な成人">
+                description = <"大柄な成人のためのカフ 袋はおよそ 16cm x 38cm.">
             >
             ["at18"] = <
-                text = <"æäºº">
-                description = <"ä¸è¬çãªæäººã®ããã®ã«ã - è¢ã¯ããã 13cm x 30cm.">
+                text = <"成人">
+                description = <"一般的な成人のためのカフ - 袋はおよそ 13cm x 30cm.">
             >
             ["at26"] = <
-                text = <"å³è">
+                text = <"右腕">
                 description = <"*The right arm of the person(en)">
             >
             ["at27"] = <
-                text = <"å·¦è">
+                text = <"左腕">
                 description = <"*The left arm of the person(en)">
             >
             ["at28"] = <
-                text = <"å³è¶³">
+                text = <"右足">
                 description = <"*The right leg of the person(en)">
             >
             ["at29"] = <
-                text = <"å·¦è">
+                text = <"左脚">
                 description = <"*The left leg of the person(en)">
             >
             ["id34"] = <
-                text = <"ã³ã¡ã³ã">
-                description = <"è¡å§æ¸¬å®ã®ã³ã¡ã³ã">
+                text = <"コメント">
+                description = <"血圧測定のコメント">
             >
             ["at1001"] = <
-                text = <"ç«ä½">
+                text = <"立位">
                 description = <"*Standing at the time of blood pressure measurement(en)">
             >
             ["at1002"] = <
-                text = <"åº§ä½">
+                text = <"座位">
                 description = <"*Sitting on bed or chair at the time of blood pressure measurement(en)">
             >
             ["at1003"] = <
-                text = <"æä½">
+                text = <"斜位">
                 description = <"*Person reclining at 45 degrees at the time of blood pressure measurement(en)">
             >
             ["at1004"] = <
-                text = <"è¥ä½">
-                description = <"è¥ä½ã§ã®æ¸¬å®è¡å§">
+                text = <"臥位">
+                description = <"臥位での測定血圧">
             >
             ["id1006"] = <
-                text = <"ãã£ã«ã">
+                text = <"ティルト">
                 description = <"*The craniocaudal tilt of the surface on which the person is lying at the time of measurement(en)">
             >
             ["id1007"] = <
-                text = <"å¹³ååèå§">
-                description = <"ç¸®æ¡å¼µãµã¤ã¯ã«ã®ãã¹ã¦ã®éç¨ã«ãããåèå§ã®å¹³åå¤.">
+                text = <"平均同脈圧">
+                description = <"縮拡張サイクルのすべての過程における動脈圧の平均値.">
             >
             ["id1008"] = <
-                text = <"èå§">
-                description = <"1åã®åç¸®ãµã¤ã¯ã«ã§ã®è¡å§ã®å¤å">
+                text = <"脈圧">
+                description = <"1回の収縮サイクルでの血圧の変動">
             >
             ["at1009"] = <
-                text = <"å°æãªæäºº">
-                description = <"å°æãªæäººã®ããã®ã«ã - è¢ã¯ããã 10cm x 24cm.">
+                text = <"小柄な成人">
+                description = <"小柄な成人のためのカフ - 袋はおよそ 10cm x 24cm.">
             >
             ["at1010"] = <
-                text = <"å¹¼å/çã«">
-                description = <"å°åãããã¯ç©ããæäººã®ããã®ã«ã - è¢ã¯ããã 8cm x 21cm.">
+                text = <"幼児/省に">
+                description = <"小児あるいは痩せた成人のためのカフ - 袋はおよそ 8cm x 21cm.">
             >
             ["id1011"] = <
-                text = <"æ¡å¼µæçµæ«">
-                description = <"æ¡å¼µæå§ãæ±ºããããã«ã©ã®ã³ã­ãã³ãé³ãä½¿ç¨ããããã¨ãããè¨é².">
+                text = <"拡張期終末">
+                description = <"拡張期圧を決めるためにどのコロトコフ音が使用されたかというを記録.">
             >
             ["at1012"] = <
-                text = <"4æ">
-                description = <"ã³ã­ãã³ãã®4é³ãæ¥éã«æ¸å¼±ããææ.">
+                text = <"4期">
+                description = <"コロトコフの4音。急速に減弱する時期.">
             >
             ["at1013"] = <
-                text = <"5æ">
-                description = <"ã³ã­ãã³ãã®5é³ãè´åãããææãã«ãå§ãæ¡å¼µæå§ãä¸åãé³ãè´åãããªããªãææ">
+                text = <"5期">
+                description = <"コロトコフの5音が聴取される時期。カフ圧が拡張期圧を下回り音が聴取されなくなる時期">
             >
             ["at1015"] = <
-                text = <"å·¦å´è¥ä½">
-                description = <"å´è¥ä½ãéå¸¸ã¯å·¦å´ãéå¸¸ã¯å¦å¨ æçµããªã¡ã¹ã¿ã§å¿è¦ã¨ãªãä½ä½">
+                text = <"左側臥位">
+                description = <"側臥位　通常は左側　通常は妊娠最終トリメスタで必要となる体位">
             >
             ["at1019"] = <
-                text = <"å¹¼å">
-                description = <"å¹¼åã®ããã«ä½¿ãããã«ã - è¢ã¯ããã 5cm x 15cm.">
+                text = <"幼児">
+                description = <"幼児のために使われるカフ - 袋はおよそ 5cm x 15cm.">
             >
             ["at1020"] = <
-                text = <"æ°çå">
-                description = <"æ°çåç¨ã®ã«ã æ³å®ãããã«ãã¯çä¸æä½éã¨æçåº¦ã«å¿ãã¦é©åãªãã®ã§ãããã¨.">
+                text = <"新生児">
+                description = <"新生児用のカフ 想定されるカフは生下時体重と成熟度に応じて適切なものであること.">
             >
             ["at1021"] = <
-                text = <"å³æé¦">
-                description = <"å¯¾è±¡ã®å³æé¦">
+                text = <"右手首">
+                description = <"対象の右手首">
             >
             ["at1022"] = <
-                text = <"å·¦æé¦">
-                description = <"å¯¾è±¡ã®å·¦æé¦">
+                text = <"左手首">
+                description = <"対象の左手首">
             >
             ["id1026"] = <
-                text = <"æ¸¬å®æ©å¨">
-                description = <"æ°´éè¡å§è¨ãããã¯ãã®ã»ãã®è¡å§ãæ¸¬å®ããããã«ä½¿ãããæ©å¨.">
+                text = <"測定機器">
+                description = <"水銀血圧計あるいはそのほかの血圧を測定するために使われる機器.">
             >
             ["at1027"] = <
-                text = <"å³è¶³é¦">
-                description = <"å¯¾è±¡ã®å³è¶³é¦">
+                text = <"右足首">
+                description = <"対象の右足首">
             >
             ["id1031"] = <
-                text = <"å´ä½">
+                text = <"労作">
                 description = <"*Details about physical activity undertaken at the time of blood pressure measurement(en)">
             >
             ["at1032"] = <
-                text = <"å·¦è¶³é¦">
-                description = <"å¯¾è±¡ã®å·¦è¶³é¦">
+                text = <"左足首">
+                description = <"対象の左足首">
             >
             ["at1033"] = <
-                text = <"æ">
-                description = <"å¯¾è±¡ã®æãæã®è­å¥ã¯å¿è¦ã§ããã°ï½¢ç¹å¥ãªé¨ä½ãã¨ã¬ã¡ã³ãã§è¨é²ããã">
+                text = <"指">
+                description = <"対象の指。指の識別は必要であれば｢特別な部位」エレメントで記録される">
             >
             ["id1034"] = <
-                text = <"é¨ä½">
+                text = <"部位">
                 description = <"*Body location where blood pressure is measured.  Use 'Location of measurement' to select from common sites.  Use 'Specific location' to record more specific details or a site that is not in the common set or to refer to an external terminology. (en)">
             >
             ["id1035"] = <
-                text = <"ç¹å¥ãªé¨ä½">
-                description = <"è¡å§ãæ¸¬å®ãããå ´æã«ã¤ãã¦ã®è©³ç´°ãªè¨é².">
+                text = <"特別な部位">
+                description = <"血圧が測定される場所についての詳細な記録.">
             >
             ["id1036"] = <
-                text = <"æ¹æ³">
+                text = <"方法">
                 description = <"*Method of measurement of blood pressure.(en)">
             >
             ["at1037"] = <
-                text = <"è´è¨º">
-                description = <"è´è¨ºå¨ãä½¿ãã³ã­ãã³ãé³ã§å¤é¨ããè¡å§ãæ¸¬å®ããæ¹æ³.">
+                text = <"聴診">
+                description = <"聴診器を使いコロトコフ音で外部から血圧を測定する方法.">
             >
             ["at1038"] = <
-                text = <"è§¦è¨º">
-                description = <"èæ(éå¸¸ã¯ä¸èåèãããã¯æ©éª¨åèï¼ãè§¦è¨ºãããã¨ã«ããå¤é¨ããè¡å§ãæ¸¬å®ããæ¹æ³">
+                text = <"触診">
+                description = <"脈拍(通常は上腕動脈あるいは橈骨動脈）を触診することにより外部から血圧を測定する方法">
             >
             ["id1039"] = <
-                text = <"å¹³ååèå§ã®è¨ç®å¼">
-                description = <"å¹³ååèå§ãè¨ç®ããããã«ä½¿ãããå£«æ°ï¼ãããã¼ã¿ã«è¨é²ããã¦ããã°ï¼">
+                text = <"平均同脈圧の計算式">
+                description = <"平均同脈圧を計算するために使われた士気（もしデータに記録されていれば）">
             >
             ["at1040"] = <
-                text = <"æ©æ¢°">
-                description = <"è¡å§æ¸¬å®å¨ãä½¿ã£ã¦å¤é¨ããè¡å§ãæ¸¬å®ããæ¹æ³.">
+                text = <"機械">
+                description = <"血圧測定器を使って外部から血圧を測定する方法.">
             >
             ["at1041"] = <
-                text = <"ä¾µè¥²ç">
-                description = <"å¾ç®çã«åèãç©¿åºãï¼è¡ç®¡åé¨ããè¡å§ãæ¸¬å®ããæ¹æ³.">
+                text = <"侵襲的">
+                description = <"径皮的に動脈を穿刺し，血管内部から血圧を測定する方法.">
             >
             ["id1043"] = <
-                text = <"24æéå¹³å">
-                description = <"24æéã«ãããæ¨å®å¹³åè¡å§">
+                text = <"24時間平均">
+                description = <"24時間にわたる推定平均血圧">
             >
             ["id1044"] = <
-                text = <"ç¡ç ç¶æ³">
-                description = <"ç¡ç ç¶æ³ 24æéå¤æ¥è¡å§è¨é²ã®è§£éãå©ãããã">
+                text = <"睡眠状況">
+                description = <"睡眠状況 24時間外来血圧記録の解釈を助けるため">
             >
             ["at1045"] = <
-                text = <"è¦é">
-                description = <"å¯¾è±¡ã¯å¸¸ã«æè­ããã">
+                text = <"覚醒">
+                description = <"対象は常に意識がある">
             >
             ["at1046"] = <
-                text = <"ç¡ç ä¸­">
-                description = <"å¯¾è±¡ã¯èªç¶ãªä¼é¤ç¶æã«ãã">
+                text = <"睡眠中">
+                description = <"対象は自然な休養状態にある">
             >
             ["at1052"] = <
-                text = <"è¶³å">
-                description = <"å¯¾è±¡ã®è¶³å°é¨ãè¶³å°é¨ã®è­å¥ã¯å¿è¦ã§ããã°ãç¹å¥ãªé¨ä½ãã¨ã¬ã¡ã³ãã«è¨é²ããã">
+                text = <"足先">
+                description = <"対象の足尖部。足尖部の識別は必要であれば「特別な部位」エレメントに記録される">
             >
             ["id1053"] = <
-                text = <"äº¤çµ¡å å­">
+                text = <"交絡因子">
                 description = <"*Comment on and record other incidental factors that may be contributing to the blood pressure measurement.  For example, level of anxiety or 'white coat syndrome'; pain or fever; changes in atmospheric pressure etc.(en)">
             >
             ["at1054"] = <
-                text = <"åèå">
-                description = <"åèåã®ãã©ã³ã¹ãã¥ã¼ãµã¼ã«æ¥ç¶ãããã©ã¤ã³ããä¾µè¥²çã«æ¸¬å®ããæ¹æ³ãåèã®é¨ä½ã¯å¿è¦ã§ããã°ãç¹å¥ãªé¨ä½ãã¨ã¬ã¡ã³ãã«è¨é²ããã">
+                text = <"動脈内">
+                description = <"動脈内のトランスデューサーに接続されたラインから侵襲的に測定する方法。動脈の部位は必要であれば「特別な部位」エレメントに記録される">
             >
         >
         ["en"] = <
@@ -1980,12 +1980,12 @@ terminology
                 description = <"*Pressure(en)">
             >
             ["ac1062"] = <
-                text = <"Ø§ÙÙÙØ¶Ø¹ (synthesised)">
-                description = <"ÙÙØ¶Ø¹ Ø§ÙØ´Ø®Øµ ÙÙ ÙÙØª Ø§ÙÙÙØ§Ø³ (synthesised)">
+                text = <"الموضع (synthesised)">
+                description = <"موضع الشخص في وقت القياس (synthesised)">
             >
             ["ac1065"] = <
-                text = <"Ø­Ø§ÙØ© Ø§ÙÙÙÙ (synthesised)">
-                description = <"Ø­Ø§ÙØ© Ø§ÙÙÙÙ - ØªØ¯Ø¹Ù ØªÙØ³ÙØ± ÙÙØ§Ø³Ø§Øª Ø¶ØºØ· Ø§ÙØ¯Ù Ø§ÙÙÙØ³ÙØ§Ø±ÙØ© Ø®ÙØ§Ù 24 Ø³Ø§Ø¹Ø© (synthesised)">
+                text = <"حالة النوم (synthesised)">
+                description = <"حالة النوم - تدعم تفسير قياسات ضغط الدم المِسيارية خلال 24 ساعة (synthesised)">
             >
             ["at1067"] = <
                 text = <"*Angle, plane(en)">
@@ -1996,250 +1996,250 @@ terminology
                 description = <"*mean(en)">
             >
             ["ac1074"] = <
-                text = <"Ø­Ø¬Ù Ø§ÙÙÙÙÙÙØ© (synthesised)">
-                description = <"Ø­Ø¬Ù Ø§ÙÙÙÙÙÙØ© Ø§ÙÙØ³ØªØ®Ø¯ÙØ© ÙÙ ÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù (synthesised)">
+                text = <"حجم الكُفَّة (synthesised)">
+                description = <"حجم الكُفَّة المستخدمة في قياس ضغط الدم (synthesised)">
             >
             ["ac1076"] = <
-                text = <"ÙÙØ¶Ø¹ Ø§ÙÙÙØ§Ø³ (synthesised)">
-                description = <"Ø§ÙØ£ÙØ§ÙÙ Ø§ÙÙØ¹ØªØ§Ø¯Ø© ÙÙ Ø§ÙØ¬Ø³Ù Ø§ÙØªÙ ÙØªÙ ÙÙÙØ§ Ø¹Ø§Ø¯Ø© ÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù (synthesised)">
+                text = <"موضع القياس (synthesised)">
+                description = <"الأماكن المعتادة من الجسم التي يتم فيها عادة قياس ضغط الدم (synthesised)">
             >
             ["ac1079"] = <
-                text = <"Ø§ÙØ·Ø±ÙÙØ© (synthesised)">
-                description = <"Ø·Ø±ÙÙØ© ÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù (synthesised)">
+                text = <"الطريقة (synthesised)">
+                description = <"طريقة قياس ضغط الدم (synthesised)">
             >
             ["ac1082"] = <
-                text = <"Ø§ÙÙÙØ·Ø© Ø§ÙÙÙØ§Ø¦ÙØ© Ø§ÙØ§ÙØ¨Ø³Ø§Ø·ÙØ©/ Ø§ÙØ§Ø±ØªØ®Ø§Ø¦ÙØ© (synthesised)">
-                description = <"ØªØ³ØªØ®Ø¯Ù Ø£ØµÙØ§Øª ÙÙØ±ØªÙÙÙ ÙØªØ­Ø¯ÙØ¯ Ø¶ØºØ· Ø§ÙØ¯Ù Ø§ÙØ§ÙØ¨Ø³Ø§Ø·Ù Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù Ø·Ø±ÙÙØ© Ø§ÙØªØ³ÙÙÙØ¹ (synthesised)">
+                text = <"النقطة النهائية الانبساطية/ الارتخائية (synthesised)">
+                description = <"تستخدم أصوات كورتكوف لتحديد ضغط الدم الانبساطي باستخدام طريقة التسمُّع (synthesised)">
             >
             ["id1"] = <
-                text = <"Ø¶ØºØ· Ø§ÙØ¯Ù">
-                description = <"ÙÙØ§Ø³ ÙÙØ¶Ø¹Ù ÙØ¶ØºØ· Ø§ÙØ¯Ù Ø§ÙØ´Ø±ÙØ§ÙÙ Ù Ø§ÙØ°Ù ÙØ­Ù ÙØ­Ù Ø§ÙØ¶ØºØ· Ø§ÙØ´Ø±ÙØ§ÙÙ ÙÙ Ø§ÙØ¯ÙØ±Ø© Ø§ÙØ¯ÙÙÙØ© Ø§ÙØ¬ÙØ§Ø²ÙØ©. 
-Ù Ø¹Ø§Ø¯Ø© ÙØ§ ÙØ³ØªØ®Ø¯Ù ÙØµØ·ÙØ­ \"Ø¶ØºØ· Ø§ÙØ¯Ù\" ÙÙÙØ¥Ø´Ø§Ø±Ø© Ø¥ÙÙ ÙÙØ§Ø³ Ø¶ØºØ· Ø¯Ù Ø§ÙØ´Ø±ÙØ§Ù Ø§ÙØ¹Ø¶ÙØ¯Ù ÙÙ Ø£Ø¹ÙÙ Ø§ÙØ°Ø±Ø§Ø¹.">
+                text = <"ضغط الدم">
+                description = <"قياس موضعي لضغط الدم الشرياني و الذي يحل محل الضغط الشرياني في الدورة الدموية الجهازية. 
+و عادة ما يستخدم مصطلح \"ضغط الدم\" لللإشارة إلى قياس ضغط دم الشريان العضُدي في أعلى الذراع.">
             >
             ["id2"] = <
-                text = <"Ø§ÙØªØ§Ø±ÙØ®">
-                description = <"Ø§ÙØ¹ÙØ¯Ø© Ø§ÙØªØ±ÙÙØ¨ÙØ© ÙÙØªØ§Ø±ÙØ®">
+                text = <"التاريخ">
+                description = <"العقدة التركيبية للتاريخ">
             >
             ["id4"] = <
                 text = <"*blood pressure(en)">
                 description = <"*@ internal @(en)">
             >
             ["id5"] = <
-                text = <"Ø§ÙØ§ÙÙØ¨Ø§Ø¶Ù">
-                description = <"Ø°Ø±ÙØ© Ø¶ØºØ· Ø§ÙØ¯Ù Ø§ÙØ´Ø±ÙØ§ÙÙ Ø§ÙØ¬ÙØ§Ø²Ù - ÙØªÙ ÙÙØ§Ø³Ù ÙÙ Ø·ÙØ± Ø§ÙØ§ÙÙØ¨Ø§Ø¶ ÙÙ Ø¯ÙØ±Ø© Ø§ÙÙÙØ¨">
+                text = <"الانقباضي">
+                description = <"ذروة ضغط الدم الشرياني الجهازي - يتم قياسه في طور الانقباض من دورة القلب">
             >
             ["id6"] = <
-                text = <"Ø§ÙØ§ÙØ¨Ø³Ø§Ø·Ù">
-                description = <"Ø§ÙØ­Ø¯ Ø§ÙØ£Ø¯ÙÙ ÙØ¶ØºØ· Ø§ÙØ¯Ù Ø§ÙØ´Ø±ÙØ§ÙÙ Ø§ÙØ¬ÙØ§Ø²Ù - ÙØªÙ ÙÙØ§Ø³ÙØ§ ÙÙ Ø·ÙØ± Ø§ÙØ§ÙØ¨Ø³Ø§Ø· - Ø§ÙØ§Ø±ØªØ®Ø§Ø¡ ÙÙ Ø¯ÙØ±Ø© Ø§ÙÙÙØ¨">
+                text = <"الانبساطي">
+                description = <"الحد الأدني لضغط الدم الشرياني الجهازي - يتم قياسها في طور الانبساط - الارتخاء من دورة القلب">
             >
             ["id7"] = <
-                text = <"Ø¥Ø­Ø¯Ù Ø§ÙÙÙØ§Ø¦Ø¹">
-                description = <"Ø§ÙÙØ§ÙØ¹Ø© Ø§ÙØªÙÙØ§Ø¦ÙØ©">
+                text = <"إحدى الوقائع">
+                description = <"الواقعة التلقائية">
             >
             ["id8"] = <
                 text = <"*state structure(en)">
                 description = <"*@ internal @(en)">
             >
             ["id9"] = <
-                text = <"Ø§ÙÙÙØ¶Ø¹">
-                description = <"ÙÙØ¶Ø¹ Ø§ÙØ´Ø®Øµ ÙÙ ÙÙØª Ø§ÙÙÙØ§Ø³">
+                text = <"الموضع">
+                description = <"موضع الشخص في وقت القياس">
             >
             ["id12"] = <
-                text = <"ØªØ±ÙÙØ¨ Ø§ÙÙØ§Ø¦ÙØ©">
-                description = <"ØªØ±ÙÙØ¨ Ø§ÙÙØ§Ø¦ÙØ©">
+                text = <"تركيب القائمة">
+                description = <"تركيب القائمة">
             >
             ["id14"] = <
-                text = <"Ø­Ø¬Ù Ø§ÙÙÙÙÙÙØ©">
-                description = <"Ø­Ø¬Ù Ø§ÙÙÙÙÙÙØ© Ø§ÙÙØ³ØªØ®Ø¯ÙØ© ÙÙ ÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù">
+                text = <"حجم الكُفَّة">
+                description = <"حجم الكُفَّة المستخدمة في قياس ضغط الدم">
                 comment = <"Perloff D, Grim C, Flack J, Frohlich ED, Hill M, McDonald M, Morgenstern BZ. Human blood pressure determination by sphygmomanometry. Circulation 1993;88;2460-2470. ">
             >
             ["id15"] = <
-                text = <"ÙÙØ¶Ø¹ Ø§ÙÙÙØ§Ø³">
-                description = <"Ø§ÙØ£ÙØ§ÙÙ Ø§ÙÙØ¹ØªØ§Ø¯Ø© ÙÙ Ø§ÙØ¬Ø³Ù Ø§ÙØªÙ ÙØªÙ ÙÙÙØ§ Ø¹Ø§Ø¯Ø© ÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù">
+                text = <"موضع القياس">
+                description = <"الأماكن المعتادة من الجسم التي يتم فيها عادة قياس ضغط الدم">
             >
             ["at16"] = <
-                text = <"ÙØ®Ø° Ø§ÙØ¨Ø§ÙØº">
-                description = <"ÙÙØ© ØªØ³ØªØ®Ø¯Ù ÙÙØ®Ø° Ø§ÙØ¨Ø§ÙØº - ÙØ«Ø§ÙØ©/ ÙÙØ³Ø© ÙÙ 20 Ø³ÙÙØªÙÙØªØ± * 42 Ø³ÙÙØªÙÙØªØ± ØªÙØ±ÙØ¨Ø§">
+                text = <"فخذ البالغ">
+                description = <"كفة تستخدم لفخذ البالغ - مثانة/ كيسة من 20 سينتيمتر * 42 سينتيمتر تقريبا">
             >
             ["at17"] = <
-                text = <"Ø¨Ø§ÙØº ÙØ¨ÙØ±">
-                description = <"ÙÙØ© ÙÙØ¨Ø§ÙØºÙÙ Ø°ÙÙ Ø§ÙØ£Ø°Ø±Ø¹ Ø§ÙÙØ¨ÙØ±Ø© - Ø§ÙÙØ«Ø§ÙØ©/ Ø§ÙÙÙØ³Ø© 16 Ø³ÙÙØªÙÙØªØ± * 38 Ø³ÙÙØªÙÙØªØ± ØªÙØ±ÙØ¨Ø§">
+                text = <"بالغ كبير">
+                description = <"كفة للبالغين ذوي الأذرع الكبيرة - المثانة/ الكيسة 16 سينتيمتر * 38 سينتيمتر تقريبا">
             >
             ["at18"] = <
-                text = <"Ø§ÙØ¨Ø§ÙØº">
-                description = <"ÙÙØ© Ø¹ÙØ§Ø±ÙØ© ÙÙØ¨Ø§ÙØºÙÙ - ÙØ«Ø§ÙØ© ÙÙ 13 Ø³ÙÙØªÙÙØªØ± * 30 Ø³ÙÙØªÙÙØªØ± ØªÙØ±ÙØ¨Ø§">
+                text = <"البالغ">
+                description = <"كفة عيارية للبالغين - مثانة من 13 سينتيمتر * 30 سينتيمتر تقريبا">
             >
             ["at26"] = <
-                text = <"Ø§ÙØ°Ø±Ø§Ø¹ Ø§ÙØ£ÙÙÙ">
-                description = <"Ø§ÙØ°Ø±Ø§Ø¹ Ø§ÙØ£ÙÙÙ ÙÙØ´Ø®Øµ">
+                text = <"الذراع الأيمن">
+                description = <"الذراع الأيمن للشخص">
             >
             ["at27"] = <
-                text = <"Ø§ÙØ°Ø±Ø§Ø¹ Ø§ÙØ£ÙØ³Ø±">
-                description = <"Ø§ÙØ°Ø±Ø§Ø¹ Ø§ÙØ£ÙØ³Ø± ÙÙØ´Ø®Øµ">
+                text = <"الذراع الأيسر">
+                description = <"الذراع الأيسر للشخص">
             >
             ["at28"] = <
-                text = <"Ø§ÙÙØ®Ø° Ø§ÙØ£ÙÙÙ">
-                description = <"Ø§ÙÙØ®Ø° Ø§ÙØ£ÙÙÙ ÙÙØ´Ø®Øµ">
+                text = <"الفخذ الأيمن">
+                description = <"الفخذ الأيمن للشخص">
             >
             ["at29"] = <
-                text = <"Ø§ÙÙØ®Ø° Ø§ÙØ£ÙØ³Ø±">
-                description = <"Ø§ÙÙØ®Ø° Ø§ÙØ£ÙØ³Ø± ÙÙØ´Ø®Øµ">
+                text = <"الفخذ الأيسر">
+                description = <"الفخذ الأيسر للشخص">
             >
             ["id34"] = <
-                text = <"ØªØ¹ÙÙÙ">
-                description = <"ØªØ¹ÙÙÙ Ø­ÙÙ ÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù">
+                text = <"تعليق">
+                description = <"تعليق حول قياس ضغط الدم">
             >
             ["at1001"] = <
-                text = <"ÙØ§ÙÙ">
-                description = <"Ø§ÙØ´Ø®Øµ ÙØ§ÙÙ Ø¹ÙØ¯ Ø§ÙÙÙØ§Ù Ø¨ÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù">
+                text = <"واقف">
+                description = <"الشخص واقف عند القيام بقياس ضغط الدم">
             >
             ["at1002"] = <
-                text = <"Ø¬Ø§ÙØ³">
-                description = <"Ø§ÙØ´Ø®Øµ Ø¬Ø§ÙØ³ (ÙØ«ÙØ§ Ø¹ÙÙ Ø³Ø±ÙØ± Ø£Ù ÙØ±Ø³Ù) Ø¹ÙØ¯ Ø§ÙÙÙØ§Ù Ø¨ÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù">
+                text = <"جالس">
+                description = <"الشخص جالس (مثلا على سرير أو كرسي) عند القيام بقياس ضغط الدم">
             >
             ["at1003"] = <
-                text = <"ÙØ¶Ø·Ø¬Ø¹">
-                description = <"Ø§ÙØ´Ø®Øµ ÙØ¶Ø·Ø¬Ø¹ Ø¹ÙØ¯ Ø§ÙÙÙØ§Ù Ø¨ÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù">
+                text = <"مضطجع">
+                description = <"الشخص مضطجع عند القيام بقياس ضغط الدم">
             >
             ["at1004"] = <
-                text = <"ÙØ³ØªÙÙÙ">
-                description = <"Ø§ÙØ´Ø®Øµ ÙØ³ØªÙÙÙ Ø¨Ø´ÙÙ ÙØ³ØªÙÙ Ø¹ÙØ¯ Ø§ÙÙÙØ§Ù Ø¨ÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù">
+                text = <"مستلقٍ">
+                description = <"الشخص مستلقٍ بشكل مستوٍ عند القيام بقياس ضغط الدم">
             >
             ["id1006"] = <
-                text = <"Ø§ÙØ§ÙØ­ÙØ§Ø¡">
-                description = <"Ø§ÙØ§ÙØ­ÙØ§Ø¡ Ø§ÙØ±Ø£Ø³Ù Ø§ÙØ°ÙØ¨Ù Ø¹ÙÙ Ø§ÙØ³Ø·Ø­ Ø§ÙØ°Ù ÙØ³ØªÙÙÙ Ø¹ÙÙÙ Ø§ÙØ´Ø®Øµ ÙÙ Ø£Ø«ÙØ§Ø¡ Ø§ÙÙÙØ§Ø³">
+                text = <"الانحناء">
+                description = <"الانحناء الرأسي الذنبي على السطح الذي يستلقي عليه الشخص في أثناء القياس">
             >
             ["id1007"] = <
-                text = <"ÙØªÙØ³Ø· Ø§ÙØ¶ØºØ· Ø§ÙØ´Ø±ÙØ§ÙÙ">
-                description = <"ÙØªÙØ³Ø· Ø§ÙØ¶ØºØ· Ø§ÙØ´Ø±ÙØ§ÙÙ Ø§ÙØ°Ù ÙØ­Ø¯Ø« Ø®ÙØ§Ù Ø¬ÙÙØ¹ Ø£Ø·ÙØ§Ø± Ø¯ÙØ±Ø© Ø§ÙÙÙØ¨ Ø§ÙÙØ§Ø­Ø¯Ø© ÙÙ Ø§ÙÙØ¨Ø§Ø¶ Ù Ø§ÙØ¨Ø³Ø§Ø·/ Ø§Ø±ØªØ®Ø§Ø¡">
+                text = <"متوسط الضغط الشرياني">
+                description = <"متوسط الضغط الشرياني الذي يحدث خلال جميع أطوار دورة القلب الواحدة من انقباض و انبساط/ ارتخاء">
             >
             ["id1008"] = <
-                text = <"Ø§ÙØ¶ØºØ· Ø¹ÙØ¯ Ø§ÙÙØ¨Ø¶">
-                description = <"Ø§ÙÙØ±Ù Ø¨ÙÙ Ø¶ØºØ· Ø§ÙØ¯Ù Ø§ÙØ§ÙÙØ¨Ø§Ø¶Ù Ù Ø§ÙØ§ÙØ¨Ø³Ø§Ø·Ù">
+                text = <"الضغط عند النبض">
+                description = <"الفرق بين ضغط الدم الانقباضي و الانبساطي">
             >
             ["at1009"] = <
-                text = <"Ø§ÙØ¨Ø§ÙØº Ø§ÙØµØºÙØ±">
-                description = <"ÙÙØ© ØªØ³ØªØ®Ø¯Ù ÙÙØ¨Ø§ÙØº Ø§ÙØµØºÙØ± - ÙØ«Ø§ÙØ©/ ÙÙØ³Ø© ÙÙ 10 Ø³ÙÙØªÙÙØªØ± * 24 Ø³ÙÙØªÙÙØªØ± ØªÙØ±ÙØ¨Ø§">
+                text = <"البالغ الصغير">
+                description = <"كفة تستخدم للبالغ الصغير - مثانة/ كيسة من 10 سينتيمتر * 24 سينتيمتر تقريبا">
             >
             ["at1010"] = <
-                text = <"Ø·ÙÙ">
-                description = <"ÙÙØ© ØªØ³ØªØ®Ø¯Ù ÙÙØ·ÙÙ Ø£Ù Ø§ÙØ¨Ø§ÙØº Ø°Ù Ø§ÙØ°Ø±Ø§Ø¹ Ø§ÙØ±ÙÙØ¹Ø© - ÙÙ 8 Ø³ÙÙØªÙÙØªØ± * 21 Ø³ÙÙØªÙÙØªØ± ØªÙØ±ÙØ¨Ø§">
+                text = <"طفل">
+                description = <"كفة تستخدم للطفل أو البالغ ذي الذراع الرفيعة - من 8 سينتيمتر * 21 سينتيمتر تقريبا">
             >
             ["id1011"] = <
-                text = <"Ø§ÙÙÙØ·Ø© Ø§ÙÙÙØ§Ø¦ÙØ© Ø§ÙØ§ÙØ¨Ø³Ø§Ø·ÙØ©/ Ø§ÙØ§Ø±ØªØ®Ø§Ø¦ÙØ©">
-                description = <"ØªØ³ØªØ®Ø¯Ù Ø£ØµÙØ§Øª ÙÙØ±ØªÙÙÙ ÙØªØ­Ø¯ÙØ¯ Ø¶ØºØ· Ø§ÙØ¯Ù Ø§ÙØ§ÙØ¨Ø³Ø§Ø·Ù Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù Ø·Ø±ÙÙØ© Ø§ÙØªØ³ÙÙÙØ¹">
+                text = <"النقطة النهائية الانبساطية/ الارتخائية">
+                description = <"تستخدم أصوات كورتكوف لتحديد ضغط الدم الانبساطي باستخدام طريقة التسمُّع">
             >
             ["at1012"] = <
-                text = <"Ø§ÙØ·ÙØ± Ø§ÙØ±Ø§Ø¨Ø¹">
-                description = <"ÙØªÙ Ø§ÙØªØ¹Ø±Ù Ø¹ÙÙ ØµÙØª ÙÙØ±ØªÙÙÙ Ø§ÙØ±Ø§Ø¨Ø¹ Ø¹ÙÙ Ø£ÙÙ ØªØ®ÙÙØª ÙÙÙØµÙ">
+                text = <"الطور الرابع">
+                description = <"يتم التعرف على صوت كورتكوف الرابع على أنه تخفيت منفصل">
             >
             ["at1013"] = <
-                text = <"Ø§ÙØ·ÙØ± Ø§ÙØ®Ø§ÙØ³">
-                description = <"ÙØªÙ Ø§ÙØªØ¹Ø±Ù Ø¹ÙÙ ØµÙØª ÙÙØ±ØªÙÙÙ Ø§ÙØ®Ø§ÙØ³ Ø¨ØºÙØ§Ø¨ Ø§ÙØ£ØµÙØ§Øª Ø­ÙØ« ÙÙØ®ÙØ¶ Ø¶ØºØ· Ø§ÙÙÙØ© ØªØ­Øª Ø¶ØºØ· Ø§ÙØ¯Ù Ø§ÙØ§ÙØ¨Ø³Ø§Ø·Ù">
+                text = <"الطور الخامس">
+                description = <"يتم التعرف على صوت كورتكوف الخامس بغياب الأصوات حيث ينخفض ضغط الكفة تحت ضغط الدم الانبساطي">
             >
             ["at1015"] = <
-                text = <"ÙØ³ØªÙÙ Ù ÙØ§Ø¦Ù ÙØ¬Ø§ÙØ¨Ù Ø§ÙØ£ÙØ³Ø±">
-                description = <"Ø§ÙØ´Ø®Øµ ÙØ³ØªÙÙ Ø¨Ø´ÙÙ ÙØ³ØªÙ ÙØ¹ ÙÙÙ Ø¬Ø§ÙØ¨Ù Ø¨Ø²Ø§ÙÙØ© ØªØ¬Ø§Ù Ø¬Ø§ÙØ¨Ù Ø§ÙØ£ÙØ³Ø±. Ø¹Ø§Ø¯Ø© ÙØ§ ÙÙØ­ØªØ§Ø¬ Ø¥ÙÙ ÙØ°Ø§ Ø§ÙÙØ¶Ø¹ ÙÙ Ø§ÙØ£Ø«ÙÙØ« Ø§ÙØ£Ø®ÙØ± ÙÙ Ø§ÙØ­ÙÙ ÙØªØ®ÙÙÙ Ø§ÙØ§ÙØ¶ØºØ§Ø· Ø§ÙØ£Ø¨ÙØ±Ù Ø§ÙØ¬ÙÙÙ">
+                text = <"مستلق و مائل لجانبه الأيسر">
+                description = <"الشخص مستلق بشكل مستو مع ميل جانبي بزاوية تجاه جانبه الأيسر. عادة ما يُحتاج إلى هذا الوضع في الأثلوث الأخير من الحمل لتخفيف الانضغاط الأبهري الجوفي">
             >
             ["at1019"] = <
-                text = <"Ø±Ø¶ÙØ¹">
-                description = <"ÙÙØ© ØªØ³ØªØ®Ø¯Ù ÙÙØ±Ø¶ÙØ¹ - ÙØ«Ø§ÙØ©/ ÙÙØ³Ø© ÙÙ 5 Ø³ÙÙØªÙÙØªØ± * 15 Ø³ÙÙØªÙÙØªØ± ØªÙØ±ÙØ¨Ø§">
+                text = <"رضيع">
+                description = <"كفة تستخدم للرضيع - مثانة/ كيسة من 5 سينتيمتر * 15 سينتيمتر تقريبا">
             >
             ["at1020"] = <
-                text = <"Ø­Ø¯ÙØ« Ø§ÙÙÙØ§Ø¯Ø©">
-                description = <"Ø§ÙÙÙØ© Ø§ÙÙØ³ØªØ®Ø¯ÙØ© ÙØ­Ø¯ÙØ«Ù Ø§ÙÙÙØ§Ø¯Ø©, Ø¹ÙÙ Ø§ÙØªØ±Ø§Ø¶ Ø£Ù Ø§ÙÙÙØ© ÙÙØ§Ø³Ø¨Ø© ÙÙØ­Ø¬Ù Ù Ø§ÙÙØ¶Ø¬ Ù Ø§ÙÙØ²Ù Ø¹ÙØ¯ ÙÙØ§Ø¯Ø© Ø§ÙØ·ÙÙ">
+                text = <"حديث الولادة">
+                description = <"الكفة المستخدمة لحديثي الولادة, على افتراض أن الكفة مناسبة للحجم و النضج و الوزن عند ولادة الطفل">
             >
             ["at1021"] = <
-                text = <"Ø§ÙØ³Ø§Ø¹Ø¯ Ø§ÙØ£ÙÙÙ">
-                description = <"Ø§ÙØ³Ø§Ø¹Ø¯ Ø§ÙØ£ÙÙÙ ÙÙØ´Ø®Øµ">
+                text = <"الساعد الأيمن">
+                description = <"الساعد الأيمن للشخص">
             >
             ["at1022"] = <
-                text = <"Ø§ÙØ³Ø§Ø¹Ø¯ Ø§ÙØ£ÙØ³Ø±">
-                description = <"Ø§ÙØ³Ø§Ø¹Ø¯ Ø§ÙØ£ÙØ³Ø± ÙÙØ´Ø®Øµ">
+                text = <"الساعد الأيسر">
+                description = <"الساعد الأيسر للشخص">
             >
             ["id1026"] = <
-                text = <"Ø§ÙØ¬ÙÙØ²Ø©">
-                description = <"ØªÙØ§ØµÙÙ Ø­ÙÙ Ø¬ÙØ§Ø² Ø¶ØºØ· Ø§ÙØ¯Ù Ø§ÙØ²Ø¦Ø¨ÙÙ Ø£Ù Ø¬ÙÙØ²Ø© Ø£Ø®Ø±Ù ØªØ³ØªØ®Ø¯Ù ÙÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù">
+                text = <"الجهيزة">
+                description = <"تفاصيل حول جهاز ضغط الدم الزئبقي أو جهيزة أخرى تستخدم لقياس ضغط الدم">
             >
             ["at1027"] = <
-                text = <"Ø§ÙÙØ§Ø­Ù Ø§ÙØ£ÙÙÙ">
-                description = <"Ø§ÙÙØ§Ø­Ù Ø§ÙØ£ÙÙÙ ÙÙØ´Ø®Øµ">
+                text = <"الكاحل الأيمن">
+                description = <"الكاحل الأيمن للشخص">
             >
             ["id1031"] = <
-                text = <"Ø§ÙÙØ¬ÙÙØ¯">
-                description = <"ØªÙØ§ØµÙÙ Ø­ÙÙ Ø§ÙÙØ´Ø§Ø· Ø§ÙØ¨Ø¯ÙÙ Ø§ÙØ°Ù ÙØªÙ Ø§ÙÙÙØ§Ù Ø¨Ù ÙÙ ÙÙØª ÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù.">
+                text = <"المجهود">
+                description = <"تفاصيل حول النشاط البدني الذي يتم القيام به في وقت قياس ضغط الدم.">
             >
             ["at1032"] = <
-                text = <"Ø§ÙÙØ§Ø­Ù Ø§ÙØ£ÙØ³Ø±">
-                description = <"Ø§ÙÙØ§Ø­Ù Ø§ÙØ£ÙØ³Ø± ÙÙØ´Ø®Øµ">
+                text = <"الكاحل الأيسر">
+                description = <"الكاحل الأيسر للشخص">
             >
             ["at1033"] = <
-                text = <"Ø§ÙØ£ØµØ¨Ø¹">
-                description = <"Ø£ØµØ¨Ø¹ Ø§ÙØ´Ø®Øµ. ØªØ¹Ø±ÙÙ Ø§ÙØ£ØµØ¨Ø¹ Ø§ÙØ°Ù ÙØªÙ ØªØ³Ø¬ÙÙÙ ÙÙÙØ¹ Ø¨ÙØ§ÙØ§Øª (ÙÙØ§Ù ÙØ¹ÙÙÙÙ), Ø­Ø³Ø¨ Ø§ÙØ­Ø§Ø¬Ø©">
+                text = <"الأصبع">
+                description = <"أصبع الشخص. تعريف الأصبع الذي يتم تسجيله كنوع بيانات (مكان معيَّن), حسب الحاجة">
             >
             ["id1034"] = <
-                text = <"Ø§ÙÙÙØ¶Ø¹">
-                description = <"Ø§ÙÙÙØ¶Ø¹ ÙÙ Ø§ÙØ¬Ø³Ù Ø§ÙØ°Ù ÙØªÙ ÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù Ø¹ÙØ¯Ù. 
-Ø§Ø³ØªØ®Ø¯Ù (ÙÙØ¶Ø¹ Ø§ÙÙÙØ§Ø³) ÙÙØ§Ø®ØªÙØ§Ø± ÙÙ Ø§ÙØ£ÙØ§ÙÙ Ø§ÙÙØ¹ØªØ§Ø¯Ø©. 
-Ø§Ø³ØªØ®Ø¯Ù (ÙÙØ¶Ø¹ ÙØ¹ÙÙÙÙ) ÙØªØ³Ø¬ÙÙ ØªÙØ§ØµÙÙ Ø£ÙØ«Ø± ØªØ­Ø¯ÙØ¯Ø§ Ø£Ù ÙÙØ¶Ø¹Ø§ ÙÙØ³ ÙÙ ÙØ¬ÙÙØ¹Ø© Ø§ÙØ®ÙØ§Ø±Ø§Øª Ø§ÙÙØ¹ØªØ§Ø¯Ø© Ø£Ù ÙÙØ¥Ø´Ø§Ø±Ø© Ø¥ÙÙ ÙØ¬ÙÙØ¹Ø© ÙØµØ·ÙØ­Ø§Øª Ø®Ø§Ø±Ø¬ÙØ©.">
+                text = <"الموضع">
+                description = <"الموضع من الجسم الذي يتم قياس ضغط الدم عنده. 
+استخدم (موضع القياس) للاختيار من الأماكن المعتادة. 
+استخدم (موضع معيَّن) لتسجيل تفاصيل أكثر تحديدا أو موضعا ليس في مجموعة الخيارات المعتادة أو للإشارة إلى مجموعة مصطلحات خارجية.">
             >
             ["id1035"] = <
-                text = <"ÙÙÙØ¹ ÙØ¹ÙÙ">
-                description = <"ØªÙØ§ØµÙÙ ÙØ¹ÙÙØ© Ø¹Ù Ø§ÙÙÙÙØ¹ ÙÙ Ø§ÙØ¬Ø³Ù Ø§ÙØ°Ù ÙØªÙ ÙÙÙ ÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù">
+                text = <"موقع معين">
+                description = <"تفاصلي معينة عن الموقع من الجسم الذي يتم فيه قياس ضغط الدم">
             >
             ["id1036"] = <
-                text = <"Ø§ÙØ·Ø±ÙÙØ©">
-                description = <"Ø·Ø±ÙÙØ© ÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù">
+                text = <"الطريقة">
+                description = <"طريقة قياس ضغط الدم">
             >
             ["at1037"] = <
-                text = <"Ø§ÙØªØ³ÙØ¹">
-                description = <"Ø·Ø±ÙÙØ© Ø®Ø§Ø±Ø¬ÙØ© ÙÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù, Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù Ø³ÙØ§Ø¹Ø© Ø·Ø¨ÙØ¨ Ø£Ù Ø£ØµÙØ§Øª ÙÙØ±ÙØªÙÙÙ">
+                text = <"التسمع">
+                description = <"طريقة خارجية لقياس ضغط الدم, باستخدام سماعة طبيب أو أصوات كوروتكوف">
             >
             ["at1038"] = <
-                text = <"Ø§ÙØ¬Ø³">
-                description = <"Ø·Ø±ÙÙØ© Ø®Ø§Ø±Ø¬ÙØ© ÙÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù, Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù Ø§ÙØ¬Ø³ - Ø¹Ø§Ø¯Ø©Ù Ø§ÙØ´Ø±Ø§ÙÙÙ Ø§ÙØ°Ø±Ø§Ø¹ÙØ© Ù Ø§ÙÙØ¹Ø¨Ø±Ù">
+                text = <"الجس">
+                description = <"طريقة خارجية لقياس ضغط الدم, باستخدام الجس - عادةً الشرايين الذراعية و الكعبري">
             >
             ["id1039"] = <
-                text = <"ØµÙØºØ© ÙØªÙØ³Ø· Ø§ÙØ¶ØºØ· Ø§ÙØ´Ø±ÙØ§ÙÙ">
-                description = <"Ø§ÙØµÙØºØ© Ø§ÙÙØ³ØªØ®Ø¯ÙØ© ÙÙÙØ§Ø³ ÙØªÙØ³Ø· Ø§ÙØ¶ØºØ· Ø§ÙØ´Ø±ÙØ§ÙÙ - Ø¥Ø°Ø§ ØªÙ ØªØ³Ø¬ÙÙ Ø¨ÙØ§ÙØ§ØªÙØ§">
+                text = <"صيغة متوسط الضغط الشرياني">
+                description = <"الصيغة المستخدمة لقياس متوسط الضغط الشرياني - إذا تم تسجيل بياناتها">
             >
             ["at1040"] = <
-                text = <"Ø§ÙØ¢ÙØ©">
-                description = <"Ø·Ø±ÙÙØ© Ø®Ø§Ø±Ø¬ÙØ© ÙÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù Ø¨Ø§ÙØ³ØªØ®Ø¯Ø§Ù Ø¢ÙØ© ÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù">
+                text = <"الآلة">
+                description = <"طريقة خارجية لقياس ضغط الدم بالستخدام آلة قياس ضغط الدم">
             >
             ["at1041"] = <
-                text = <"Ø¨Ø§Ø¶Ø¹">
-                description = <"Ø·Ø±ÙÙØ© Ø¯Ø§Ø®ÙÙØ© ÙÙÙØ³Ø§ Ø¶ØºØ· Ø§ÙØ¯Ù, Ù Ø°ÙÙ ÙØ¹ÙÙ Ø§Ø®ØªØ±Ø§Ù Ø§ÙØ¬ÙØ¯/ Ø§ÙØ¨Ø´Ø±Ø© Ø¯Ø§Ø®Ù Ø§ÙØ£ÙØ¹ÙØ© Ø§ÙØ¯ÙÙÙØ©">
+                text = <"باضع">
+                description = <"طريقة داخلية لقيسا ضغط الدم, و ذلك يعني اختراق الجلد/ البشرة داخل الأوعية الدموية">
             >
             ["id1043"] = <
-                text = <"Ø§ÙÙØªÙØ³Ø· Ø®ÙØ§Ù 24 Ø³Ø§Ø¹Ø©">
-                description = <"ØªÙØ¯ÙØ± ÙØªÙØ³Ø· Ø¶ØºØ· Ø§ÙØ¯Ù Ø®ÙØ§Ù ÙØªØ±Ø© ÙÙ 24 Ø³Ø§Ø¹Ø©">
+                text = <"المتوسط خلال 24 ساعة">
+                description = <"تقدير متوسط ضغط الدم خلال فترة من 24 ساعة">
             >
             ["id1044"] = <
-                text = <"Ø­Ø§ÙØ© Ø§ÙÙÙÙ">
-                description = <"Ø­Ø§ÙØ© Ø§ÙÙÙÙ - ØªØ¯Ø¹Ù ØªÙØ³ÙØ± ÙÙØ§Ø³Ø§Øª Ø¶ØºØ· Ø§ÙØ¯Ù Ø§ÙÙÙØ³ÙØ§Ø±ÙØ© Ø®ÙØ§Ù 24 Ø³Ø§Ø¹Ø©">
+                text = <"حالة النوم">
+                description = <"حالة النوم - تدعم تفسير قياسات ضغط الدم المِسيارية خلال 24 ساعة">
             >
             ["at1045"] = <
-                text = <"ÙØªÙØ¨Ù Ù ÙÙØ¸">
-                description = <"Ø§ÙØ´Ø®Øµ ÙØ§Ø¹Ù Ø¨Ø´ÙÙ ÙØ§ÙÙ">
+                text = <"متنبه و يقظ">
+                description = <"الشخص واعٍ بشكل كامل">
             >
             ["at1046"] = <
-                text = <"ÙØ§Ø¦Ù">
-                description = <"Ø§ÙØ´Ø®Øµ ÙÙ Ø§ÙØ­Ø§ÙØ© Ø§ÙØ·Ø¨ÙØ¹ÙØ© Ø§ÙØ®Ø§ØµØ© Ø¨Ø§ÙØ±Ø§Ø­Ø© Ø§ÙØ¬Ø³Ø¯ÙØ©">
+                text = <"نائم">
+                description = <"الشخص في الحالة الطبيعية الخاصة بالراحة الجسدية">
             >
             ["at1052"] = <
-                text = <"Ø£ØµØ¨Ø¹ Ø§ÙÙØ¯Ù">
-                description = <"Ø£ØµØ¨Ø¹ ÙØ¯Ù Ø§ÙØ´Ø®Øµ. 
-ÙÙÙÙ ØªØ³Ø¬ÙÙ ØªØ¹Ø±ÙÙ Ø£ØµØ¨Ø¹ Ø§ÙÙØ¯Ù ÙÙÙØ¹ Ø¨ÙØ§ÙØ§Øª (ÙÙØ¶Ø¹ ÙØ¹ÙÙÙÙ), Ø­Ø³Ø¨ Ø§ÙØ­Ø§Ø¬Ø©.">
+                text = <"أصبع القدم">
+                description = <"أصبع قدم الشخص. 
+يمكن تسجيل تعريف أصبع القدم كنوع بيانات (موضع معيَّن), حسب الحاجة.">
             >
             ["id1053"] = <
-                text = <"Ø§ÙØ¹ÙØ§ÙÙ Ø§ÙÙØ±Ø¨ÙØ©">
-                description = <"ØªØ¹ÙÙÙ Ø­ÙÙ Ù ØªØ³Ø¬ÙÙ ÙÙØ¹ÙØ§ÙÙ Ø§ÙØ·Ø§Ø±Ø¦Ø© Ø§ÙØªÙ ÙØ¯ ØªØ³ÙÙ ÙÙ ÙÙØ§Ø³ Ø¶ØºØ· Ø§ÙØ¯Ù. ÙØ«ÙØ§, ÙØ³ØªÙÙ Ø§ÙÙÙÙ Ø£Ù ÙØªÙØ§Ø²ÙØ© Ø§ÙØ¨Ø§ÙØ·Ù Ø§ÙØ£Ø¨ÙØ¶ Ø£Ù Ø§ÙØ£ÙÙ Ø£Ù Ø§ÙØ­ÙÙ Ø£Ù Ø§ÙØªØºÙÙØ±Ø§Øª ÙÙ Ø§ÙØ¶ØºØ· Ø§ÙØ¬ÙÙ,, Ø¥ÙÙ Ø¢Ø®Ø±Ù">
+                text = <"العوامل المربكة">
+                description = <"تعليق حول و تسجيل للعوامل الطارئة التي قد تسهم في قياس ضغط الدم. مثلا, مستوى القلق أو متلازمة البالطو الأبيض أو الألم أو الحمى أو التغييرات في الضغط الجوي,, إلى آخره">
             >
             ["at1054"] = <
-                text = <"Ø¯Ø§Ø®Ù Ø§ÙØ´Ø±ÙØ§Ù">
-                description = <"ÙÙØ§Ø³ Ø¨Ø§Ø¶Ø¹ Ø¹Ù Ø·Ø±ÙÙ Ø¯Ø®ÙÙ Ø®Ø· ØªÙØ±Ø¬Ø§Ù ÙÙ Ø¯Ø§Ø®Ù Ø§ÙØ´Ø±ÙØ§Ù. 
-ÙÙÙÙ ØªØ³Ø¬ÙÙ Ø§ÙØªØ±Ø¬Ø§Ù ÙÙÙØ¹ Ø¨ÙØ§ÙØ§Øª (ÙÙØ¶Ø¹ ÙØ¹ÙÙÙÙ), Ø­Ø³Ø¨ Ø§ÙØ­Ø§Ø¬Ø©.">
+                text = <"داخل الشريان">
+                description = <"قياس باضع عن طريق دخول خط تِرجام في داخل الشريان. 
+يمكن تسجيل الترجام كنوع بيانات (موضع معيَّن), حسب الحاجة.">
             >
         >
         ["fa"] = <
@@ -2248,12 +2248,12 @@ terminology
                 description = <"*Pressure(en)">
             >
             ["ac1062"] = <
-                text = <"ÙÙÙØ¹ÛØª (synthesised)">
-                description = <"ÙÙÙØ¹ÛØª ÙØ±Ø¯ Ø¯Ø± Ø²ÙØ§Ù Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û  (synthesised)">
+                text = <"موقعیت (synthesised)">
+                description = <"موقعیت فرد در زمان اندازه گیری  (synthesised)">
             >
             ["ac1065"] = <
-                text = <"ÙØ¶Ø¹ÛØª Ø®ÙØ§Ø¨ (synthesised)">
-                description = <"ÙØ¶Ø¹ÛØª Ø®ÙØ§Ø¨- Ø¨Ù ØªÙØ³ÛØ± Ø«Ø¨ØªÙØ§Û ØµÙØ±Øª Ú¯Ø±ÙØªÙ Ø§Ø² ÙØ´Ø§Ø± Ø®ÙÙ Ø¯Ø± Ø®Ø§ÙÙ Ø¯Ø± Ø·ÙÙ 24 Ø³Ø§Ø¹Øª Ú©ÙÚ© ÙÛ Ú©ÙØ¯  (synthesised)">
+                text = <"وضعیت خواب (synthesised)">
+                description = <"وضعیت خواب- به تفسیر ثبتهای صورت گرفته از فشار خون در خانه در طول 24 ساعت کمک می کند  (synthesised)">
             >
             ["at1067"] = <
                 text = <"*Angle, plane(en)">
@@ -2264,8 +2264,8 @@ terminology
                 description = <"*mean(en)">
             >
             ["ac1074"] = <
-                text = <"Ø§ÙØ¯Ø§Ø²Ù Ú©Ø§Ù (synthesised)">
-                description = <"Ø§ÙØ¯Ø§Ø²Ù Ú©Ø§Ù Ø§Ø³ØªÙØ§Ø¯Ù Ø´Ø¯Ù Ø¨Ø±Ø§Û Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ÙØ´Ø§Ø± Ø®ÙÙ (synthesised)">
+                text = <"اندازه کاف (synthesised)">
+                description = <"اندازه کاف استفاده شده برای اندازه گیری فشار خون (synthesised)">
             >
             ["ac1076"] = <
                 text = <"*Location of measurement(en) (synthesised)">
@@ -2280,57 +2280,57 @@ terminology
                 description = <"*Record which Korotkoff sound is used for determining diastolic pressure using auscultative method.(en) (synthesised)">
             >
             ["id1"] = <
-                text = <"ÙØ´Ø§Ø± Ø®ÙÙ">
-                description = <"Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ÙÙØ¶Ø¹Û ÙØ´Ø§Ø± Ø®ÙÙ ÙØ±ÛØ¯ÛØ Ú©Ù Ø¬Ø§ÛÚ¯Ø²ÛÙÛ Ø¨Ø±Ø§Û ÙØ´Ø§Ø± ÙØ±ÛØ¯Û Ø¯Ø± Ú¯Ø±Ø¯Ø´ Ø®ÙÙ Ú©ÙÛ Ø§Ø³Øª.
-ÙØ¹ÙÙÙØ§ ÙØ§ÚÙ \"ÙØ´Ø§Ø± Ø®ÙÙ\" Ø¨Ù Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ÙØ´Ø§Ø± ÙØ±ÛØ¯ Ø¨Ø§Ø²ÙÛÛ Ø¯Ø± Ø±ÙÛ Ø¨Ø§Ø²Ù Ú¯ÙØªÙ ÙÛ Ø´ÙØ¯">
+                text = <"فشار خون">
+                description = <"اندازه گیری موضعی فشار خون وریدی، که جایگزینی برای فشار وریدی در گردش خون کلی است.
+معمولا واژه \"فشار خون\" به اندازه گیری فشار ورید بازویی در روی بازو گفته می شود">
             >
             ["id2"] = <
-                text = <"ØªØ§Ø±ÛØ®ÚÙ">
-                description = <"Ú¯Ø±Ù Ø³Ø§Ø®ØªØ§Ø±Û ØªØ§Ø±ÛØ®ÚÙ ">
+                text = <"تاریخچه">
+                description = <"گره ساختاری تاریخچه ">
             >
             ["id4"] = <
                 text = <"*blood pressure(en)">
                 description = <"*@ internal @(en)">
             >
             ["id5"] = <
-                text = <"Ø³ÛØ³ØªÙÙÛÚ©">
-                description = <"Ø§ÙØ¬ ÙØ´Ø§Ø± Ø®ÙÙ ÙØ±ÛØ¯Û Ú©ÙÛ Ú©Ù Ø¯Ø± Ø³ÛØ³ØªÙÙÛÚ© ÛØ§ ÙØ§Ø² Ø§ÙÙØ¨Ø§Ø¶Û ÚØ±Ø®Ù Ú¯Ø±Ø¯Ø´ Ø®ÙÙ Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ÙÛ Ø´ÙØ¯ ">
+                text = <"سیستولیک">
+                description = <"اوج فشار خون وریدی کلی که در سیستولیک یا فاز انقباضی چرخه گردش خون اندازه گیری می شود ">
             >
             ["id6"] = <
-                text = <"Ø¯ÛØ§Ø³ØªÙÙÛÚ©">
-                description = <"Ø­Ø¯Ø§ÙÙ ÙØ´Ø§Ø± Ø®ÙÙ ÙØ±ÛØ¯Û Ú©ÙÛ Ú©Ù Ø¯Ø± Ø¯ÛØ§Ø³ØªÙÙÛÚ© ÛØ§ ÙØ§Ø² Ø§ÙØ¨Ø³Ø§Ø·Û ÚØ±Ø®Ù Ú¯Ø±Ø¯Ø´ Ø®ÙÙ Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ÙÛ Ø´ÙØ¯">
+                text = <"دیاستولیک">
+                description = <"حداقل فشار خون وریدی کلی که در دیاستولیک یا فاز انبساطی چرخه گردش خون اندازه گیری می شود">
             >
             ["id7"] = <
-                text = <"ÙØ± Ø±ÙÛØ¯Ø§Ø¯">
-                description = <"Ø±ÙÛØ¯Ø§Ø¯ Ù¾ÛØ´ ÙØ±Ø¶">
+                text = <"هر رویداد">
+                description = <"رویداد پیش فرض">
             >
             ["id8"] = <
                 text = <"*state structure(en)">
                 description = <"*@ internal @(en)">
             >
             ["id9"] = <
-                text = <"ÙÙÙØ¹ÛØª">
-                description = <"ÙÙÙØ¹ÛØª ÙØ±Ø¯ Ø¯Ø± Ø²ÙØ§Ù Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ">
+                text = <"موقعیت">
+                description = <"موقعیت فرد در زمان اندازه گیری ">
             >
             ["id12"] = <
-                text = <"Ø³Ø§Ø®ØªØ§Ø± ÙÛØ³Øª">
-                description = <"Ø³Ø§Ø®ØªØ§Ø± ÙÛØ³Øª ">
+                text = <"ساختار لیست">
+                description = <"ساختار لیست ">
             >
             ["id14"] = <
-                text = <"Ø§ÙØ¯Ø§Ø²Ù Ú©Ø§Ù">
-                description = <"Ø§ÙØ¯Ø§Ø²Ù Ú©Ø§Ù Ø§Ø³ØªÙØ§Ø¯Ù Ø´Ø¯Ù Ø¨Ø±Ø§Û Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ÙØ´Ø§Ø± Ø®ÙÙ">
+                text = <"اندازه کاف">
+                description = <"اندازه کاف استفاده شده برای اندازه گیری فشار خون">
             >
             ["id15"] = <
                 text = <"*Location of measurement(en)">
                 description = <"*Common body sites where blood pressure is recorded.(en)">
             >
             ["at16"] = <
-                text = <"Ø±Ø§Ù Ø¨Ø²Ø±Ú¯Ø³Ø§Ù">
-                description = <"Ú©Ø§Ù Ø§Ø³ØªÙØ§Ø¯Ù Ø´Ø¯Ù Ø¯Ø± Ø±Ø§Ù Ø¨Ø²Ø±Ú¯Ø³Ø§Ù -Ø§ÙØ¯Ø§Ø²Ù ÙØ«Ø§ÙÙ 20 Ø³Ø§ÙØªÛ ÙØªØ± Ø¯Ø± 42 Ø³Ø§ÙØªÛ ÙØªØ±">
+                text = <"ران بزرگسال">
+                description = <"کاف استفاده شده در ران بزرگسال -اندازه مثانه 20 سانتی متر در 42 سانتی متر">
             >
             ["at17"] = <
-                text = <"Ø¨Ø²Ø±Ú¯Ø³Ø§Ù Ø¯Ø±Ø´Øª">
-                description = <"Ú©Ø§Ù Ø¨Ø²Ø±Ú¯Ø³Ø§ÙØ§Ù Ø¨Ø§ Ø¨Ø±Ø¢ÙØ¯Ú¯Û Ø¨Ø§Ø²ÙÛ Ø¨Ø²Ø±Ú¯ØªØ± Ø¯Ø± Ø­Ø¯ÙØ¯ 16 Ø¯Ø± 38 Ø³Ø§ÙØªÛÙØªØ±">
+                text = <"بزرگسال درشت">
+                description = <"کاف بزرگسالان با برآمدگی بازوی بزرگتر در حدود 16 در 38 سانتیمتر">
             >
             ["at18"] = <
                 text = <"*Adult(en)">
@@ -2353,36 +2353,36 @@ terminology
                 description = <"*The left thigh of the person.(en)">
             >
             ["id34"] = <
-                text = <"ÙØ¸Ø±">
-                description = <"ÙØ¸Ø± Ø¯Ø± ÙÙØ±Ø¯ Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ÙØ´Ø§Ø± Ø®ÙÙ">
+                text = <"نظر">
+                description = <"نظر در مورد اندازه گیری فشار خون">
             >
             ["at1001"] = <
-                text = <"Ø§ÛØ³ØªØ§Ø¯Ù">
-                description = <"Ø§ÛØ³ØªØ§Ø¯Ù Ø¯Ø± Ø²ÙØ§Ù Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ÙØ´Ø§Ø± Ø®ÙÙ">
+                text = <"ایستاده">
+                description = <"ایستاده در زمان اندازه گیری فشار خون">
             >
             ["at1002"] = <
-                text = <"ÙØ´Ø³ØªÙ">
-                description = <"ÙØ´Ø³ØªÙ ( Ø¨Ù Ø¹ÙÙØ§Ù ÙØ«Ø§Ù Ø±ÙÛ ØªØ®Øª ÛØ§ ØµÙØ¯ÙÛ) Ø¯Ø± Ø²ÙØ§Ù Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ÙØ´Ø§Ø± Ø®ÙÙ">
+                text = <"نشسته">
+                description = <"نشسته ( به عنوان مثال روی تخت یا صندلی) در زمان اندازه گیری فشار خون">
             >
             ["at1003"] = <
-                text = <"Ø®ÙÛØ¯Ù">
-                description = <"Ø®ÙÛØ¯Ù Ø¯Ø± Ø²ÙØ§Ù Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ÙØ´Ø§Ø± Ø®ÙÙ">
+                text = <"خمیده">
+                description = <"خمیده در زمان اندازه گیری فشار خون">
             >
             ["at1004"] = <
-                text = <"Ø®ÙØ§Ø¨ÛØ¯Ù">
-                description = <"Ø®ÙØ§Ø¨ÛØ¯Ù Ø¯Ø± Ø²ÙØ§Ù Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ÙØ´Ø§Ø± Ø®ÙÙ">
+                text = <"خوابیده">
+                description = <"خوابیده در زمان اندازه گیری فشار خون">
             >
             ["id1006"] = <
-                text = <"Ø´ÛØ¨">
-                description = <"Ø´ÛØ¨ Ø·ÙÙÛ Ø³Ø·Ø­Û Ú©Ù ÙØ±Ø¯ Ø¯Ø± Ø­ÛÙ Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û Ø±ÙÙ Ø¢Ù Ø¯Ø±Ø§Ø² Ú©Ø´ÛØ¯Ù Ø§Ø³Øª">
+                text = <"شیب">
+                description = <"شیب طولی سطحی که فرد در حین اندازه گیری رون آن دراز کشیده است">
             >
             ["id1007"] = <
-                text = <"ÙÛØ§ÙÚ¯ÛÙ ÙØ´Ø§Ø± ÙØ±ÛØ¯Û">
-                description = <"ÙØªÙØ³Ø· ÙØ´Ø§Ø± Ø®ÙÙ ÙØ±ÛØ¯Û Ú©Ù Ø¯Ø± Ú©Ù Ø¯ÙØ±Ù Ø§ÙÙØ¨Ø§Ø¸ Ù Ø§ÙØ¨Ø³Ø§Ø· ÙÙØ¨Û Ø±Ø® ÙÛ Ø¯ÙØ¯">
+                text = <"میانگین فشار وریدی">
+                description = <"متوسط فشار خون وریدی که در کل دوره انقباظ و انبساط قلبی رخ می دهد">
             >
             ["id1008"] = <
-                text = <"ÙØ´Ø§Ø± ÙØ¨Ø¶Û">
-                description = <"ØªÙØ§ÙØª Ø¨ÛÙ ÙØ´Ø§Ø± Ø³ÛØ³ØªÙÙÛÚ© Ù Ø¯ÛØ§Ø³ØªÙÙÛÚ©">
+                text = <"فشار نبضی">
+                description = <"تفاوت بین فشار سیستولیک و دیاستولیک">
             >
             ["at1009"] = <
                 text = <"*Small Adult(en)">
@@ -2405,8 +2405,8 @@ terminology
                 description = <"*The fifth Korotkoff sound is identified by absence of sounds as the cuff pressure drops below the diastolic blood pressure.(en)">
             >
             ["at1015"] = <
-                text = <"Ø®ÙØ§Ø¨ÛØ¯Ù  Ø¨Ù ÚÙ¾">
-                description = <"Ø®ÙØ§Ø¨ÛØ¯Ù ØµØ§Ù Ø¨Ø§ Ú©ÙÛ ØªÙØ§ÛÙ Ø¨Ù ÛÚ© Ø³ÙØªØ ÙØ¹ÙÙÙØ§ Ø¨Ù Ø¬ÙØª ÚÙ¾ ÙÛÙ Ú©Ø±Ø¯Ù Ù Ø¹ÙÙÙØ§ Ø¯Ø± Ø³Ù ÙØ§ÙÙ Ø¢Ø®Ø± Ø­Ø§ÙÙÚ¯Û Ø¨Ø±Ø§Û ØªØ³Ú©ÛÙ ÙØ´Ø§Ø± Ø¢Ø¦ÙØ±Øª ÙÛØ§Ø² Ø¨Ù Ø¢Ù Ø§Ø³Øª">
+                text = <"خوابیده  به چپ">
+                description = <"خوابیدن صاف با کمی تمایل به یک سمت، معمولا به جهت چپ میل کرده و عموما در سه ماهه آخر حاملگی برای تسکین فشار آئورت نیاز به آن است">
             >
             ["at1019"] = <
                 text = <"*Infant(en)">
@@ -2433,8 +2433,8 @@ terminology
                 description = <"*The right ankle of the subject.(en)">
             >
             ["id1031"] = <
-                text = <"ØªÙÙØ§">
-                description = <"Ø¬Ø²ÛÛØ§ØªÛ Ø¯Ø±Ø¨Ø§Ø±Ù ÙØ¹Ø§ÙÛØª ÙÛØ²ÛÚ©Û Ø§ÙØ¬Ø§Ù Ø´Ø¯Ù Ø¯Ø± Ø²ÙØ§Ù Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ÙØ´Ø§Ø± Ø®ÙÙ ">
+                text = <"تقلا">
+                description = <"جزییاتی درباره فعالیت فیزیکی انجام شده در زمان اندازه گیری فشار خون ">
             >
             ["at1032"] = <
                 text = <"*Left ankle(en)">
@@ -2477,28 +2477,28 @@ terminology
                 description = <"*Method of measuring blood pressure internally ie involving penetration of the skin and measuring inside blood vessels.(en)">
             >
             ["id1043"] = <
-                text = <"ÙÛØ§ÙÚ¯ÛÙ 24 Ø³Ø§Ø¹ØªÙ">
-                description = <"Ø¨Ø±Ø¢ÙØ±Ø¯ ÙÛØ§ÙÚ¯ÛÙ ÙØ´Ø§Ø± Ø®ÙÙ Ø¯Ø± Ø¯ÙØ±Ù Ø²ÙØ§ÙÛ 24 Ø³Ø§Ø¹ØªÙ">
+                text = <"میانگین 24 ساعته">
+                description = <"برآورد میانگین فشار خون در دوره زمانی 24 ساعته">
             >
             ["id1044"] = <
-                text = <"ÙØ¶Ø¹ÛØª Ø®ÙØ§Ø¨">
-                description = <"ÙØ¶Ø¹ÛØª Ø®ÙØ§Ø¨- Ø¨Ù ØªÙØ³ÛØ± Ø«Ø¨ØªÙØ§Û ØµÙØ±Øª Ú¯Ø±ÙØªÙ Ø§Ø² ÙØ´Ø§Ø± Ø®ÙÙ Ø¯Ø± Ø®Ø§ÙÙ Ø¯Ø± Ø·ÙÙ 24 Ø³Ø§Ø¹Øª Ú©ÙÚ© ÙÛ Ú©ÙØ¯ ">
+                text = <"وضعیت خواب">
+                description = <"وضعیت خواب- به تفسیر ثبتهای صورت گرفته از فشار خون در خانه در طول 24 ساعت کمک می کند ">
             >
             ["at1045"] = <
-                text = <"ÙØ´ÛØ§Ø± Ù Ø¨ÛØ¯Ø§Ø±">
-                description = <"ÙØ±Ø¯ Ú©Ø§ÙÙØ§ Ø¨Ù ÙÙØ´ Ø§Ø³Øª ">
+                text = <"هشیار و بیدار">
+                description = <"فرد کاملا به هوش است ">
             >
             ["at1046"] = <
-                text = <"Ø®ÙØ§Ø¨ÛØ¯Ù">
-                description = <"ÙØ±Ø¯ Ø¯Ø± Ø­Ø§ÙØª Ø·Ø¨ÛØ¹Û Ø§Ø³ØªØ±Ø§Ø­Øª Ø¨Ø¯ÙÛ Ø§Ø³Øª">
+                text = <"خوابیده">
+                description = <"فرد در حالت طبیعی استراحت بدنی است">
             >
             ["at1052"] = <
                 text = <"*Toe(en)">
                 description = <"*A toe of the subject.   Identification of the toe can be recorded in 'Specific Location' data element, if required.(en)">
             >
             ["id1053"] = <
-                text = <"Ø¹ÙØ§ÙÙ ÙØ¨ÙÙ">
-                description = <"ÙØ¸Ø±Ø¯ÙÛ Ù Ø«Ø¨Øª Ø³Ø§ÛØ± Ø¹ÙØ§ÙÙ Ø¶ÙÙÛ Ú©Ù ÙÙÚ©Ù Ø§Ø³Øª Ø¨Ù Ø§ÙØ¯Ø§Ø²Ù Ú¯ÛØ±Û ÙØ´Ø§Ø± Ø®ÙÙ Ú©ÙÚ© Ú©ÙÙØ¯ . Ø¨Ù Ø¹ÙÙØ§Ù ÙØ«Ø§Ù Ø³Ø·Ø­ Ø§Ø¶Ø·Ø±Ø§Ø¨ ÛØ§ \"Ø³ÙØ¯Ø±Ù Ø±ÙÙ¾ÙØ´ Ø³ÙÛØ¯\"Ø Ø¯Ø±Ø¯ ÛØ§ ØªØ¨ Ø ØªØºÛÛØ±Ø§Øª ÙØ´Ø§Ø± Ø¬ÙÛ Ù ØºÛØ±Ù ">
+                text = <"عوامل مبهم">
+                description = <"نظردهی و ثبت سایر عوامل ضمنی که ممکن است به اندازه گیری فشار خون کمک کنند . به عنوان مثال سطح اضطراب یا \"سندرم روپوش سفید\"، درد یا تب ، تغییرات فشار جوی و غیره ">
             >
             ["at1054"] = <
                 text = <"*Intra-arterial(en)">
@@ -2551,16 +2551,16 @@ terminology
                 description = <"*history Structural node(en)">
             >
             ["id4"] = <
-                text = <"è¡å">
+                text = <"血压">
                 description = <"*@ internal @(en)">
             >
             ["id5"] = <
-                text = <"æ¶ç¼©å">
-                description = <"ä¸ä¸ªè¡æ¶²å¾ªç¯å¨æä¸­ï¼ç³»ç»æ§å¨èè¡åé«å³°å¼ã æ¶ç¼©æè¡å">
+                text = <"收缩压">
+                description = <"一个血液循环周期中，系统性动脉血压高峰值。 收缩期血压">
             >
             ["id6"] = <
-                text = <"èå¼ å">
-                description = <"ä¸ä¸ªè¡æ¶²å¾ªç¯å¨æä¸­ï¼ç³»ç»æ§å¨èè¡åæä½å¼ã èå¼ æè¡å">
+                text = <"舒张压">
+                description = <"一个血液循环周期中，系统性动脉血压最低值。 舒张期血压">
             >
             ["id7"] = <
                 text = <"*any event(en)">
@@ -2600,36 +2600,36 @@ terminology
                 description = <"*A cuff that is standard for an adult - bladder approx 13cm x 30cm(en)">
             >
             ["at26"] = <
-                text = <"å³è">
-                description = <"è¢«æµè¯èå³è">
+                text = <"右臂">
+                description = <"被测试者右臂">
             >
             ["at27"] = <
-                text = <"å·¦è">
-                description = <"è¢«æµè¯èå·¦è">
+                text = <"左臂">
+                description = <"被测试者左臂">
             >
             ["at28"] = <
                 text = <"*Right leg(en)">
                 description = <"*The right leg of the person(en)">
             >
             ["at29"] = <
-                text = <"å·¦è¿">
-                description = <"è¢«æµè¯èå·¦ä¸è¢">
+                text = <"左腿">
+                description = <"被测试者左下肢">
             >
             ["id34"] = <
-                text = <"æ³¨é">
-                description = <"æå³è¡åå¼çæ³¨é">
+                text = <"注释">
+                description = <"有关血压值的注释">
             >
             ["at1001"] = <
-                text = <"ç«ä½">
-                description = <"æµéè¡åæ¶èº«ä½å¤äºç«ç«ä½ä½">
+                text = <"立位">
+                description = <"测量血压时身体处于站立体位">
             >
             ["at1002"] = <
-                text = <"åä½">
-                description = <"æµéè¡åæ¶èº«ä½å¤äºåä½">
+                text = <"坐位">
+                description = <"测量血压时身体处于坐位">
             >
             ["at1003"] = <
-                text = <"ä¾§å§ä½">
-                description = <"æµéè¡åæ¶èº«ä½å¤äº45åº¦è§ä¾§å§ä½">
+                text = <"侧卧位">
+                description = <"测量血压时身体处于45度角侧卧位">
             >
             ["at1004"] = <
                 text = <"*Lying(en)">
@@ -2644,7 +2644,7 @@ terminology
                 description = <"*The average arterial pressure that occurs over the entire course of the heart contraction and relaxation cycle.   (en)">
             >
             ["id1008"] = <
-                text = <"èå">
+                text = <"脉压">
                 description = <"*The variation in pressure over one contraction cycle(en)">
             >
             ["at1009"] = <
@@ -2807,7 +2807,7 @@ terminology
             >
             ["id1"] = <
                 text = <"Bloeddruk">
-                description = <"De lokale meting van de arteriÃ«le bloeddruk, welke surrogaat is voor de arteriÃ«le druk in de systemische circulatie. Meest gebruikelijk is dat de term 'bloeddruk'  refereert aan de meting van de bloeddruk van de arterie brachialis in de bovenarm.">
+                description = <"De lokale meting van de arteriële bloeddruk, welke surrogaat is voor de arteriële druk in de systemische circulatie. Meest gebruikelijk is dat de term 'bloeddruk'  refereert aan de meting van de bloeddruk van de arterie brachialis in de bovenarm.">
             >
             ["id2"] = <
                 text = <"Geschiedenis">
@@ -2903,7 +2903,7 @@ terminology
                 description = <"De craniocaudale schuinte van het oppervlak waarop het individu ligt op het moment van de meting">
             >
             ["id1007"] = <
-                text = <"Gemiddelde arteriÃ«le druk">
+                text = <"Gemiddelde arteriële druk">
                 description = <"De gemiddelde bloeddruk gedurende 1 cyclus van samentrekken en ontspannen van het hart.">
             >
             ["id1008"] = <
@@ -2928,7 +2928,7 @@ terminology
             >
             ["at1013"] = <
                 text = <"Fase 5">
-                description = <"Het vijfde Korotkoff geluid is geÃ¯dentificeerd door afwezigheid van geluiden als de manchetdruk onder diastolische bloeddruk komt.">
+                description = <"Het vijfde Korotkoff geluid is geïdentificeerd door afwezigheid van geluiden als de manchetdruk onder diastolische bloeddruk komt.">
             >
             ["at1015"] = <
                 text = <"Liggend met kanteling naar linkerzijde">
@@ -2991,8 +2991,8 @@ terminology
                 description = <"Uitwendige meting van de bloeddruk, met gebruikmaking van palpatie (meestal de arterie brachialis of radialis)">
             >
             ["id1039"] = <
-                text = <"Gemiddelde arteriÃ«le druk formule">
-                description = <"Formule om de MAP (mean arterial pressure=gemiddelde arteriÃ«le druk) te berekenen (als deze data opgeslagen wordt).">
+                text = <"Gemiddelde arteriële druk formule">
+                description = <"Formule om de MAP (mean arterial pressure=gemiddelde arteriële druk) te berekenen (als deze data opgeslagen wordt).">
             >
             ["at1040"] = <
                 text = <"Machinaal">
@@ -3023,8 +3023,8 @@ terminology
                 description = <"Een teen van de persoon. Identificatie van de vinger kan zo nodig worden opgeslagen  in 'specifieke locatie' data element.">
             >
             ["id1053"] = <
-                text = <"BeÃ¯nvloedende factoren">
-                description = <"Opmerking over en vastleggen van andere incidentele factoren die de bloeddrukmeting zouden kunnen beÃ¯nvloeden. Bijvoorbeeld, mate van angst, of 'witte jas syndroom'; pijn of koorts; veranderingen in atmosferische druk etc.">
+                text = <"Beïnvloedende factoren">
+                description = <"Opmerking over en vastleggen van andere incidentele factoren die de bloeddrukmeting zouden kunnen beïnvloeden. Bijvoorbeeld, mate van angst, of 'witte jas syndroom'; pijn of koorts; veranderingen in atmosferische druk etc.">
             >
             ["at1054"] = <
                 text = <"Intra-arterieel">
