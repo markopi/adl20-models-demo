@@ -16,7 +16,7 @@
     "rmType" : "COMPOSITION",
     "name" : "Encounter",
     "path" : "templates/openEHR-EHR-COMPOSITION.test.v1.adlt",
-    "sha" : "1c51903b32201910286f432c90b6859947ec6bda"
+    "sha" : "39d25cdd56c6d05f4d87dbad15369c2be8852659"
   }, {
     "id" : "openEHR-EHR-COMPOSITION.test01.v1.0.0",
     "rmType" : "COMPOSITION",
