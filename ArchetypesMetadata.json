@@ -251,5 +251,19 @@
     "path" : "archetypes/openEHR-EHR-OBSERVATION.apgar.v1.adls",
     "sha" : "06f10b9ad982690d6741ae49f69e8d9cbd471b70",
     "languages" : [ "en", "de", "ru", "pt-br", "ar-sy", "fa", "es-cl", "nl" ]
+  }, {
+    "id" : "openEHR-EHR-OBSERVATION.avpu.v1.0.0",
+    "rmType" : "OBSERVATION",
+    "name" : "AVPU",
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.avpu.v1.adls",
+    "sha" : "d58a6a120afbbef6b3fbd087832e481a60f58971",
+    "languages" : [ "en" ]
+  }, {
+    "id" : "openEHR-EHR-OBSERVATION.bodily_output.v1.0.0",
+    "rmType" : "OBSERVATION",
+    "name" : "Bodily output",
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.bodily_output.v1.adls",
+    "sha" : "2f54cd1e3875e16dbc944997cc0df6e4e4f1cba2",
+    "languages" : [ "en" ]
   } ]
 }
