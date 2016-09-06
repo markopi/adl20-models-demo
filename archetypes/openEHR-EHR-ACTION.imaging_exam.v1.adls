@@ -209,10 +209,14 @@ definition
                             DV_DATE_TIME[id50] 
                         }
                     }
+                    CLUSTER[id52] occurrences matches {1} matches {    -- fifi
+                        items
+                    }
                 }
             }
         }
     }
+
 terminology
     term_definitions = <
         ["en"] = <
@@ -367,6 +371,10 @@ terminology
             ["at23"] = <
                 text = <"complete">
                 description = <"complete">
+            >
+            ["id52"] = <
+                text = <"fifi">
+                description = <"fifi">
             >
         >
         ["sl"] = <
