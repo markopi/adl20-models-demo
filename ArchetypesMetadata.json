@@ -272,5 +272,19 @@
     "path" : "archetypes/openEHR-EHR-OBSERVATION.lab_test.v1.adls",
     "sha" : "2aadcdd431b30c87e7267f22e3544189cfb1994a",
     "languages" : [ "en", "ar-sy" ]
+  }, {
+    "id" : "openEHR-EHR-OBSERVATION.lab_test-blood_glucose.v1.0.0",
+    "rmType" : "OBSERVATION",
+    "name" : "Blood glucose",
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.lab_test-blood_glucose.v1.adls",
+    "sha" : "6a3c47dbe12973eca2053a5b8e91fa346e846e86",
+    "languages" : [ "en" ]
+  }, {
+    "id" : "openEHR-EHR-OBSERVATION.lab_test-hba1c.v1.0.0",
+    "rmType" : "OBSERVATION",
+    "name" : "Haemoglobin A1c",
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.lab_test-hba1c.v1.adls",
+    "sha" : "0effdd3fb3c896b2f27ec31df62a69bdb8aac517",
+    "languages" : [ "en", "ar-sy" ]
   } ]
 }
