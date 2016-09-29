@@ -4,7 +4,7 @@
     "rmType" : "ACTION",
     "name" : "Imaging examination",
     "path" : "archetypes/openEHR-EHR-ACTION.imaging_exam.v1.adls",
-    "sha" : "9392165bd911c4428640754b0f4ddf64728e2ef1",
+    "sha" : "37468da4b95b70c913e4c8411177802f7e1fa5a5",
     "languages" : [ "en" ]
   }, {
     "id" : "openEHR-EHR-ACTION.medication.v1.0.0",
