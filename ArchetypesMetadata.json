@@ -265,5 +265,12 @@
     "path" : "archetypes/openEHR-EHR-OBSERVATION.bodily_output.v1.adls",
     "sha" : "2f54cd1e3875e16dbc944997cc0df6e4e4f1cba2",
     "languages" : [ "en" ]
+  }, {
+    "id" : "openEHR-EHR-OBSERVATION.lab_test.v1.0.0",
+    "rmType" : "OBSERVATION",
+    "name" : "Laboratory test",
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.lab_test.v1.adls",
+    "sha" : "2aadcdd431b30c87e7267f22e3544189cfb1994a",
+    "languages" : [ "en", "ar-sy" ]
   } ]
 }
