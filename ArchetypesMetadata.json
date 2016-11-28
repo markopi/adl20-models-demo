@@ -286,5 +286,12 @@
     "path" : "archetypes/openEHR-EHR-OBSERVATION.lab_test-hba1c.v1.adls",
     "sha" : "0effdd3fb3c896b2f27ec31df62a69bdb8aac517",
     "languages" : [ "en", "ar-sy" ]
+  }, {
+    "id" : "openEHR-EHR-OBSERVATION.demo.v1.0.0",
+    "rmType" : "OBSERVATION",
+    "name" : "Demonstration",
+    "path" : "archetypes/openEHR-EHR-OBSERVATION.demo.v1.adls",
+    "sha" : "067ce69c009c5ad4e7cdf02e83b077849d9a7575",
+    "languages" : [ "en", "pt-br" ]
   } ]
 }
