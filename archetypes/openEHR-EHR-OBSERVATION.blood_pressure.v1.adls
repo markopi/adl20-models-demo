@@ -40,6 +40,7 @@ language
             language = <[ISO_639-1::ja]>
             author = <
                 ["name"] = <"Shinji Kobayashi">
+                ["organisation"] = <"Kyoto University">
                 ["email"] = <"skoba@moss.gr.jp">
             >
         >
@@ -60,9 +61,11 @@ language
         ["zh-cn"] = <
             language = <[ISO_639-1::zh-cn]>
             author = <
-                ["name"] = <"Chunlan Ma">
-                ["organisation"] = <"Ocean Informatics">
+                ["name"] = <"Chunlan Ma, Lin Zhang">
+                ["organisation"] = <"Ocean Informatics, BIPH">
+                ["email"] = <", linforest@163.com">
             >
+            accreditation = <"What goes here?">
         >
         ["nl"] = <
             language = <[ISO_639-1::nl]>
@@ -77,7 +80,7 @@ language
 description
     lifecycle_state = <"AuthorDraft">
     original_author = <
-        ["date"] = <"22/03/2006">
+        ["date"] = <"2006-03-22">
         ["name"] = <"Sam Heard">
         ["organisation"] = <"Ocean Informatics">
         ["email"] = <"sam.heard@oceaninformatics.com">
@@ -87,7 +90,7 @@ description
     details = <
         ["en"] = <
             language = <[ISO_639-1::en]>
-            purpose = <"To record the systemic arterial blood pressure of an individual. ">
+            purpose = <"To record the systemic arterial blood pressure of an individual.">
             use = <"Use to record all representations of systemic arterial blood pressure measurement, no matter which method or body location is used to record it. The archetype is intended to capture blood pressure measurements in all clinical scenarios - for example, self-measurement with a home blood pressure machine; an emergency assessment of systolic using palpation and a sphygmomanometer; measurements taken in clinical consultations or during exercise stress testing; and a series of measurements made by a machine in Intensive Care.   
 There is a rich state model that supports interpretation of measurements through identifying patient position, exercise, confounding factors and angle of a tilt table in research. 
 Named events have been limited to average over a 24 hour period, however templates can further constrain the default 'any event' to cater for specific requirements for blood pressure measurements such as recording Blood Pressure against specific points in time, or over a range of intervals (+/- mathematical functions).">
@@ -99,10 +102,14 @@ Use OBSERVATION.intravascular_pressure and related specialisations in both of th
         >
         ["ja"] = <
             language = <[ISO_639-1::ja]>
-            purpose = <"ヒトの全身血圧を記録するためのもの。全身の血圧を測定する代用として適切な方法により測定された縮期圧と拡張期についての記録">
-            use = <"このアーキタイプを使って測定されるすべての血圧が記録される。運動負荷心電図やティルト台での測定にも利用できる豊かなステートモデルがある。">
-            misuse = <"血管内圧のためには使用されない">
-            keywords = <"観察", "血圧", "測定">
+            purpose = <"個人の全身動脈血圧を記録するためのもの。">
+            use = <"測定方法や身体部位を問わず、すべての血圧についての表現が記録するために使用される。このアーキタイプはすべての臨床シナリオを網羅することを目指している。たとえば、家庭用の血圧計で自己測定した血圧や、集中治療において機械的に計測された一連の血圧などである。
+患者の体位や運動、攻落する因子や研究におけるティルト台の角度を識別することにより、計測についての理解を手助けする豊富なステートモデルもある。
+指定されているイベントは、24時間平均血圧に制限されているが、テンプレートではデフォルトの「任意のイベント」にさらなる制約を加えることで、特定の時間や間隔にわたって（数学的機能を追加したり、削除して）、血圧を記録するように、血圧測定にタイする特定の要求を行うようにすることができる。">
+            misuse = <"静脈内圧のためには使用されない
+全身に循環する動脈圧の代理としてではない、たとえば、右肺動脈の計測といった動脈圧の計測としては用いられない。
+このような場合には、関連した特殊化であるOBSERVATION.intravascular_pressureを利用すること。">
+            keywords = <"観察", "計測", "血圧", "バイタルサイン", "平均動脈圧", "脈圧", "収縮期", "拡張期", "RR間隔", "非観血血圧">
             copyright = <"© openEHR Foundation">
         >
         ["de"] = <
@@ -119,10 +126,14 @@ In diesem Fall sollte der OBSERVATION.intravascular_pressure Archetyp bzw. desse
         >
         ["zh-cn"] = <
             language = <[ISO_639-1::zh-cn]>
-            purpose = <"*To record the systemic blood pressure of a person. The measurement records the systolic and the diastolic pressure by some means suitable for the result to be seen as a surrogate for the general and systemic blood pressure.(en)">
-            use = <"*All blood pressure measurements are recorded using this archetype. There is a rich state model for use with exercise ECGs and Tilt Table measurements.(en)">
-            misuse = <"*Not to be used for intravascular pressure.(en)">
-            keywords = <"*observations(en)", "*blood pressure(en)", "*measurement(en)">
+            purpose = <"旨在记录一个人的体循环血压（systemic blood pressure，全身血压，系统血压）。此测量结果原始型记录的是收缩压和舒张压，所采取的记录方式适合于视为代表全身体循环血压的结果。">
+            use = <"用于记录体循环血压测量结果的所有表达形式，无论其用于记录结果的究竟是什么方法或身体位置。本原始型旨在采集所有临床场景下的血压测量结果；例如，采用家用血压测量仪进行的自助检测、采用触诊方法和血压计进行的收缩压紧急评估、临床会诊或运动负荷试验过程中进行的测量以及重症监护过程中利用仪器所完成的一系列测量。
+这是一个丰富的状态模型，支持通过确定患者体位、运动情况、干扰因素以及研究工作所采用的倾斜工作台的角度，来解释测量结果。
+具名事件（named events）仅限于24小时期间的均值；不过，可以利用模板来进一步约束默认的“any event”（任何事件），以满足关于血压测量的具体需要，诸如按具体的时间点（时刻）来记录血压，或者是记录为变化范围（+/-数学函数）。">
+            misuse = <"并不用于静脉内血压。
+并不用于并非代表体循环动脉压的动脉血压的测量，如右肺动脉压的专用测量指标。
+在上述这两种情况下，请采用血管内压力观察指标原始型（OBSERVATION.intravascular_pressure）及相关的特化形式。">
+            keywords = <"观察", "观测", "观察指标", "观测指标", "观察结果", "观测结果", "观察项目", "观测项目", "检测", "测量", "测定", "检测指标", "测量指标", "测定指标", "检测结果", "测量结果", "测定结果", "检测项目", "测量项目", "测定项目", "血压", "blood pressure", "bp", "生命体征", "体征", "平均动脉压", "脉压", "脉搏压", "收缩压", "舒张压", "收缩期", "舒张期", "RR", "无创性测压法", "non-invasive blood pressure", "NIBP">
             copyright = <"© openEHR Foundation">
         >
         ["nl"] = <
@@ -217,9 +228,8 @@ Em ambas situações use OBSERVATION.intravascular_pressure e especializações 
     other_details = <
         ["references"] = <"O'Brien E, Asmar R, Beilin L, et al. European Society of Hypertension recommendations for conventional, ambulatory and home blood pressure measurement. Journal of Hypertension [Internet]. 2003 [cited 2009 Jul 30] ; 21(5):821-848. Available from http://www.bhsoc.org/bp_monitors/ESH_BP_rec.pdf
 
-Perloff D, Grim C, Flack J, Frohlich ED, Hill M, McDonald M, Morgenstern BZ. Human blood pressure determination by sphygmomanometry. Circulation [Internet]. 1993 [cited 2009 Jul 29] 88 (5): 2460.  Available from: http://circ.ahajournals.org/cgi/reprint/88/5/2460
-">
-        ["MD5-CAM-1.0.1"] = <"31406F8DDAF6C4DD73C174EE7C1B03C6">
+Perloff D, Grim C, Flack J, Frohlich ED, Hill M, McDonald M, Morgenstern BZ. Human blood pressure determination by sphygmomanometry. Circulation [Internet]. 1993 [cited 2009 Jul 29] 88 (5): 2460.  Available from: http://circ.ahajournals.org/cgi/reprint/88/5/2460">
+        ["MD5-CAM-1.0.1"] = <"ECB15524E65241BBA1CC7DBA9CB22C19">
     >
 
 definition
@@ -341,7 +351,7 @@ definition
             }
         }
         protocol existence matches {1} matches {
-            ITEM_TREE[id12] occurrences matches {1} matches {    -- list structure
+            ITEM_TREE[id12] occurrences matches {1} matches {    -- Tree
                 items existence matches {1} cardinality matches {0..*; unordered} matches {
                     ELEMENT[id14] occurrences matches {0..1} matches {    -- Cuff size
                         value existence matches {1} matches {
@@ -1479,19 +1489,19 @@ terminology
             >
             ["ac1079"] = <
                 text = <"方法 (synthesised)">
-                description = <"*Method of measurement of blood pressure.(en) (synthesised)">
+                description = <"血圧を測定する方法。 (synthesised)">
             >
             ["ac1082"] = <
                 text = <"拡張期終末 (synthesised)">
-                description = <"拡張期圧を決めるためにどのコロトコフ音が使用されたかというを記録. (synthesised)">
+                description = <"拡張期圧を決めるためにどのコロトコフ音が使用されたかについて記録. (synthesised)">
             >
             ["id1"] = <
                 text = <"血圧">
-                description = <"全身の循環での動脈圧の代用として，局所で測定される血圧。一般的には「血圧」とは上腕で上腕動脈を測定したものをさすことが多い。">
+                description = <"全身に循環する動脈圧を示すものとして，局所で測定される血圧。一般的には「血圧」とは上腕で上腕動脈を測定したものをさすことが多い。">
             >
             ["id2"] = <
-                text = <"*history(en)">
-                description = <"*history Structural node(en)">
+                text = <"history">
+                description = <"history 構造ノード">
             >
             ["id4"] = <
                 text = <"血圧">
@@ -1506,8 +1516,8 @@ terminology
                 description = <"1つ以上の脈の間で最低値を示す全身の動脈圧 - 心機図の拡張期で測定される">
             >
             ["id7"] = <
-                text = <"血圧">
-                description = <"*Default event(en)">
+                text = <"任意のイベント">
+                description = <"デフォルトのイベント">
             >
             ["id8"] = <
                 text = <"*state structure(en)">
@@ -1518,8 +1528,8 @@ terminology
                 description = <"計測のときの対象者の体位">
             >
             ["id12"] = <
-                text = <"*list structure(en)">
-                description = <"*list structure(en)">
+                text = <"list構造">
+                description = <"list構造">
             >
             ["id14"] = <
                 text = <"カフサイズ">
@@ -1532,31 +1542,31 @@ terminology
             >
             ["at16"] = <
                 text = <"成人大腿">
-                description = <"成人の大腿で血圧を測定するためのカフ。袋はおよそ 20cm x 42cm.">
+                description = <"成人の大腿で血圧を測定するためのカフ。袋の大きさはおよそ 20cm x 42cm.">
             >
             ["at17"] = <
                 text = <"大柄な成人">
-                description = <"大柄な成人のためのカフ 袋はおよそ 16cm x 38cm.">
+                description = <"大柄な成人のためのカフ。 袋の大きさはおよそ 16cm x 38cm.">
             >
             ["at18"] = <
                 text = <"成人">
-                description = <"一般的な成人のためのカフ - 袋はおよそ 13cm x 30cm.">
+                description = <"一般的な成人のためのカフ - 袋の大きさはおよそ 13cm x 30cm.">
             >
             ["at26"] = <
                 text = <"右腕">
-                description = <"*The right arm of the person(en)">
+                description = <"人の右腕">
             >
             ["at27"] = <
                 text = <"左腕">
-                description = <"*The left arm of the person(en)">
+                description = <"人の左腕">
             >
             ["at28"] = <
-                text = <"右足">
-                description = <"*The right leg of the person(en)">
+                text = <"右大腿">
+                description = <"人の右大腿">
             >
             ["at29"] = <
-                text = <"左脚">
-                description = <"*The left leg of the person(en)">
+                text = <"左大腿">
+                description = <"人の左大腿。">
             >
             ["id34"] = <
                 text = <"コメント">
@@ -1564,23 +1574,23 @@ terminology
             >
             ["at1001"] = <
                 text = <"立位">
-                description = <"*Standing at the time of blood pressure measurement(en)">
+                description = <"血圧測定時に立位でいること。">
             >
             ["at1002"] = <
                 text = <"座位">
-                description = <"*Sitting on bed or chair at the time of blood pressure measurement(en)">
+                description = <"血圧測定時に（たとえば、ベッドやいすの上で）坐位でいること。">
             >
             ["at1003"] = <
                 text = <"斜位">
-                description = <"*Person reclining at 45 degrees at the time of blood pressure measurement(en)">
+                description = <"血圧測定時に斜位でいること。">
             >
             ["at1004"] = <
                 text = <"臥位">
-                description = <"臥位での測定血圧">
+                description = <"血圧測定時に臥位でいること。">
             >
             ["id1006"] = <
                 text = <"ティルト">
-                description = <"*The craniocaudal tilt of the surface on which the person is lying at the time of measurement(en)">
+                description = <"血圧測定時に個人の体表面が頭尾方向に傾斜しているということ。">
             >
             ["id1007"] = <
                 text = <"平均同脈圧">
@@ -1592,15 +1602,15 @@ terminology
             >
             ["at1009"] = <
                 text = <"小柄な成人">
-                description = <"小柄な成人のためのカフ - 袋はおよそ 10cm x 24cm.">
+                description = <"小柄な成人のためのカフ - 袋の大きさはおよそ 10cm x 24cm.">
             >
             ["at1010"] = <
                 text = <"幼児/省に">
-                description = <"小児あるいは痩せた成人のためのカフ - 袋はおよそ 8cm x 21cm.">
+                description = <"小児あるいは痩せた成人のためのカフ - 袋の大きさはおよそ 8cm x 21cm.">
             >
             ["id1011"] = <
                 text = <"拡張期終末">
-                description = <"拡張期圧を決めるためにどのコロトコフ音が使用されたかというを記録.">
+                description = <"拡張期圧を決めるためにどのコロトコフ音が使用されたかについて記録.">
             >
             ["at1012"] = <
                 text = <"4期">
@@ -1612,15 +1622,15 @@ terminology
             >
             ["at1015"] = <
                 text = <"左側臥位">
-                description = <"側臥位　通常は左側　通常は妊娠最終トリメスタで必要となる体位">
+                description = <"側臥位　通常は左側　通常は妊娠最終トリメスタで必要となる体位。一般的には妊娠の第3トリメスターで大動脈・静脈を圧排から解放するために求められる体位である。">
             >
             ["at1019"] = <
                 text = <"幼児">
-                description = <"幼児のために使われるカフ - 袋はおよそ 5cm x 15cm.">
+                description = <"幼児のために使われるカフ - 袋の大きさはおよそ 5cm x 15cm.">
             >
             ["at1020"] = <
                 text = <"新生児">
-                description = <"新生児用のカフ 想定されるカフは生下時体重と成熟度に応じて適切なものであること.">
+                description = <"新生児用のカフ 想定されるカフは新生児の生下時体重と成熟度に応じて適切なものであること.">
             >
             ["at1021"] = <
                 text = <"右手首">
@@ -1640,7 +1650,7 @@ terminology
             >
             ["id1031"] = <
                 text = <"労作">
-                description = <"*Details about physical activity undertaken at the time of blood pressure measurement(en)">
+                description = <"血圧測定時に行われた肉体的運動についての詳細。">
             >
             ["at1032"] = <
                 text = <"左足首">
@@ -1648,19 +1658,19 @@ terminology
             >
             ["at1033"] = <
                 text = <"指">
-                description = <"対象の指。指の識別は必要であれば｢特別な部位」エレメントで記録される">
+                description = <"対象の指。指の識別は必要であれば｢特定部位」エレメントで記録される">
             >
             ["id1034"] = <
                 text = <"部位">
-                description = <"*Body location where blood pressure is measured.  Use 'Location of measurement' to select from common sites.  Use 'Specific location' to record more specific details or a site that is not in the common set or to refer to an external terminology. (en)">
+                description = <"血圧測定を行った体の部位。「測定部位」を一般的な場所では利用する。「特定部位」はより詳細に部位を特定したり、外部のターミノロジーや一般的な用語にはない部位を指すために用いる。">
             >
             ["id1035"] = <
-                text = <"特別な部位">
+                text = <"特定部位">
                 description = <"血圧が測定される場所についての詳細な記録.">
             >
             ["id1036"] = <
                 text = <"方法">
-                description = <"*Method of measurement of blood pressure.(en)">
+                description = <"血圧を測定する方法。">
             >
             ["at1037"] = <
                 text = <"聴診">
@@ -1672,7 +1682,7 @@ terminology
             >
             ["id1039"] = <
                 text = <"平均同脈圧の計算式">
-                description = <"平均同脈圧を計算するために使われた士気（もしデータに記録されていれば）">
+                description = <"平均同脈圧を計算するために使われた式（もしデータに記録されていれば）">
             >
             ["at1040"] = <
                 text = <"機械">
@@ -1680,7 +1690,7 @@ terminology
             >
             ["at1041"] = <
                 text = <"侵襲的">
-                description = <"径皮的に動脈を穿刺し，血管内部から血圧を測定する方法.">
+                description = <"経皮的に動脈を穿刺し，血管内部から血圧を測定する方法.">
             >
             ["id1043"] = <
                 text = <"24時間平均">
@@ -1692,7 +1702,7 @@ terminology
             >
             ["at1045"] = <
                 text = <"覚醒">
-                description = <"対象は常に意識がある">
+                description = <"対象は完全に意識がある。">
             >
             ["at1046"] = <
                 text = <"睡眠中">
@@ -1700,15 +1710,15 @@ terminology
             >
             ["at1052"] = <
                 text = <"足先">
-                description = <"対象の足尖部。足尖部の識別は必要であれば「特別な部位」エレメントに記録される">
+                description = <"対象の足尖部。足尖部の識別は必要であれば「特定部位」エレメントに記録される">
             >
             ["id1053"] = <
                 text = <"交絡因子">
-                description = <"*Comment on and record other incidental factors that may be contributing to the blood pressure measurement.  For example, level of anxiety or 'white coat syndrome'; pain or fever; changes in atmospheric pressure etc.(en)">
+                description = <"血圧測定に寄与しうるその他の偶発的な要素についてのコメント。たとえば、不安の程度や「白衣性高血圧」、痛みや怒り、大気圧の変化など。">
             >
             ["at1054"] = <
                 text = <"動脈内">
-                description = <"動脈内のトランスデューサーに接続されたラインから侵襲的に測定する方法。動脈の部位は必要であれば「特別な部位」エレメントに記録される">
+                description = <"動脈内のトランスデューサーに接続されたラインから侵襲的に測定する方法。動脈の部位は必要であれば「特定部位」エレメントに記録される">
             >
         >
         ["en"] = <
@@ -1722,7 +1732,7 @@ terminology
             >
             ["ac1065"] = <
                 text = <"Sleep status (synthesised)">
-                description = <"Sleep status - supports interpretation of 24 hour ambulatory blood pressure records.  (synthesised)">
+                description = <"Sleep status - supports interpretation of 24 hour ambulatory blood pressure records. (synthesised)">
             >
             ["at1067"] = <
                 text = <"Angle, plane">
@@ -1734,7 +1744,7 @@ terminology
             >
             ["ac1074"] = <
                 text = <"Cuff size (synthesised)">
-                description = <"The size of the cuff used for blood pressure measurement.   (synthesised)">
+                description = <"The size of the cuff used for blood pressure measurement. (synthesised)">
             >
             ["ac1076"] = <
                 text = <"Location of measurement (synthesised)">
@@ -1754,7 +1764,7 @@ terminology
             >
             ["id2"] = <
                 text = <"history">
-                description = <"history Structural node">
+                description = <"History Structural node.">
             >
             ["id4"] = <
                 text = <"blood pressure">
@@ -1770,7 +1780,7 @@ terminology
             >
             ["id7"] = <
                 text = <"any event">
-                description = <"Default event">
+                description = <"Default event.">
             >
             ["id8"] = <
                 text = <"state structure">
@@ -1781,12 +1791,12 @@ terminology
                 description = <"The position of the subject at the time of measurement.">
             >
             ["id12"] = <
-                text = <"list structure">
-                description = <"list structure">
+                text = <"Tree">
+                description = <"List structure.">
             >
             ["id14"] = <
                 text = <"Cuff size">
-                description = <"The size of the cuff used for blood pressure measurement.  ">
+                description = <"The size of the cuff used for blood pressure measurement.">
                 comment = <"Perloff D, Grim C, Flack J, Frohlich ED, Hill M, McDonald M, Morgenstern BZ. Human blood pressure determination by sphygmomanometry. Circulation 1993;88;2460-2470. ">
             >
             ["id15"] = <
@@ -1951,7 +1961,7 @@ terminology
             >
             ["id1044"] = <
                 text = <"Sleep status">
-                description = <"Sleep status - supports interpretation of 24 hour ambulatory blood pressure records. ">
+                description = <"Sleep status - supports interpretation of 24 hour ambulatory blood pressure records.">
             >
             ["at1045"] = <
                 text = <"Alert & awake">
@@ -2511,12 +2521,12 @@ terminology
                 description = <"*Pressure(en)">
             >
             ["ac1062"] = <
-                text = <"*Position(en) (synthesised)">
-                description = <"*The position of the subject at the time of measurement(en) (synthesised)">
+                text = <"体位 (synthesised)">
+                description = <"测量时受检对象的体位或者说身体姿势。 (synthesised)">
             >
             ["ac1065"] = <
-                text = <"*Sleep status(en) (synthesised)">
-                description = <"*Sleep status - supports interpretation of 24 hour ambulatory blood pressure records. (en) (synthesised)">
+                text = <"睡眠状态 (synthesised)">
+                description = <"睡眠状态  - 旨在支持对于24小时流动式/门诊血压记录的解释。 (synthesised)">
             >
             ["at1067"] = <
                 text = <"*Angle, plane(en)">
@@ -2527,28 +2537,28 @@ terminology
                 description = <"*mean(en)">
             >
             ["ac1074"] = <
-                text = <"*Cuff size(en) (synthesised)">
-                description = <"*The size of the cuff used for blood pressure measurement(en) (synthesised)">
+                text = <"袖带尺寸 (synthesised)">
+                description = <"用于血压测量的袖带（臂带，袖套，臂围）的大小或者说尺寸。 (synthesised)">
             >
             ["ac1076"] = <
-                text = <"*Location of measurement(en) (synthesised)">
-                description = <"*Common body locations where blood pressure is recorded(en) (synthesised)">
+                text = <"测量位置 (synthesised)">
+                description = <"血压测量和记录的常见身体部位。 (synthesised)">
             >
             ["ac1079"] = <
-                text = <"*New element(en) (synthesised)">
-                description = <"**(en) (synthesised)">
+                text = <"方法 (synthesised)">
+                description = <"血压测量方法。 (synthesised)">
             >
             ["ac1082"] = <
-                text = <"*Diastolic endpoint(en) (synthesised)">
-                description = <"*Record which Korotkoff sound is used for determining diastolic pressure using auscultative method(en) (synthesised)">
+                text = <"舒张期终点 (synthesised)">
+                description = <"旨在记录当确定舒张压时所采用的究竟是哪种柯氏音。 (synthesised)">
             >
             ["id1"] = <
-                text = <"*Blood Pressure(en)">
-                description = <"*The local measurement of arterial blood pressure which is a surrogate for arterial pressure in the systemic circulation.  Most commonly, use of the term 'blood pressure' refers to measurement of brachial artery pressure in the upper arm.(en)">
+                text = <"血压">
+                description = <"代表体循环动脉压的动脉血压的局部测量。最为常见的情况就是，采用“血压”一词来表示上臂肱动脉血压的测量。">
             >
             ["id2"] = <
-                text = <"*history(en)">
-                description = <"*history Structural node(en)">
+                text = <"历史">
+                description = <"历史结构节点">
             >
             ["id4"] = <
                 text = <"血压">
@@ -2556,68 +2566,68 @@ terminology
             >
             ["id5"] = <
                 text = <"收缩压">
-                description = <"一个血液循环周期中，系统性动脉血压高峰值。 收缩期血压">
+                description = <"在心动周期的收缩期所测量到的体循环动脉血压峰值。 ">
             >
             ["id6"] = <
                 text = <"舒张压">
-                description = <"一个血液循环周期中，系统性动脉血压最低值。 舒张期血压">
+                description = <"在心动周期的舒张期所测量到的体循环动脉血压最低值（谷值，最小值）。 ">
             >
             ["id7"] = <
-                text = <"*any event(en)">
-                description = <"*Default event(en)">
+                text = <"任何事件">
+                description = <"默认事件">
             >
             ["id8"] = <
                 text = <"*state structure(en)">
                 description = <"*@ internal @(en)">
             >
             ["id9"] = <
-                text = <"*Position(en)">
-                description = <"*The position of the subject at the time of measurement(en)">
+                text = <"体位">
+                description = <"测量时受检对象的体位或者说身体姿势。">
             >
             ["id12"] = <
-                text = <"*list structure(en)">
-                description = <"*list structure(en)">
+                text = <"列表结构">
+                description = <"列表结构">
             >
             ["id14"] = <
-                text = <"*Cuff size(en)">
-                description = <"*The size of the cuff used for blood pressure measurement(en)">
-                comment = <"*Perloff D, Grim C, Flack J, Frohlich ED, Hill M, McDonald M, Morgenstern BZ. Human blood pressure determination by sphygmomanometry. Circulation 1993;88;2460-2470. (en)">
+                text = <"袖带尺寸">
+                description = <"用于血压测量的袖带（臂带，袖套，臂围）的大小或者说尺寸。">
+                comment = <"Perloff D, Grim C, Flack J, Frohlich ED, Hill M, McDonald M, Morgenstern BZ. Human blood pressure determination by sphygmomanometry. Circulation 1993;88;2460-2470.">
             >
             ["id15"] = <
-                text = <"*Location of measurement(en)">
-                description = <"*Common body locations where blood pressure is recorded(en)">
+                text = <"测量位置">
+                description = <"血压测量和记录的常见身体部位。">
             >
             ["at16"] = <
-                text = <"*Adult Thigh(en)">
-                description = <"*A cuff used for an adult thigh - bladder approx 20cm x 42cm(en)">
+                text = <"成年人大腿型">
+                description = <"适用于成年人大腿的袖带（臂带，袖套，臂围） - 气囊尺寸约为 20cm x 42cm。">
             >
             ["at17"] = <
-                text = <"*Large Adult(en)">
-                description = <"*A cuff for adults with larger arms - bladder approx 16cm x 38cm(en)">
+                text = <"成年人粗大型">
+                description = <"适用于上肢较为粗大的成年人的袖带（臂带，袖套，臂围） - 气囊尺寸约为16cm x 38cm。">
             >
             ["at18"] = <
-                text = <"*Adult(en)">
-                description = <"*A cuff that is standard for an adult - bladder approx 13cm x 30cm(en)">
+                text = <"成年人标准型">
+                description = <"适用于成年人的标准袖带（臂带，袖套，臂围） - 气囊尺寸约为13cm x 30cm。">
             >
             ["at26"] = <
                 text = <"右臂">
-                description = <"被测试者右臂">
+                description = <"受检对象的右臂。">
             >
             ["at27"] = <
                 text = <"左臂">
-                description = <"被测试者左臂">
+                description = <"受检对象的左臂。">
             >
             ["at28"] = <
-                text = <"*Right leg(en)">
-                description = <"*The right leg of the person(en)">
+                text = <"右腿">
+                description = <"受检对象的右腿。">
             >
             ["at29"] = <
                 text = <"左腿">
-                description = <"被测试者左下肢">
+                description = <"受检对象的左腿。">
             >
             ["id34"] = <
                 text = <"注释">
-                description = <"有关血压值的注释">
+                description = <"有关血压值的注释、评论或意见。">
             >
             ["at1001"] = <
                 text = <"立位">
@@ -2625,147 +2635,147 @@ terminology
             >
             ["at1002"] = <
                 text = <"坐位">
-                description = <"测量血压时身体处于坐位">
+                description = <"测量血压时身体处于坐位，又称为“坐姿”。">
             >
             ["at1003"] = <
                 text = <"侧卧位">
-                description = <"测量血压时身体处于45度角侧卧位">
+                description = <"测量血压时身体处于45度角侧卧位或者说采取的是斜靠的姿势。">
             >
             ["at1004"] = <
-                text = <"*Lying(en)">
-                description = <"*Lying flat at the time of blood pressure measurement.(en)">
+                text = <"平卧位">
+                description = <"测量血压时受检者采取的是平躺或者说平卧的姿势，又称为“仰卧位”。">
             >
             ["id1006"] = <
-                text = <"*Tilt(en)">
-                description = <"*The craniocaudal tilt of the surface on which the person is lying at the time of measurement(en)">
+                text = <"倾斜">
+                description = <"测量时受检对象采取卧位时所基于的表面的轴位倾斜（craniocaudal tilt，头尾方向的倾斜）。">
             >
             ["id1007"] = <
-                text = <"*Mean Arterial Pressure(en)">
-                description = <"*The average arterial pressure that occurs over the entire course of the heart contraction and relaxation cycle.   (en)">
+                text = <"平均动脉压">
+                description = <"又称为“平均动脉血压”，指的是在整个心脏收缩与舒张周期过程中出现的动脉压均值（平均动脉压）。 ">
             >
             ["id1008"] = <
                 text = <"脉压">
-                description = <"*The variation in pressure over one contraction cycle(en)">
+                description = <"收缩压与舒张压之间的差值，又称为“脉压差”或“脉搏压”。">
             >
             ["at1009"] = <
-                text = <"*Small Adult(en)">
-                description = <"*A cuff used for a small adult - bladder approx 10cm x 24cm(en)">
+                text = <"成年人细小型">
+                description = <"适用于体型瘦小的成年人的袖带（臂带，袖套，臂围） - 气囊尺寸约为10cm x 24cm。">
             >
             ["at1010"] = <
-                text = <"*Paediatric/Child(en)">
-                description = <"*A cuff that is appropriate for a child or adult with a thin arm - bladder approx 8cm x 21cm.(en)">
+                text = <"儿科型/儿童型">
+                description = <"适用于儿童或上肢较瘦成年人的袖带（臂带，袖套，臂围） - 气囊尺寸约为8cm x 21cm。">
             >
             ["id1011"] = <
-                text = <"*Diastolic endpoint(en)">
-                description = <"*Record which Korotkoff sound is used for determining diastolic pressure using auscultative method(en)">
+                text = <"舒张期终点">
+                description = <"旨在记录当确定舒张压时所采用的究竟是哪种柯氏音。">
             >
             ["at1012"] = <
-                text = <"*Phase IV(en)">
-                description = <"*The fourth Korotkoff sound is identified as an abrupt muffling of sounds(en)">
+                text = <"第IV时相">
+                description = <"将声音的突然减弱（消音，捂住，低沉）或者说其向捂音的突然转变确定为第IV柯氏音，即柯氏音的第IV时相（变音）。">
             >
             ["at1013"] = <
-                text = <"*Phase V(en)">
-                description = <"*The fifth Korotkoff sound is identified by absence of sounds as the cuff pressure drops below the diastolic blood pressure(en)">
+                text = <"第V时相">
+                description = <"将声音随着袖带压力降至舒张压以下时声音的消失确定为第V柯氏音，即柯氏音的第V时相。">
             >
             ["at1015"] = <
-                text = <"*Lying with tilt to left(en)">
-                description = <"*Lying flat with some lateral tilt, usually angled towards the left side.   Commonly required in the last trimester of pregnancy to relieve aortocaval compression.(en)">
+                text = <"左斜卧位">
+                description = <"测量血压时受检者采取的是平躺或者说平卧姿势，且有向侧位一定程度的倾斜，通常是斜向左侧。在妊娠晚期，为了缓解主腔静脉压迫（aortocaval compression），常常需要采取这种体位。">
             >
             ["at1019"] = <
-                text = <"*Infant(en)">
-                description = <"*A cuff used for infants - bladder approx 5cm x 15cm(en)">
+                text = <"婴幼儿型">
+                description = <"适用于婴幼儿的袖带（臂带，袖套，臂围） - 气囊尺寸约为5cm x 15cm。">
             >
             ["at1020"] = <
-                text = <"*Neonatal(en)">
-                description = <"*A cuff used for a neonate, assuming cuff is the appropriate size for maturity and birthweight of the neonate(en)">
+                text = <"新生儿型">
+                description = <"适用于新生儿的袖带（臂带，袖套，臂围），且假定袖带尺寸适合于新生儿的成熟度和出生体重。">
             >
             ["at1021"] = <
-                text = <"*Right wrist(en)">
-                description = <"*The right wrist of the subject(en)">
+                text = <"右手腕">
+                description = <"受检对象的右手腕。">
             >
             ["at1022"] = <
-                text = <"*Left wrist(en)">
-                description = <"*The left wrist of the subject(en)">
+                text = <"左手腕">
+                description = <"受检对象的左手腕。">
             >
             ["id1026"] = <
-                text = <"*Device(en)">
-                description = <"*Details about sphygmomanometer or other device used to measure the blood pressure(en)">
+                text = <"装置">
+                description = <"关于用于测量血压的血压计或其他装置（仪器，设备）的详情。">
             >
             ["at1027"] = <
-                text = <"*Right ankle(en)">
-                description = <"*The right ankle of the subject(en)">
+                text = <"右踝">
+                description = <"受检对象的右踝。">
             >
             ["id1031"] = <
-                text = <"*Exertion  (en)">
-                description = <"*Details about physical activity undertaken at the time of blood pressure measurement(en)">
+                text = <"体力活动">
+                description = <"关于血压测量时所从事的体力活动或者说身体活动的详情。">
             >
             ["at1032"] = <
-                text = <"*Left ankle(en)">
-                description = <"*The left ankle of the subject(en)">
+                text = <"左踝">
+                description = <"受检对象的左踝。">
             >
             ["at1033"] = <
-                text = <"*Finger(en)">
-                description = <"*A finger of the subject.  Identification of the finger can be recorded in 'Specific Location' data element, if required.(en)">
+                text = <"手指">
+                description = <"受检对象的手指。如果需要的话，可在数据元“特殊位置”（Specific Location）之中记录所测手指的标识信息。 ">
             >
             ["id1034"] = <
-                text = <"*New cluster(en)">
-                description = <"**(en)">
+                text = <"位置">
+                description = <"血压测量的身体位置。采用“测量位置”（Location of measurement）从常见部位之中进行选择。采用“特殊位置”（Specific location）来记录更为具体的细节信息或者常用集合之中所没有的部位，或者用于引用外部术语集。">
             >
             ["id1035"] = <
-                text = <"*Specific location(en)">
-                description = <"*Detailed description about the site of the measurement of the blood pressure(en)">
+                text = <"特殊位置">
+                description = <"关于血压测量的身体部位的特殊细节信息。">
             >
             ["id1036"] = <
-                text = <"*New element(en)">
-                description = <"**(en)">
+                text = <"方法">
+                description = <"血压测量方法。">
             >
             ["at1037"] = <
-                text = <"*Auscultation(en)">
-                description = <"*Method of measuring blood pressure externally, using a stethoscope and Korotkoff sounds(en)">
+                text = <"听诊法">
+                description = <"利用听诊器和柯氏音（Korotkoff sounds）在身体外部测量血压的方法。">
             >
             ["at1038"] = <
-                text = <"*Palpation(en)">
-                description = <"*Method of measuring blood pressure externally, using palpation (usually of the brachial or radial arteries)(en)">
+                text = <"触诊法">
+                description = <"利用触诊（扪诊）在身体外部测量血压的方法（通常采用的是对肱动脉或桡动脉的触诊）。">
             >
             ["id1039"] = <
-                text = <"*Mean Arterial Pressure Formula(en)">
-                description = <"*Formula used to calculate the MAP (if recorded in data)(en)">
+                text = <"平均动脉压公式">
+                description = <"用于计算平均动脉压（Mean Arterial Pressure，MAP，平均动脉血压）的公式（如果在数据之中加以记录的话）。">
             >
             ["at1040"] = <
-                text = <"*Machine(en)">
-                description = <"*Method of measuring blood pressure externally, using a blood pressure machine(en)">
+                text = <"仪器法">
+                description = <"利用血压测量设备（仪器，装置）在身体外部测量血压的方法。">
             >
             ["at1041"] = <
-                text = <"*Invasive(en)">
-                description = <"*Method of measuring blood pressure internally ie involving penetration of the skin and measuring inside blood vessels(en)">
+                text = <"有创法">
+                description = <"在身体内部测量血压的方法，也就是说涉及到皮肤穿刺和在血管内进行测量。">
             >
             ["id1043"] = <
-                text = <"*24 hour average (en)">
-                description = <"*Estimate of the average blood pressure over a 24 hour period(en)">
+                text = <"*24小时均值">
+                description = <"24小时期间血压均值的估计">
             >
             ["id1044"] = <
-                text = <"*Sleep status(en)">
-                description = <"*Sleep status - supports interpretation of 24 hour ambulatory blood pressure records. (en)">
+                text = <"睡眠状态">
+                description = <"睡眠状态  - 旨在支持对于24小时流动式/门诊血压记录的解释。">
             >
             ["at1045"] = <
-                text = <"*Alert & awake(en)">
-                description = <"*Subject is fully conscious(en)">
+                text = <"警觉且清醒">
+                description = <"受检对象意识完全清楚。">
             >
             ["at1046"] = <
-                text = <"*Sleeping(en)">
-                description = <"*Subject is in the natural state of bodily rest(en)">
+                text = <"睡眠状态">
+                description = <"受检对象处在全身休息的自然状态下。">
             >
             ["at1052"] = <
-                text = <"*Toe(en)">
-                description = <"*A toe of the subject.   Identification of the toe can be recorded in 'Specific Location' data element, if required.(en)">
+                text = <"脚趾">
+                description = <"受检对象的脚趾。如果需要的话，可在数据元“特殊位置”（Specific Location）之中记录所测脚趾的标识信息。 ">
             >
             ["id1053"] = <
-                text = <"*Confounding factors(en)">
-                description = <"*Comment on and record other incidental factors that may be contributing to the blood pressure measurement.  For example, level of anxiety or 'white coat syndrome'; pain or fever; changes in atmospheric pressure etc.(en)">
+                text = <"干扰因素">
+                description = <"旨在记录和说明可能影响血压测量结果的偶然因素。例如，焦虑/进展程度或“白大褂综合征（white coat syndrome）”、疼痛、发热、大气压变化等等。">
             >
             ["at1054"] = <
-                text = <"*Intra-arterial(en)">
-                description = <"*Invasive measurement via transducer access line within an artery. Location of the transducer can be recorded in 'Specific Location' data element, if required.(en)">
+                text = <"动脉内">
+                description = <"在动脉内借助于传感器接入线路进行的有创式测量。如果需要的话，可在数据元“特殊位置”（Specific Location）之中记录传感器的位置。 ">
             >
         >
         ["nl"] = <
