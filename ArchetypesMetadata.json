@@ -165,15 +165,15 @@
     "rmType" : "OBSERVATION",
     "name" : "Blood Pressure",
     "path" : "archetypes/openEHR-EHR-OBSERVATION.blood_pressure.v1.adls",
-    "sha" : "1e074f242666a5339d65163a6545b2bcf8877580",
+    "sha" : "06d6b4221a8060f4e18202cf70473d72d7979be0",
     "languages" : [ "en", "de", "ru", "es-ar", "pt-br", "ja", "ar-sy", "fa", "zh-cn", "nl" ]
   }, {
     "id" : "openEHR-EHR-OBSERVATION.body_mass_index.v1.0.0",
     "rmType" : "OBSERVATION",
     "name" : "Body mass index",
     "path" : "archetypes/openEHR-EHR-OBSERVATION.body_mass_index.v1.adls",
-    "sha" : "433a6cee7201b71b26bdf9b1417af6d8c1711011",
-    "languages" : [ "en", "nl", "sl" ]
+    "sha" : "36d1188991019ad3e738a7caeeb991ea5cb6618e",
+    "languages" : [ "en", "es-ar", "pt-br", "ar-sy", "fa", "zh-cn", "nl" ]
   }, {
     "id" : "openEHR-EHR-OBSERVATION.body_temperature.v1.0.0",
     "rmType" : "OBSERVATION",
